@@ -1,4 +1,7 @@
 # EJP-Ontology model for Semantic data model descriptor for Rare Diseases central registry / catalog
+
+This repository (will) contain(s) the recommended schema components ("blocks") for use in EJP- Rare disease catalog registry metadata.
+
 _To create a describable central catalogue of registries, biobanks, research infrastructure etc that have Interoperable datale (the 'I' in FAIR)._
 
 An ontological model for describing resources for  Rare Diseases central registry including registries, biobanks, research infrastructures, genomes-phenome repositories, method standards, etc.  
