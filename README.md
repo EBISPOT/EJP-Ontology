@@ -7,7 +7,7 @@ _To create a describable central catalogue of registries, biobanks, research inf
 An ontological model for describing resources for  Rare Diseases central registry including registries, biobanks, research infrastructures, genomes-phenome repositories, method standards, etc.  
 
 ## Goal
-To build core schema and ontological model for the Rare Diseases central registry - catalog
+To build core schema and ontological model for the Rare Diseases central registry - catalog using the top level BFO standard. 
 
 ## Dependencies  
 Types of resources that will be findable in the catalog include Orphanet, BBMRI, and Bio.tools. 
