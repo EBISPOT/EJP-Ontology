@@ -50,4 +50,6 @@ RareDiseasesList.csv
 EJP-Ontology_model.png
 EJP_schema.png
 .DS_Store
-ejp-ontology-full.*
+ejp-ontology-full.json
+ejp-ontology-full.obo
+ejp-ontology-full.owl
