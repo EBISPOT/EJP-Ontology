@@ -37,5 +37,12 @@ src/ontology/ejp-ontology-base.json
 src/ontology/ejp-ontology-base.json
 src/ontology/ejp-ontology-base.obo
 src/ontology/ejp-ontology-base.owl
+metadata/list_of_ERNs.txt
+metadata/rare_diseases.txt
+metadata/registries.txt
+metadata/registry_list.txt
+metadata/terms.txt
+README2.md
+reports/ejp-rd-edit.owl-obo-report.tsv
 src/curation/missing_terms.txt
 csv2json.py
