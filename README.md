@@ -1,21 +1,30 @@
-# EJP-Ontology model for Semantic data model descriptor for Rare Diseases central registry / catalog
+[![Build Status](https://travis-ci.org/EBISPOT/ejp-rd_ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/ejp-rd_ontology)
+[![DOI](https://zenodo.org/badge/13996/EBISPOT/ejp-rd_ontology.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/ejp-rd_ontology)
 
-This repository (will) contain(s) the recommended schema components ("blocks") for use in EJP- Rare disease catalog registry metadata.
+# European Joint Programme (EJP) for Rare Disease,
 
-_To create a describable central catalogue of registries, biobanks, research infrastructure etc that have Interoperable datale (the 'I' in FAIR)._
+This ontology... YOUR DESCRIPTION HERE
 
-An ontological model for describing resources for  Rare Diseases central registry including registries, biobanks, research infrastructures, genomes-phenome repositories, method standards, etc.  
+More information can be found at http://obofoundry.org/ontology/ejp-rd
 
-## Goal
-To build core schema and ontological model for the Rare Diseases central registry - catalog using the top level BFO standard. 
+## Versions
 
-## Dependencies  
-Types of resources that will be findable in the catalog include Orphanet, BBMRI, and Bio.tools. 
-Standard registries to expose specific ERNs through this registry  e.g. Endo-ERN https://endo-ern.eu/specific-expertise/genetic-disorders-of-glucose-insulin-homeostasis/. specialist networks that connect people and services around a particular rare disease. 
+### Stable release versions
 
-## Stage 1:
-Metadata to describe each of the resource types e.g. Biobank, Terminology/ontology, Gene database
-The next step will be to break down common metadata elements shared across these resources. For example, search these resources by disease, and if so which disease ontology to use. Other things might include search by genes, variants, phenotype /traits or tissue/sample type.
-Identify the metadata fields and select the core ontology for use by the centralised registry. 
-As individual resources may use their own ontology there will need to be a translation layer, possibly facilitated by OxO. 
+The latest version of the ontology can always be found at:
 
+http://purl.obolibrary.org/obo/ejp-rd.owl
+
+(note this will not show up until the request has been approved by obofoundry.org)
+
+### Editors' version
+
+Editors of this ontology should use the edit version, [src/ontology/ejp-rd-edit.owl](src/ontology/ejp-rd-edit.owl)
+
+## Contact
+
+Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/ejp-rd_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+
+## Acknowledgements
+
+This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)

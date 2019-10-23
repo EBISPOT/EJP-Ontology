@@ -1,0 +1,34 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/EJP-RD_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/EJP-RD_00000000",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/ejp-rd.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "val" : "None"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "European Joint Programme (EJP) for Rare Disease,"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "Unspecified"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-10-23"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

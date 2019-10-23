@@ -1,6 +1,0 @@
-term
-http://purl.obolibrary.org/obo/ejp-ontology/imports/hp_import.owl
-http://www.w3.org/2002/07/owl#Ontology
-http://www.w3.org/2002/07/owl#Class
-http://purl.obolibrary.org/obo/ejp-ontology.owl
-http://purl.obolibrary.org/obo/EJP-ONTOLOGY_00000000

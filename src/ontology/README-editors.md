@@ -1,4 +1,4 @@
-These notes are for the EDITORS of ejp-ontology
+These notes are for the EDITORS of ejp-rd
 
 This project was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit). See the site for details.
 
@@ -14,17 +14,17 @@ You may also want to read the [GO ontology editors guide](http://go-ontology.rea
 
 ## Editors Version
 
-Make sure you have an ID range in the [idranges file](ejp-ontology-idranges.owl)
+Make sure you have an ID range in the [idranges file](ejp-rd-idranges.owl)
 
 If you do not have one, get one from the maintainer of this repo.
 
-The editors version is [ejp-ontology-edit.owl](ejp-ontology-edit.owl)
+The editors version is [ejp-rd-edit.owl](ejp-rd-edit.owl)
 
-** DO NOT EDIT ejp-ontology.obo OR ejp-ontology.owl in the top level directory **
+** DO NOT EDIT ejp-rd.obo OR ejp-rd.owl in the top level directory **
 
-[../../ejp-ontology.owl](../../ejp-ontology.owl) is the release version
+[../../ejp-rd.owl](../../ejp-rd.owl) is the release version
 
-To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/S2Ola/EBISPOT/EJP-Ontology) for details.
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/EBISPOT/ejp-rd_ontology) for details.
 
 You should discuss the git workflow you should use with the maintainer
 of this repo, who should document it here. If you are the maintainer,
@@ -39,7 +39,7 @@ better to make changes on a branch, and make Pull Requests.
 
 These are stored in the file
 
- * [ejp-ontology-idranges.owl](ejp-ontology-idranges.owl)
+ * [ejp-rd-idranges.owl](ejp-rd-idranges.owl)
 
 ** ONLY USE IDs WITHIN YOUR RANGE!! **
 
@@ -61,7 +61,7 @@ All import modules are in the [imports/](imports/) folder.
 There are two ways to include new classes in an import module
 
  1. Reference an external ontology class in the edit ontology. In Protege: "add new entity", then paste in the PURL
- 2. Add to the imports/ejp-ontology_terms.txt file
+ 2. Add to the imports/ejp-rd_terms.txt file
 
 After doing this, you can run
 
@@ -69,7 +69,7 @@ After doing this, you can run
 
 to regenerate imports.
 
-Note: the ejp-ontology_terms.txt file may include 'starter' classes seeded from
+Note: the ejp-rd_terms.txt file may include 'starter' classes seeded from
 the ontology starter kit. It is safe to remove these.
 
 ## Design patterns
@@ -131,7 +131,7 @@ If this looks good type:
 
     ./prepare_release.sh
 
-This generates derived files such as ejp-ontology.owl and ejp-ontology.obo and places
+This generates derived files such as ejp-rd.owl and ejp-rd.obo and places
 them in the top level (../..).
 
 Note that the versionIRI value automatically will be added, and will
@@ -149,16 +149,16 @@ Finally type:
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/S2Ola/EBISPOT/EJP-Ontology/releases
- * https://github.com/S2Ola/EBISPOT/EJP-Ontology/releases/new
+ * https://github.com/EBISPOT/ejp-rd_ontology/releases
+ * https://github.com/EBISPOT/ejp-rd_ontology/releases/new
 
 __IMPORTANT__: The value of the "Tag version" field MUST be
 
     vYYYY-MM-DD
 
 The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the `owl:versionIRI` of the derived ejp-ontology.owl (`data-version` in
-ejp-ontology.obo). This will be today's date.
+what is in the `owl:versionIRI` of the derived ejp-rd.owl (`data-version` in
+ejp-rd.obo). This will be today's date.
 
 This cannot be changed after the fact, be sure to get this right!
 
@@ -175,19 +175,19 @@ The PURLs are already configured to pull from github. This means that
 BOTH ontology purls and versioned ontology purls will resolve to the
 correct ontologies. Try it!
 
- * http://purl.obolibrary.org/obo/ejp-ontology.owl <-- current ontology PURL
- * http://purl.obolibrary.org/obo/ejp-ontology/releases/YYYY-MM-DD.owl <-- change to the release you just made
+ * http://purl.obolibrary.org/obo/ejp-rd.owl <-- current ontology PURL
+ * http://purl.obolibrary.org/obo/ejp-rd/releases/YYYY-MM-DD.owl <-- change to the release you just made
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/S2Ola/EBISPOT/EJP-Ontology.svg?branch=master)](https://travis-ci.org/S2Ola/EBISPOT/EJP-Ontology)
+Check the build status here: [![Build Status](https://travis-ci.org/EBISPOT/ejp-rd_ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/ejp-rd_ontology)
 
 Note: if you have only just created this project you will need to authorize travis for this repo.
 
- 1. Go to [https://travis-ci.org/profile/S2Ola](https://travis-ci.org/profile/S2Ola)
+ 1. Go to [https://travis-ci.org/profile/EBISPOT](https://travis-ci.org/profile/EBISPOT)
  2. click the "Sync account" button
- 3. Click the tick symbol next to EBISPOT/EJP-Ontology
+ 3. Click the tick symbol next to ejp-rd_ontology
 
 Travis builds should now be activated

@@ -1,6 +1,7 @@
 # ----------------------------------------
-# Makefile for ejp-ontology
+# Makefile for ejp-rd
 # Generated using ontology-starter-kit
+# ODK Version: v1.2.18
 # ----------------------------------------
 # <do not edit above this line>
 
@@ -10,35 +11,46 @@
 # these can be overwritten on the command line
 
 URIBASE=                    http://purl.obolibrary.org/obo
-ONT=                        ejp-ontology
+ONT=                        ejp-rd
 ONTBASE=                    $(URIBASE)/$(ONT)
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
-ROBOT=                      robot
+CATALOG=                    catalog-v001.xml
+ROBOT=                      robot --catalog $(CATALOG)
 RELEASEDIR=                 ../..
 PATTERNDIR=                 ../patterns
-REPORTDIR=                 reports
+REPORTDIR=                  reports
+TMPDIR=                     tmp
 SPARQLDIR =                 ../sparql
-REPORT_FAIL_ON =            NONE
+REPORT_FAIL_ON =            ERROR
 OBO_FORMAT_OPTIONS =        
 SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms
+ODK_VERSION =               v1.2.18
 
-TODAY   := $(shell date +%Y-%m-%d)
+TODAY ?= $(shell date +%Y-%m-%d)
+OBODATE ?= $(shell date +'%d:%m:%Y %H:%M')
 
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMAT) tsv)
 RELEASE_ARTEFACTS = $(sort  full base base full)
- 
+
 # ----------------------------------------
 # Top-level targets
 # ----------------------------------------
 
 .PHONY: .FORCE
-all: all_imports all_main all_subsets sparql_test all_reports all_assets
-test: sparql_test all_reports
-	$(ROBOT) reason --input $(SRC) --reasoner ELK --output test.owl && rm test.owl && echo "Success"
+all: odkversion all_imports all_main all_subsets sparql_test all_reports all_assets
+test: odkversion sparql_test all_reports
+	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed all --output test.owl && rm test.owl && echo "Success"
+
+odkversion:
+	echo "ODK Makefile version: $(ODK_VERSION) (this is the version of the ODK with which this Makefile was generated, not the version of the ODK you are running)" &&\
+	echo "ROBOT version (ODK): " && $(ROBOT) --version
+
+$TMPDIR:
+	mkdir -p $@
 
 ## -- main targets --
 ##
@@ -55,18 +67,18 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  hp
+IMPORTS =  iao ncit obi obib ejp-rd efo omiabis hp ordo duo edam
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
 
 all_imports: $(IMPORT_FILES)
- 
+
 all_imports_owl: $(foreach n,$(IMPORT_ROOTS), $(n).owl)
- 
+
 all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
- 
+
 all_imports_json: $(foreach n,$(IMPORT_ROOTS), $(n).json)
 
 
@@ -76,7 +88,7 @@ all_imports_json: $(foreach n,$(IMPORT_ROOTS), $(n).json)
 ## Note we also include TSV as a format
 
 
-SUBSETS = 
+SUBSETS =  ejp-rd_slim
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
@@ -97,7 +109,7 @@ all_patterns: $(PATTERN_FILES)
 ## -- dosdp pattern targets --
 ##
 
-OBO_REPORT = $(ONT)-edit-obo-report
+OBO_REPORT = $(SRC)-obo-report
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 
@@ -124,12 +136,13 @@ show_assets:
 
 KEEPRELATIONS=keeprelations.txt
 ONTOLOGYTERMS=ontologyterms.txt
+SIMPLESEED=simple_seed.txt
 
 # This should be executed by the release manager whenever time comes to make a release.
 # It will ensure that all assets/files are fresh, and will copy to release folder
 prepare_release: $(ASSETS) $(PATTERN_RELEASE_FILES)
 	rsync -R $(ASSETS) $(RELEASEDIR) &&\
-  echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
+  echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
 
 prepare_initial_release: prepare_release
 	cd $(RELEASEDIR) && git add $(ASSETS)
@@ -151,7 +164,7 @@ $(ONT)-base.json: $(ONT)-base.owl
 		convert --check false -f json -o $@.tmp.json && mv $@.tmp.json $@
 # Main release artefacts
 $(ONT).owl: $(ONT)-full.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
 
 $(ONT).obo: $(ONT).owl
@@ -163,20 +176,22 @@ $(ONT).json: $(ONT)-full.owl
 # Initiating Step: Reason over source
 # ----------------------------------------
 
-ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/`date +%Y-%m-%d`/$@.owl
+ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/$(TODAY)/$@.owl
 
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 
+OTHER_SRC =  
 
-$(ONTOLOGYTERMS): $(SRC) all_imports
-	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/ejp-ontology_terms.sparql $@
 
- 
+$(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
+	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/ejp-rd_terms.sparql $@
 
- 
 
- 
+
+
+
+
 
 
 
@@ -185,12 +200,13 @@ $(ONTOLOGYTERMS): $(SRC) all_imports
 # base: OTHER sources of interest, such as definitions owl
 $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 	$(ROBOT) remove --input $< --select imports --trim false \
+		merge $(patsubst %, -i %, $(OTHER_SRC)) \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 
 # Full: The full artefacts with imports merged, reasoned
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	$(ROBOT) merge --input $< \
-		reason --reasoner ELK \
+		reason --reasoner ELK --equivalent-classes-allowed all \
 		relax \
 		reduce -r ELK \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
@@ -218,7 +234,8 @@ imports/%_terms_combined.txt: seed.txt imports/%_terms.txt
 #
 # This pattern uses ROBOT to generate an import module
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT \
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --force true --method BOT \
+		query --update ../sparql/inject-subset-declaration.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/%_import.owl
 
@@ -229,6 +246,8 @@ imports/%_import.obo: imports/%_import.owl
 	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f obo -o $@.tmp.obo && mv $@.tmp.obo $@; fi
 imports/%_import.json: imports/%_import.owl
 	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f json -o $@.tmp.json && mv $@.tmp.json $@; fi
+
+
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
@@ -239,12 +258,112 @@ MIR=true # Global parameter to bypass mirror generation
 
 
 
+## ONTOLOGY: iao
+## Copy of iao is re-downloaded whenever source changes
+mirror/iao.trigger: $(SRC)
+
+mirror/iao.owl: mirror/iao.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/iao.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: ncit
+## Copy of ncit is re-downloaded whenever source changes
+mirror/ncit.trigger: $(SRC)
+
+mirror/ncit.owl: mirror/ncit.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ncit.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: obi
+## Copy of obi is re-downloaded whenever source changes
+mirror/obi.trigger: $(SRC)
+
+mirror/obi.owl: mirror/obi.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/obi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: obib
+## Copy of obib is re-downloaded whenever source changes
+mirror/obib.trigger: $(SRC)
+
+mirror/obib.owl: mirror/obib.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/obib.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: ejp-rd
+## Copy of ejp-rd is re-downloaded whenever source changes
+mirror/ejp-rd.trigger: $(SRC)
+
+mirror/ejp-rd.owl: mirror/ejp-rd.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://github.com/EBISPOT/EJP-Ontology/releases/download/23-10-2019/EJP_Ontology.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: efo
+## Copy of efo is re-downloaded whenever source changes
+mirror/efo.trigger: $(SRC)
+
+mirror/efo.owl: mirror/efo.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/efo/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: omiabis
+## Copy of omiabis is re-downloaded whenever source changes
+mirror/omiabis.trigger: $(SRC)
+
+mirror/omiabis.owl: mirror/omiabis.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/omiabis.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
 ## ONTOLOGY: hp
 ## Copy of hp is re-downloaded whenever source changes
 mirror/hp.trigger: $(SRC)
 
 mirror/hp.owl: mirror/hp.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/hp.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: ordo
+## Copy of ordo is re-downloaded whenever source changes
+mirror/ordo.trigger: $(SRC)
+
+mirror/ordo.owl: mirror/ordo.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/ordo/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: duo
+## Copy of duo is re-downloaded whenever source changes
+mirror/duo.trigger: $(SRC)
+
+mirror/duo.owl: mirror/duo.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/duo/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: edam
+## Copy of edam is re-downloaded whenever source changes
+mirror/edam.trigger: $(SRC)
+
+mirror/edam.owl: mirror/edam.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/edam/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -282,7 +401,7 @@ sparql_test: $(SRC)
 # ----------------------------------------
 # ROBOT report
 # ----------------------------------------
-reports/%-obo-report.tsv: %.owl
+reports/%-obo-report.tsv: %
 	$(ROBOT) report -i $< --fail-on $(REPORT_FAIL_ON) -o $@
 
 # ----------------------------------------
@@ -304,9 +423,10 @@ build-docker:
 
 
 
-include ejp-ontology.Makefile
 
 
 
 
 
+
+include ejp-rd.Makefile
