@@ -46,3 +46,8 @@ README2.md
 reports/ejp-rd-edit.owl-obo-report.tsv
 src/curation/missing_terms.txt
 csv2json.py
+RareDiseasesList.csv
+EJP-Ontology_model.png
+EJP_schema.png
+.DS_Store
+ejp-ontology-full.*
