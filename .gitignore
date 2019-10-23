@@ -22,9 +22,7 @@ src/ontology/patterns
 *.tmp.obo
 *.tmp.owl
 /imports
-src/ontology/imports/*.json
-src/ontology/imports/*.obo
-src/ontology/imports/*_terms.txt
+src/ontology/imports/*
 ejp-ontology-base.json
 ejp-ontology-base.obo
 ejp-ontology-base.owl
