@@ -24,3 +24,12 @@ src/ontology/patterns
 src/ontology/imports/*.json
 src/ontology/imports/*.obo
 src/ontology/imports/*_terms.txt
+ejp-ontology-base.json
+ejp-ontology-base.obo
+ejp-ontology-base.owl
+ejp-rd-base.json
+ejp-rd-base.obo
+ejp-rd-base.owl
+ejp-ontology.owl
+ejp-ontology.obo
+ejp-ontology.json
