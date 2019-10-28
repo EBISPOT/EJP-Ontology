@@ -1,4 +1,4 @@
-# Adding new ontology to SCATLAS
+# Adding new ontology to EJP-RD
 
 ```
 
