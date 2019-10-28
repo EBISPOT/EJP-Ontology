@@ -1,4 +1,4 @@
-# Adding new terms to SCATLAS
+# Adding new terms to EJP-RD
 
 ```
 
@@ -7,7 +7,7 @@
 
 ### Adding Terms to the Import Files
 
-Terms are imported to SCATLAS from other ontologies, but not all terms from external ontologies are imported. Occasionally, you will find that a valid identifier exists in an external ontology, but the identifier is not available in Protege because that term is not yet imported. To import a term from an external ontology:
+Terms are imported to EJP-RD from other ontologies, but not all terms from external ontologies are imported. Occasionally, you will find that a valid identifier exists in an external ontology, but the identifier is not available in Protege because that term is not yet imported. To import a term from an external ontology:
 
 1.	Navigate to the imports folder on GitHub, located at [https://github.com/geneontology/go-ontology/tree/master/src/ontology/imports](https://github.com/geneontology/go-ontology/tree/master/src/ontology/imports).
 2.	Look in the list of ontologies for the ontology that contains the term you wish to import.
@@ -83,29 +83,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#dail
 10. To see how the branch was modified, type: ```git diff```. In this case, go-edit.obo was modified. The text below is not the entire diff for this edit, but is an example. If the diff is very large, you will need to hit a space to continue to see it and then hit ‘q’ to get back to the prompt at the end of the diff file.
 
      ```
-     ~/repos/go-ontology/src/ontology(issue-13390) $ git diff
-     diff --git a/src/ontology/go-edit.obo b/src/ontology/go-edit.obo
-     index 72ae7e9..8d47fa1 100644
-     --- a/src/ontology/go-edit.obo
-     +++ b/src/ontology/go-edit.obo
-     @@ -400751,6 +400751,85 @@ created_by: dph
-      creation_date: 2017-04-28T12:39:13Z
 
-      [Term]
-     +id: GO:0061868
-     +name: hepatic stellate cell migration
-     +namespace: biological_process
-     +def: "The orderly movement of a hepatic stellate cell from one site to another." [PMID:24204762]
-     +intersection_of: GO:0016477 ! cell migration
-     +intersection_of: results_in_movement_of CL:0000632 ! hepatic stellate cell
-     +created_by: dph
-     +creation_date: 2017-05-01T13:01:40Z
-     +
-     +[Term]
-      id: GO:0065001
-      name: specification of axis polarity
-      namespace: biological_process
-     ~/repos/go-ontology/src/ontology(issue-13390) $
      ```
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) section for commit, push and merge instructions.
