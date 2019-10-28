@@ -4,8 +4,8 @@
 ## changes here rather than in the main Makefile
 
 
-../curation/ejp-rd_seed.txt: ../curation/ejp-rd_seed_table.tsv
-	cat $< | cut -f2 -s | sed 's/\r//' | awk '{$$1=$$1};1' | sed '/^\(http\)/!d' | tr \| \\n  | sort | uniq > $@
+../curation/ejp-rd_seed.txt: ../curation/ejp.txt
+	cat $< | cut -f1 -s | sed '/^\(http\)/!d' | sort | uniq > $@
 
 seed.txt: ../curation/ejp-rd_seed.txt
 	cp $< $@
