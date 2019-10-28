@@ -1,4 +1,4 @@
-![schema](../EJP-Ontology.jpeg)
+![schema](../ejp.jpg)
 # EJP-RD Ontology
 
 The EJP-RD Ontology (EJPO) provides a systematic description of many registries and their data elements available as used in reporting rare-diseases in the EJP-RD databases (Comprising EJP- Registries, ERNs, and Biobanks).  It combines parts of several biological ontologies, such as NCIT, OMIT, OMIABIS, EFO, ORPHANET and others. The scope of EJPO is to support the annotation, EJPO  is developed by the EMBL-EBI Samples, Phenotypes and Ontologies Team (SPOT), and maintain the ontology.
