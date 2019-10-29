@@ -67,7 +67,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  iao ncit obi obib ejp-rd efo omiabis hp ordo duo edam
+IMPORTS =  iao ncit obi obib ejp-rd efo hp foaf ordo duo edam
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
@@ -88,7 +88,7 @@ all_imports_json: $(foreach n,$(IMPORT_ROOTS), $(n).json)
 ## Note we also include TSV as a format
 
 
-SUBSETS =  ejp-rd_slim
+SUBSETS = 
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
@@ -318,22 +318,22 @@ mirror/efo.owl: mirror/efo.trigger
 .PRECIOUS: mirror/%.owl
 
 
-## ONTOLOGY: omiabis
-## Copy of omiabis is re-downloaded whenever source changes
-mirror/omiabis.trigger: $(SRC)
-
-mirror/omiabis.owl: mirror/omiabis.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/omiabis.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-
-.PRECIOUS: mirror/%.owl
-
-
 ## ONTOLOGY: hp
 ## Copy of hp is re-downloaded whenever source changes
 mirror/hp.trigger: $(SRC)
 
 mirror/hp.owl: mirror/hp.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/hp.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: foaf
+## Copy of foaf is re-downloaded whenever source changes
+mirror/foaf.trigger: $(SRC)
+
+mirror/foaf.owl: mirror/foaf.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://xmlns.com/foaf/spec/20140114.rdf -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
