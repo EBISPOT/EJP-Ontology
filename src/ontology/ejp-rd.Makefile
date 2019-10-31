@@ -52,7 +52,7 @@ components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(ejp-rd_KEE
 
 
 components/omiabis.owl: imports/omiabis_import.owl components/omiabis_simple_seed.txt $(ejp-rd_KEEPRELATIONS)
-$(ROBOT) merge --input $<  \
+	$(ROBOT) merge --input $<  \
 	relax \
 	remove --axioms disjoint \
 	reason --reasoner ELK  \
@@ -67,7 +67,7 @@ $(ROBOT) merge --input $<  \
 
 
 $(ONT)-full.owl: $(SRC) components/subclasses.owl ../curation/blacklist.txt
-$(ROBOT) merge --input $(SRC) -i components/subclasses.owl \
+	$(ROBOT) merge --input $(SRC) -i components/subclasses.owl \
 	remove --axioms equivalent --trim false \
 	remove --term-file ../curation/blacklist.txt \
 	reason --reasoner ELK --equivalent-classes-allowed all \
