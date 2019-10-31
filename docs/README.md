@@ -6,7 +6,7 @@ The EJP-RD Ontology (EJPO) provides a systematic description of many registries 
 - [The work flow diagram](workflow.md) – `The Work Flow Diagram`
 - [Requirements - Install Docker ](https://www.docker.com/get-docker) - `Install and Start Docker`
   - [- Ontology-Development-Kit (ODK)](https://github.com/INCATools/ontology-development-kit) `Download and run the ODK`
-  - [- Protege](https://go-ontology.readthedocs.io/en/latest/InitialSetup.html#installing-protege) - `Installing Protege`
+  - [- Protege](https://protege.stanford.edu/) - `Installing Protege`
   - [- Installing and Using GitHub](https://git-scm.com/) - `Installing Git`
   - [Using the ODK]() - `Using the ODK`
 - [The GNU makefile work flow](GNUmakefile.md) - `The Makefile work flow`
