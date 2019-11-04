@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/EBISPOT/ejp-rd_ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/ejp-rd_ontology)
-[![DOI](https://zenodo.org/badge/13996/EBISPOT/ejp-rd_ontology.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/ejp-rd_ontology)
+[![Build Status](https://travis-ci.org/EBISPOT/EJP-Ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/ejp-rd_ontology)
+[![DOI](https://zenodo.org/badge/13996/EBISPOT/EJP-Ontology.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/ejp-rd_ontology)
 
 # European Joint Programme (EJP) for Rare Disease,
 
@@ -23,7 +23,7 @@ Editors of this ontology should use the edit version, [src/ontology/ejp-rd-edit.
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/ejp-rd_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/EJP-Ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
