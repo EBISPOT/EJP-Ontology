@@ -30,12 +30,6 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/ordo_import.owl" uri="imports/ordo_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/ordo_import.obo" uri="imports/ordo_import.obo"/>
 
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/duo_import.owl" uri="imports/duo_import.owl"/>
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/duo_import.obo" uri="imports/duo_import.obo"/>
-
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/edam_import.owl" uri="imports/edam_import.owl"/>
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/edam_import.obo" uri="imports/edam_import.obo"/>
-
   <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-01/components/ejp-rd.owl" uri="components/ejp-rd.owl"/>
   <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-01/components/ejp-rd.obo" uri="components/ejp-rd.owl"/>
 

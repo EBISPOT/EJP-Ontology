@@ -11,35 +11,44 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/ejp-rd.owl>
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/ejp-rd.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/edam.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ncit.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/duo.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obi.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/iao.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obib.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/ncit.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-rd.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/obi.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/efo.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/obib.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/omiabis.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/ejp-rd.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/hp.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/efo.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ordo.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/omiabis.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl>)
 
-Import(<http://purl.obolibrary.org/obo/scatlas/components/hp.owl>)
-
-Import(<http://purl.obolibrary.org/obo/scatlas/components/ordo.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/edam.owl>)
 
 
-Annotation(dce:title "EJP-RD Ontology")
+
+Annotation(dce:title "European Joint Programme (EJP) for Rare Disease,")
 Annotation(dcterms:license "Unspecified")
-Annotation(dce:description "EJP_RD Ontology for rare diseases registries and biobanks")
+Annotation(dce:description "None")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/EJP-RD_00000000>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/EJP-RD_00000000>
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EJP-RD_00000000> "EJP-RD"@en)
 
 
 )
