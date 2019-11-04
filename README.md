@@ -23,7 +23,7 @@ Editors of this ontology should use the edit version, [src/ontology/ejp-rd-edit.
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/ejp-rd_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/EJP-Ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
