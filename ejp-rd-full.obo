@@ -1,11 +1,7 @@
 format-version: 1.2
-data-version: ejp-rd/releases/2019-10-23/ejp-rd-full.owl
+data-version: ejp-rd/releases/2019-11-04/ejp-rd-full.owl
 ontology: ejp-rd/ejp-rd-full
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "European Joint Programme (EJP) for Rare Disease," xsd:string
 property_value: http://purl.org/dc/terms/license "Unspecified" xsd:string
-
-[Term]
-id: EJP-RD:00000000
-name: root node
 

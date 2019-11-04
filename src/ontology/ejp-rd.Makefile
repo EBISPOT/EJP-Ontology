@@ -44,64 +44,38 @@ components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(ejp-rd_KEE
 	$(ROBOT) merge --input $<  \
 		reason --reasoner ELK  \
 		remove --axioms disjoint --trim false --preserve-structure false \
-		remove --term-file $(SCATLAS_KEEPRELATIONS) --select complement --select object-properties --trim true \
-		relax \
-		filter --term-file components/$*_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-.PRECIOUS: components/%.owl
-
-
-components/omiabis.owl: imports/omiabis_import.owl components/omiabis_simple_seed.txt $(ejp-rd_KEEPRELATIONS)
-	$(ROBOT) merge --input $<  \
-	relax \
-	remove --axioms disjoint \
-	reason --reasoner ELK  \
-	remove --axioms equivalent \
-	remove --term-file $(ejp-rd_KEEPRELATIONS) --select complement --select object-properties --trim true \
-	relax \
-	filter --term-file components/fbbt_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
-	reduce -r ELK \
-	annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-.PRECIOUS: components/%.owl
-
-
-
-$(ONT)-full.owl: $(SRC) components/subclasses.owl ../curation/blacklist.txt
-	$(ROBOT) merge --input $(SRC) -i components/subclasses.owl \
-	remove --axioms equivalent --trim false \
-	remove --term-file ../curation/blacklist.txt \
-	reason --reasoner ELK --equivalent-classes-allowed all \
-	relax \
-	reduce -r ELK \
-	annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-
-components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(ejp-rd_KEEPRELATIONS)
-	$(ROBOT) merge --input $<  \
-		reason --reasoner ELK  \
-		remove --axioms disjoint --trim false --preserve-structure false \
 		remove --term-file $(ejp-rd_KEEPRELATIONS) --select complement --select object-properties --trim true \
 		relax \
 		filter --term-file components/$*_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: components/%.owl
 
-	#reduce -r ELK \
 
-
+#components/omiabis.owl: imports/omiabis_import.owl components/omiabis_simple_seed.txt $(ejp-rd_KEEPRELATIONS)
+#	$(ROBOT) merge --input $<  \
+#	relax \
+#	remove --axioms disjoint \
+#	reason --reasoner ELK  \
+#	remove --axioms equivalent \
+#	remove --term-file $(ejp-rd_KEEPRELATIONS) --select complement --select object-properties --trim true \
+#	relax \
+#	filter --term-file components/fbbt_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
+#	reduce -r ELK \
+#	annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+#.PRECIOUS: components/%.owl
 
 components/subclasses.owl: ../template/subclass_terms.csv
 	$(ROBOT) -vvv template --template $<  --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --prefix "OMIT: http://purl.obolibrary.org/obo/OMIT_"  --prefix "NCIT: http://purl.obolibrary.org/obo/NCIT_" --prefix "Orphanet: http://www.orpha.net/ORDO/Orphanet_" --prefix "snap: http://www.ifomis.org/bfo/1.1/snap#" annotate --ontology-iri $(ONTBASE)/$@ -o $@
 
 
-$(ONT)-full.owl: $(SRC) components/subclasses.owl ../curation/blacklist.txt
+$(ONT)-edit.owl: $(SRC) components/subclasses.owl  ../curation/blacklist.txt
 	$(ROBOT) merge --input $(SRC) -i components/subclasses.owl \
 		remove --axioms equivalent --trim false \
 		remove --term-file ../curation/blacklist.txt \
 		reason --reasoner ELK --equivalent-classes-allowed all \
-		relax \
 		reduce -r ELK \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-
+#		relax \
 
 ../curation/retrieved_seed.txt: $(ONT)-full.owl  ../sparql/seed_class.sparql
 	$(ROBOT) query -i $(ONT)-full.owl --query ../sparql/seed_class.sparql $@.tmp

@@ -1,15 +1,7 @@
 {
   "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/EJP-RD_00000000",
-      "type" : "CLASS",
-      "lbl" : "root node"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/EJP-RD_00000000",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    } ],
+    "nodes" : [ ],
+    "edges" : [ ],
     "id" : "http://purl.obolibrary.org/obo/ejp-rd.json",
     "meta" : {
       "subsets" : [ ],
@@ -24,7 +16,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "Unspecified"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-10-23"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-04"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
