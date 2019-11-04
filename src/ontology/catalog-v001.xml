@@ -38,7 +38,6 @@
 
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl" uri="imports/duo.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/duo.obo" uri="imports/duo.obo"/>
-
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl" uri="components/iao.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/iao.obo" uri="components/iao.obo"/>
 
