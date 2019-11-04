@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-
-
-
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/iao_import.owl" uri="imports/iao_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/iao_import.obo" uri="imports/iao_import.obo"/>
 
@@ -68,7 +65,6 @@
 
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/ordo.owl" uri="components/ordo.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/ordo.obo" uri="components/ordo.obo"/>
-
 
 
   <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
