@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+
+
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/iao_import.owl" uri="imports/iao_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/iao_import.obo" uri="imports/iao_import.obo"/>
 
@@ -33,11 +36,15 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/edam_import.owl" uri="imports/edam_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/edam_import.obo" uri="imports/edam_import.obo"/>
 
+  <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-01/components/ejp-rd.owl" uri="components/ejp-rd.owl"/>
+  <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-01/components/ejp-rd.obo" uri="components/ejp-rd.owl"/>
+
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/edam.owl" uri="components/edam.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/edam.obo" uri="components/edam.obo"/>
 
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl" uri="imports/duo.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/duo.obo" uri="imports/duo.obo"/>
+
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl" uri="components/iao.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/iao.obo" uri="components/iao.obo"/>
 
