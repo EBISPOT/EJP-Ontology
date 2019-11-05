@@ -1,7 +1,11 @@
 ![schema](ejp.jpg)
 # EJP-RD Ontology
 
-The EJP-RD Ontology (EJPO) provides a systematic description of many registries and their data elements available as used in reporting rare-diseases in the EJP-RD databases (Comprising EJP- Registries, ERNs, and Biobanks).  It combines parts of several biological ontologies, such as NCIT, OMIT, OMIABIS, EFO, ORPHANET and others. The scope of EJPO is to support the annotation, EJPO  is developed by the EMBL-EBI Samples, Phenotypes and Ontologies Team (SPOT), and maintain the ontology.
+The EJP-RD Ontology (EJPO) provides a systematic description of many registries and their data elements used in cataloguing rare-diseases.
+
+In the EJP-RD databases (Comprising EJP- Registries, ERNs, and Biobanks), there is no unifying data source, that provides detailed view of the clinical data captured from a patient with rare disease during the healthcare delivery, therefore, none is sufficient to describe all the different registries, catalogues, biobanks and data sources. 
+
+It combines parts of several biological ontologies, such as NCIT, OMIT, OMIABIS, EFO, ORPHANET and others. The scope of EJPO is to support the semantics, annotation and enhances facilitate data retrieval. EJPO  is developed by the EMBL-EBI Samples, Phenotypes and Ontologies Team (SPOT), and maintain the ontology.
 
 - [The work flow diagram](workflow.md) – `The Work Flow Diagram`
 - [Requirements - Install Docker ](https://www.docker.com/get-docker) - `Install and Start Docker`
