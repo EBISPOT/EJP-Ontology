@@ -538,7 +538,7 @@ License.</dc:rights>
     <!-- http://purl.org/ejp-rd/vocabulary/DieseaseCode -->
 
     <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/DieseaseCode">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A system of words, letters, figures, or symbols used to represent disease</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olamidipupo Ajigboye</dc:creator>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease code</rdfs:label>
@@ -549,7 +549,7 @@ License.</dc:rights>
     <!-- http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem -->
 
     <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/has_code"/>
@@ -1329,7 +1329,6 @@ License.</dc:rights>
     <!-- http://www.ebi.ac.uk/efo/EFO_0000408 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease is a disposition that describes states of disease associated with a particular sample and/or organism.</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olamidipupo Ajigboye</dc:creator>
         <alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens disease</alternative_term>
