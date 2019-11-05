@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/EBISPOT/EJP-Ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/ejp-rd_ontology)
-[![DOI](https://zenodo.org/badge/13996/EBISPOT/EJP-Ontology.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/ejp-rd_ontology)
+[![Build Status](https://travis-ci.org/EBISPOT/EJP-Ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/EJP-Ontology)
+[![DOI](https://zenodo.org/badge/13996/EBISPOT/EJP-Ontology.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/EJP-Ontology)
 
 # European Joint Programme (EJP) for Rare Disease,
 
