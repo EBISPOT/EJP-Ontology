@@ -30,14 +30,20 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/ordo_import.owl" uri="imports/ordo_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/ordo_import.obo" uri="imports/ordo_import.obo"/>
 
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/duo.owl" uri="imports/duo_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/duo.obo" uri="imports/duo_import.obo"/>
+
   <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-01/components/ejp-rd.owl" uri="components/ejp-rd.owl"/>
   <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-01/components/ejp-rd.obo" uri="components/ejp-rd.owl"/>
 
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/edam.owl" uri="components/edam.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/edam.obo" uri="components/edam.obo"/>
 
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl" uri="imports/duo.owl"/>
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/imports/duo.obo" uri="imports/duo.obo"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/omiabis.owl" uri="components/omiabis.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/omiabis.obo" uri="components/omiabis.obo"/>
+
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl" uri="components/duo.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/duo.obo" uri="components/duo.obo"/>
 
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl" uri="components/iao.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/iao.obo" uri="components/iao.obo"/>

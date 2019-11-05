@@ -68,7 +68,7 @@ components/subclasses.owl: ../template/subclass_terms.csv
 	$(ROBOT) -vvv template --template $<  --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --prefix "OMIT: http://purl.obolibrary.org/obo/OMIT_"  --prefix "NCIT: http://purl.obolibrary.org/obo/NCIT_" --prefix "Orphanet: http://www.orpha.net/ORDO/Orphanet_" --prefix "snap: http://www.ifomis.org/bfo/1.1/snap#" annotate --ontology-iri $(ONTBASE)/$@ -o $@
 
 
-$(ONT)-edit.owl: $(SRC) components/subclasses.owl  ../curation/blacklist.txt
+$(ONT)-full.owl: $(SRC) components/subclasses.owl  ../curation/blacklist.txt
 	$(ROBOT) merge --input $(SRC) -i components/subclasses.owl \
 		remove --axioms equivalent --trim false \
 		remove --term-file ../curation/blacklist.txt \
