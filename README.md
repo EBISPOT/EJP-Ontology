@@ -5,7 +5,7 @@
 
 This ontology... YOUR DESCRIPTION HERE
 
-More information can be found at http://obofoundry.org/ontology/ejp-rd
+More information can be found at https://github.com/EBISPOT/EJP-Ontology/tree/master/docs
 
 ## Versions
 
