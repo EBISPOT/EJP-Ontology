@@ -13,7 +13,7 @@ More information can be found at http://obofoundry.org/ontology/ejp-rd
 
 The latest version of the ontology can always be found at:
 
-
+https://github.com/EBISPOT/EJP-Ontology/releases/tag/11-11-2019
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
