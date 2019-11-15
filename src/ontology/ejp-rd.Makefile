@@ -62,6 +62,27 @@ components/iao.owl: imports/iao_import.owl components/iao_simple_seed.txt $(EJP-
 
 
 
+imports/omiabis_terms_combined.txt: seed.txt imports/omiabis_terms.txt
+	@if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
+
+
+imports/omiabis_import.owl: mirror/omiabis.owl imports/omiabis_terms_combined.txt
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/omiabis_terms_combined.txt --force true --method BOT \
+		query --update ../sparql/inject-subset-declaration.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: imports/omiabis_import.owl
+
+# convert imports to obo.
+# this can be useful for spot-checks and diffs.
+# we set strict mode to false by default. For discussion see https://github.com/owlcs/owlapi/issues/752
+imports/omiabis_import.obo: imports/omiabis_import.owl
+	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f obo -o $@.tmp.obo && mv $@.tmp.obo $@; fi
+imports/omiabis_import.json: imports/%_import.owl
+	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f json -o $@.tmp.json && mv $@.tmp.json $@; fi
+
+
+
+
 components/omiabis.owl: imports/omiabis_import.owl components/omiabis_simple_seed.txt $(EJP-RD_KEEPRELATIONS)
 	$(ROBOT) merge --input $<  \
 		relax \

@@ -67,7 +67,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  iao ncit obi obib ejp-rd efo hp foaf ordo duo edam omiabis
+IMPORTS =  iao ncit obi obib ejp-rd efo hp foaf ordo duo edam
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
@@ -181,7 +181,7 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/$(TODAY)/$@.owl
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 
-OTHER_SRC = components/omiabis.owl
+OTHER_SRC = 
 
 
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
@@ -341,15 +341,6 @@ mirror/foaf.owl: mirror/foaf.trigger
 .PRECIOUS: mirror/%.owl
 
 
-## ONTOLOGY: omiabis
-## Copy of omiabis is re-downloaded whenever source changes
-mirror/omiabis.trigger: $(SRC)
-
-mirror/omiabis.owl: mirror/ordo.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/omiabis/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-
-.PRECIOUS: mirror/%.owl
-
 
 ## ONTOLOGY: ordo
 ## Copy of ordo is re-downloaded whenever source changes
@@ -379,6 +370,9 @@ mirror/edam.owl: mirror/edam.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/edam/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
+
+
+
 
 
 
