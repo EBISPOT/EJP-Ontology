@@ -46,9 +46,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EJP-RD_00000000>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/EJP-RD_00000000>
+# Class: <http://purl.org/ejp-rd/vocabulary/entity>
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EJP-RD_00000000> "EJP-RD"@en)
-
+AnnotationAssertion(rdfs:label <http://purl.org/ejp-rd/vocabulary/entity> "EJP-RD"@en)
 
 )

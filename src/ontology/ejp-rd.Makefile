@@ -10,7 +10,7 @@
 
 seed.txt: ../curation/ejp-rd_seed.txt
 	cp $< $@
-	echo 'http://purl.obolibrary.org/obo/EJP-RD_00000000' >> $@
+	echo 'http://purl.org/ejp-rd/vocabulary/entity' >> $@
 
 # The following ontologies were imported into the Ejp-rd ontology : DUO, EDAM, EFO, FOAF, HP, IAO, NCIT, OBI, OBIB, OMIABIS, and ORDO
 
