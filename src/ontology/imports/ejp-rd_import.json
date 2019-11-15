@@ -96,6 +96,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/creator",
           "val" : "Olamidipupo Ajigboye"
+        }, {
+          "pred" : "http://purl.org/ejp-rd/vocabulary/database_cross_reference",
+          "val" : "SIO:000326"
         } ]
       },
       "type" : "CLASS",
@@ -238,6 +241,15 @@
       "type" : "CLASS",
       "lbl" : "disease code system"
     }, {
+      "id" : "http://purl.org/ejp-rd/vocabulary/entity",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/creator",
+          "val" : "Olamidipupo Ajigboye"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.org/ejp-rd/vocabulary/is_located",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -317,6 +329,16 @@
       "type" : "CLASS",
       "lbl" : "Sweden"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/creator",
+          "val" : "Olamidipupo Ajigboye"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "continuant"
+    }, {
       "id" : "http://purl.org/ejp-rd/vocabulary/Russia",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -326,6 +348,16 @@
       },
       "type" : "CLASS",
       "lbl" : "Russia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000003",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/creator",
+          "val" : "Olamidipupo Ajigboye"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "occurrent"
     }, {
       "id" : "http://purl.org/ejp-rd/vocabulary/Switzerland",
       "meta" : {
@@ -535,7 +567,7 @@
       "id" : "https://www.w3.org/ns/dcat#Catalog",
       "meta" : {
         "definition" : {
-          "val" : "A data catalog is a curated collection of metadata about datasets.",
+          "val" : "A catalog is a systemic collection of items of the same type.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -544,6 +576,12 @@
         }, {
           "pred" : "http://purl.org/dc/elements/1.1/creator",
           "val" : "Olamidipupo Ajigboye"
+        }, {
+          "pred" : "http://purl.org/ejp-rd/vocabulary/alternative_term",
+          "val" : "registry"
+        }, {
+          "pred" : "http://purl.org/ejp-rd/vocabulary/database_cross_reference",
+          "val" : "SIO:001241"
         } ]
       },
       "type" : "CLASS",
@@ -702,6 +740,10 @@
       "lbl" : "Germany"
     } ],
     "edges" : [ {
+      "sub" : "http://purl.org/ejp-rd/vocabulary/DieseaseCode",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
       "sub" : "http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem",
       "pred" : "http://purl.org/ejp-rd/vocabulary/has_code",
       "obj" : "http://purl.org/ejp-rd/vocabulary/DieseaseCode"
@@ -710,21 +752,49 @@
       "pred" : "http://purl.org/dc/terms/spatial",
       "obj" : "http://purl.org/dc/terms/LocationPeriodOrJurisdiction"
     }, {
+      "sub" : "http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    }, {
+      "sub" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
       "sub" : "http://www.w3.org/2004/02/skos/core#Concept",
       "pred" : "http://www.w3.org/2004/02/skos/core#inConceptScheme",
       "obj" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    }, {
+      "sub" : "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "https://www.w3.org/ns/dcat#Dataset",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
     }, {
       "sub" : "http://purl.org/ejp-rd/vocabulary/region",
       "pred" : "is_a",
       "obj" : "http://purl.org/ejp-rd/vocabulary/continent"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.org/ejp-rd/vocabulary/entity"
+    }, {
       "sub" : "https://www.w3.org/ns/dcat#Dataset",
       "pred" : "http://purl.org/ejp-rd/vocabulary/has_location",
       "obj" : "http://purl.org/dc/terms/LocationPeriodOrJurisdiction"
     }, {
+      "sub" : "http://xmlns.com/foaf/spec/#term_Organization",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000408",
       "pred" : "is_a",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
     }, {
       "sub" : "http://purl.org/ejp-rd/vocabulary/patientregistrydataset",
       "pred" : "http://purl.org/dc/terms/publisher",
@@ -750,6 +820,10 @@
       "pred" : "is_a",
       "obj" : "https://www.w3.org/ns/dcat#Catalog"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.org/ejp-rd/vocabulary/entity"
+    }, {
       "sub" : "http://purl.org/ejp-rd/vocabulary/has_part",
       "pred" : "inverseOf",
       "obj" : "http://purl.org/ejp-rd/vocabulary/part_of"
@@ -761,6 +835,10 @@
       "sub" : "http://purl.org/ejp-rd/vocabulary/country",
       "pred" : "is_a",
       "obj" : "http://purl.org/ejp-rd/vocabulary/region"
+    }, {
+      "sub" : "https://www.w3.org/ns/dcat#Catalog",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
     }, {
       "sub" : "http://purl.org/ejp-rd/vocabulary/patientregistrydataset",
       "pred" : "https://www.w3.org/ns/dcat#theme",
@@ -774,14 +852,6 @@
       "pred" : "http://purl.org/ejp-rd/vocabulary/populationCoverage",
       "obj" : "http://purl.org/dc/terms/LocationPeriodOrJurisdiction"
     }, {
-      "sub" : "http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem",
-      "pred" : "is_a",
-      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
-    }, {
-      "sub" : "http://purl.org/ejp-rd/vocabulary/DieseaseCode",
-      "pred" : "is_a",
-      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
-    }, {
       "sub" : "http://purl.org/ejp-rd/vocabulary/has_location",
       "pred" : "inverseOf",
       "obj" : "http://purl.org/ejp-rd/vocabulary/is_located"
@@ -791,7 +861,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-04/imports/ejp-rd_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-15/imports/ejp-rd_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

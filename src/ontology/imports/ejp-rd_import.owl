@@ -1,14 +1,1213 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ejp-rd/imports/ejp-rd_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/ejp-rd/imports/ejp-rd_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vocabulary="http://purl.org/ejp-rd/vocabulary/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ejp-rd/imports/ejp-rd_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-05/imports/ejp-rd_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-15/imports/ejp-rd_import.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/alternative_term -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ejp-rd/vocabulary/alternative_term"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/database_cross_reference -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ejp-rd/vocabulary/database_cross_reference"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/spatial -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/spatial"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/has_code -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/has_code">
+        <dc:creator>dipo</dc:creator>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/has_location -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/has_location">
+        <owl:inverseOf rdf:resource="http://purl.org/ejp-rd/vocabulary/is_located"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/has_location"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <dc:creator>dipo</dc:creator>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/has_part -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/has_part">
+        <owl:inverseOf rdf:resource="http://purl.org/ejp-rd/vocabulary/part_of"/>
+        <dc:creator>dipo</dc:creator>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/is_located -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/is_located">
+        <dc:creator>dipo</dc:creator>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/part_of">
+        <dc:creator>dipo</dc:creator>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/populationCoverage -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/populationCoverage"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inConceptScheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#inConceptScheme"/>
+    
+
+
+    <!-- https://www.w3.org/ns/dcat#dataset -->
+
+    <owl:ObjectProperty rdf:about="https://www.w3.org/ns/dcat#dataset"/>
+    
+
+
+    <!-- https://www.w3.org/ns/dcat#theme -->
+
+    <owl:ObjectProperty rdf:about="https://www.w3.org/ns/dcat#theme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/entity"/>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/entity"/>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>occurrent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LocationPeriodOrJurisdiction -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/continent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A location, period of time, or jurisdiction.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>location , period, or jurisdiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Albania -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Albania">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Albania</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Austria -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Austria">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Austria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Belarus -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Belarus">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Belarus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Belgium -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Belgium">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Belgium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Bulgaria -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Bulgaria">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Bulgaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Croatia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Croatia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Croatia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Czechia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Czechia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Czechia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Denmark -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Denmark">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Denmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/DieseaseCode -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/DieseaseCode">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <obo:IAO_0000115>A system of words, letters, figures, or symbols used to represent disease</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>disease code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/has_code"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/DieseaseCode"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The coding system used to represent diseases</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>disease code system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/dcat#Catalog"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/spec/#term_Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A EJP data catalog is a curated collection of metadata about EJP-RD datasets.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Eastern_Europe -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/region"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/part_of"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/Europe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Eastern Europe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Estonia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Estonia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Estonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Europe -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Europe">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/continent"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/part_of"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/continent"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Europe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Finland -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Finland">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Finland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/France -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/France">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>France</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Germany -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Germany">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Germany</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Greece -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Greece">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Greece</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Holy_See -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Holy_See">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>&apos;Holy See&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Hungary -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Hungary">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Hungary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Iceland -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Iceland">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Iceland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Ireland -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Ireland">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Ireland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Italy -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Italy">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Italy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Latvia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Latvia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Latvia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Liechtenstein -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Liechtenstein">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Liechtenstein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Lithuania -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Lithuania">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Lithuania</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Malta -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Malta">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Malta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Moldova -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Moldova">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Moldova</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Monaco -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Monaco">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Monaco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Montenegro -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Montenegro">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Montenegro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Netherlands -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Netherlands">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Netherlands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/North_Macedonia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/North_Macedonia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>North Macedonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Northern_Europe -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/region"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/part_of"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/Europe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Northern Europe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Norway -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Norway">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Norway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Poland -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Poland">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Poland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Portugal -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Portugal">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Portugal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Romania -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Romania">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Romania</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Russia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Russia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Russia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/San_Marino -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/San_Marino">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>San Marino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Serbia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Serbia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Serbia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Slovakia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Slovakia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Slovakia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Slovenia -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Slovenia">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Slovenia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Southern_Europe -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/region"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/part_of"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/Europe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Southern Europe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Spain -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Spain">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Southern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Spain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Sweden -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Sweden">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Sweden</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Switzerland -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Switzerland">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Switzerland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Ukraine -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Ukraine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Eastern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Ukraine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/United_Kingdom -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/United_Kingdom">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Northern_Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/country"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>United Kingdom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Western_Europe -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Western_Europe">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/Europe"/>
+                    <rdf:Description rdf:about="http://purl.org/ejp-rd/vocabulary/region"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/part_of"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/Western_Europe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator>ncbitaxon</dc:creator>
+        <rdfs:label>Western Europe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/continent -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/continent">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>continent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/country -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/country">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/region"/>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/entity -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/entity">
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/patientregistrydataset -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/patientregistrydataset">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/spec/#term_Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/populationCoverage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3.org/ns/dcat#theme"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Patient registries dataset is organized system of dataset  (clinical and other) collected from observational study methods to evaluate specified outcomes for a population defined by a particular disease, condition, or exposure, and that serves a predetermined scientific, clinical, or policy purpose(s).</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>patient registry dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/region -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/region">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/continent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ejp-rd/vocabulary/Europe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000408 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A disease is a disposition that describes states of disease associated with a particular sample and/or organism.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <vocabulary:alternative_term>Homo sapiens disease</vocabulary:alternative_term>
+        <vocabulary:alternative_term>human disease</vocabulary:alternative_term>
+        <rdfs:label>disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inConceptScheme"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A concept is term that refers to a generalization of a set of attributes or entities.</obo:IAO_0000115>
+        <obo:IAO_0000115>This can be viewed as an idea or notion; a unit of thought. However, what constitutes a unit of thought is subjective, and this definition is meant to be suggestive, rather than restrictive. The notion of a SKOS concept is useful when describing the conceptual or intellectual structure of a knowledge organization system, and when referring to specific ideas or meanings established within a KOS.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <vocabulary:database_cross_reference>SIO:000326</vocabulary:database_cross_reference>
+        <rdfs:label>concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:IAO_0000115>Concept scheme can be viewed as an aggregation of one or more SKOS concepts. Semantic relationships (links) between those concepts may also be viewed as part of a concept scheme. This definition is, however, meant to be suggestive rather than restrictive, and there is some flexibility in the formal data model stated below.
+The notion of a concept scheme is useful when dealing with data from an unknown source, and when dealing with data that describes two or more different knowledge organization systems.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>concept scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/spec/#term_Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/spec/#term_Organization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/spatial"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The Organization class represents a kind of Agent corresponding to social instititutions such as companies, societies etc.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>organisation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3.org/ns/dcat#Catalog -->
+
+    <owl:Class rdf:about="https://www.w3.org/ns/dcat#Catalog">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3.org/ns/dcat#dataset"/>
+                <owl:someValuesFrom rdf:resource="https://www.w3.org/ns/dcat#Dataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A catalog is a systemic collection of items of the same type.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data catalog is a curated collection of metadata about datasets.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <vocabulary:alternative_term>registry</vocabulary:alternative_term>
+        <vocabulary:database_cross_reference>SIO:001241</vocabulary:database_cross_reference>
+        <rdfs:comment>Typically, a web-based data catalog is represented as a single instance of this class.</rdfs:comment>
+        <rdfs:label>catalog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3.org/ns/dcat#Dataset -->
+
+    <owl:Class rdf:about="https://www.w3.org/ns/dcat#Dataset">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ejp-rd/vocabulary/has_location"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A collection of data, published or curated by a single agent, and available for access or download in one or more formats.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:comment>This class represents the actual dataset as published by the dataset publisher. In cases where a distinction between the actual dataset and its entry in the catalog is necessary (because metadata such as modification date and maintainer might differ), the catalog record class can be used for the latter.</rdfs:comment>
+        <rdfs:label>Dataset</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
