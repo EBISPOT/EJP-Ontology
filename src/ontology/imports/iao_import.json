@@ -179,10 +179,10 @@
           "val" : "2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records')."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
+          "val" : "PERSON: Bjoern Peters"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
+          "val" : "PERSON: Melanie Courtot"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "Original proposal from Bjoern, discussions at IAO calls"
@@ -217,10 +217,10 @@
           "val" : "PubMed is a CRID registry. It has a dataset of PubMed identifiers associated with journal articles. "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
+          "val" : "PERSON: Bjoern Peters"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
+          "val" : "PERSON: Melanie Courtot"
         } ]
       },
       "type" : "CLASS",
@@ -277,10 +277,10 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
+          "val" : "PERSON: Bjoern Peters"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
+          "val" : "PERSON: Melanie Courtot"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
@@ -878,13 +878,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000078",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000219",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000578",
       "pred" : "is_a",
