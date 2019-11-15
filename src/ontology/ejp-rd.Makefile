@@ -11,6 +11,7 @@
 seed.txt: ../curation/ejp-rd_seed.txt
 	cp $< $@
 	echo 'http://purl.obolibrary.org/obo/EJP-RD_00000000' >> $@
+
 # The following ontologies were imported into the Ejp-rd ontology : DUO, EDAM, EFO, FOAF, HP, IAO, NCIT, OBI, OBIB, OMIABIS, and ORDO
 
 COMPONENT_FILES= $(patsubst %.owl, components/%.owl, $(notdir $(wildcard components/*.owl)))
@@ -20,8 +21,7 @@ all_components: $(COMPONENT_FILES)
 	echo $(COMPONENT_FILES)
 
 
-ejp-rd_KEEPRELATIONS= ../curation/ejp-rd_relations.txt
-
+EJP-RD_KEEPRELATIONS= ../curation/ejp-rd_relations.txt
 
 components_sparql = $(patsubst %, components/%_seed_extract.sparql, $(IMPORTS))
 components_seeds = $(patsubst %, components/%_simple_seed.txt, $(IMPORTS))
@@ -35,34 +35,45 @@ components/%_seed_extract.sparql: seed.txt
 	sh  ../scripts/generate_sparql_subclass_query.sh  seed.txt $@
 
 
-
 components/%_simple_seed.txt: imports/%_import.owl components/%_seed_extract.sparql seed.txt
 	$(ROBOT) query --input $< --select components/$*_seed_extract.sparql $@.tmp && \
 	cat seed.txt $@.tmp | sort | uniq > $@  && rm $@.tmp
 
-components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(ejp-rd_KEEPRELATIONS)
+components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(EJP-RD_KEEPRELATIONS)
 	$(ROBOT) merge --input $<  \
 		reason --reasoner ELK  \
 		remove --axioms disjoint --trim false --preserve-structure false \
-		remove --term-file $(ejp-rd_KEEPRELATIONS) --select complement --select object-properties --trim true \
+		remove --term-file $(EJP-RD_KEEPRELATIONS) --select complement --select object-properties --trim true \
 		relax \
 		filter --term-file components/$*_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: components/%.owl
 
 
-#components/omiabis.owl: imports/omiabis_import.owl components/omiabis_simple_seed.txt $(ejp-rd_KEEPRELATIONS)
-#	$(ROBOT) merge --input $<  \
-#	relax \
-#	remove --axioms disjoint \
-#	reason --reasoner ELK  \
-#	remove --axioms equivalent \
-#	remove --term-file $(ejp-rd_KEEPRELATIONS) --select complement --select object-properties --trim true \
-#	relax \
-#	filter --term-file components/fbbt_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
-#	reduce -r ELK \
-#	annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-#.PRECIOUS: components/%.owl
+components/iao.owl: imports/iao_import.owl components/iao_simple_seed.txt $(EJP-RD_KEEPRELATIONS)
+	$(ROBOT) merge --input $<  \
+		reason --reasoner ELK  \
+		remove --axioms disjoint --trim false --preserve-structure false \
+		remove --term-file $(EJP-RD_KEEPRELATIONS) --select complement --select object-properties --trim true \
+		relax \
+		filter --term-file components/iao_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: components/%.owl
+
+
+
+components/omiabis.owl: imports/omiabis_import.owl components/omiabis_simple_seed.txt $(EJP-RD_KEEPRELATIONS)
+	$(ROBOT) merge --input $<  \
+		relax \
+		remove --axioms disjoint \
+		reason --reasoner ELK  \
+		remove --axioms equivalent \
+		remove --term-file $(EJP-RD_KEEPRELATIONS) --select complement --select object-properties --trim true \
+		relax \
+		filter --term-file components/omiabis_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
+		reduce -r ELK \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: components/%.owl
 
 components/subclasses.owl: ../template/subclass_terms.csv
 	$(ROBOT) -vvv template --template $<  --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --prefix "OMIT: http://purl.obolibrary.org/obo/OMIT_"  --prefix "NCIT: http://purl.obolibrary.org/obo/NCIT_" --prefix "Orphanet: http://www.orpha.net/ORDO/Orphanet_" --prefix "snap: http://www.ifomis.org/bfo/1.1/snap#" annotate --ontology-iri $(ONTBASE)/$@ -o $@
