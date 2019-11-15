@@ -2886,11 +2886,11 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "https://en.wikipedia.org/wiki/Cervical_cancer_staging"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Chris Stoeckert, Helena Ellis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "https://en.wikipedia.org/wiki/Cervical_cancer_staging"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "Stage IB2 (FIGO)"
@@ -10420,11 +10420,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an aggregate of human beings."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an aggregate of human beings."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "the undetached arm of a human being"
@@ -11499,13 +11499,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0000758",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000011",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000758",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002220",
       "pred" : "type",
@@ -12575,13 +12575,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002341"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0001443",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000308",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001443",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000780",
       "pred" : "type",
@@ -12623,13 +12623,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0200188"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0000772",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000713"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002281",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002279"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000772",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000713"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000779",
       "pred" : "type",

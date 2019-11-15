@@ -4,6 +4,7 @@ EDAM:0000001
 EDAM:0000002
 http://edamontology.org/data_3103
 http://edamontology.org/topic_3382
+http://purl.obolibrary.org/obo/EJP-RD_00000000
 http://purl.obolibrary.org/obo/HP_0003745
 http://purl.obolibrary.org/obo/NCIT_C100128
 http://purl.obolibrary.org/obo/NCIT_C101221
