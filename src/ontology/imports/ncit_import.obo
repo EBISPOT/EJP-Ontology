@@ -1519,8 +1519,8 @@ property_value: NCIT:P371 "Characteristic" xsd:string
 id: NCIT:C25458
 name: Confirmation
 def: "Having been established or verified." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Confirmation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Confirmation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Confirmation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Confirmatory" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Confirmed" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C27993 ! General Qualifier
@@ -1915,8 +1915,8 @@ subset: NCIT:C61410
 subset: NCIT:C66830
 subset: NCIT:C78735
 synonym: "FAMILY MEMBER" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "Family Member" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Family Member" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Family Member" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Family Member" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 is_a: NCIT:C25190 ! Person
 property_value: NCIT:NHC0 "C41256" xsd:string
@@ -1959,8 +1959,8 @@ name: Name
 def: "The words or language units by which a thing is known." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 subset: NCIT:C159501
 subset: NCIT:C159502
-synonym: "Name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 3.0.3"}
 is_a: NCIT:C20181 ! Conceptual Entity
 property_value: NCIT:NHC0 "C42614" xsd:string
@@ -2156,8 +2156,8 @@ subset: NCIT:C90009
 synonym: "Age Unit" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 synonym: "Age Unit" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Age Unit" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="SEND-STSPRM", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "AGEU" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="SDTM-VARIABLE", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 synonym: "AGEU" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="SEND-STSPRMCD", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
+synonym: "AGEU" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="SDTM-VARIABLE", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 synonym: "Unit of Age" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C42568 ! Unit by Category
 property_value: NCIT:NHC0 "C50400" xsd:string
@@ -2546,8 +2546,8 @@ property_value: NCIT:P375 "Paternal Half Sibling" xsd:string {http://purl.obolib
 id: NCIT:C71397
 name: Grandchild
 def: "A child of your son or daughter." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Grandchild" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Grandchild" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Grandchild" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C19811 ! Second Degree Relative
 is_a: NCIT:C71388 ! Grand Relative
 property_value: NCIT:NHC0 "C71397" xsd:string
@@ -2901,8 +2901,8 @@ id: NCIT:C92720
 name: Pregnancy Finding
 def: "Symptoms, signs, diagnostic examinations or a test results in a pregnant mother." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 subset: NCIT:C90259
-synonym: "Pregnancy Finding" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NICHD"}
 synonym: "Pregnancy Finding" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Pregnancy Finding" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NICHD"}
 is_a: NCIT:C117720 ! Female Reproductive System Finding
 property_value: NCIT:A11 NCIT:C3367
 property_value: NCIT:NHC0 "C92720" xsd:string

@@ -2567,11 +2567,11 @@
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
           "val" : "CDISC"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
-          "val" : "C3272869"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
           "val" : "A relative who is the offspring of a sibling of either of the biological parents, and who share a common ancestor. (NCI)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C3272869"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
           "val" : "C96571"
@@ -4778,11 +4778,11 @@
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
           "val" : "Record"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
-          "val" : "Record"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
           "val" : "Intellectual Product"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Record"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
           "val" : "C0034869"
