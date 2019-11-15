@@ -31,8 +31,8 @@ property_value: notation ORPHA:10 xsd:string
 [Term]
 id: Orphanet:100
 name: Ataxia-telangiectasia
-xref: ICD-10:G11.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:G11.3 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:G11.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MedDRA:10003594 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D001260 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:208900 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -1584,8 +1584,8 @@ property_value: notation ORPHA:1201 xsd:string
 [Term]
 id: Orphanet:1202
 name: Larynx atresia
-xref: ICD-10:Q31.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:Q31.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:Q31.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: OMIM:150300 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0265756 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C1835555 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -1761,8 +1761,8 @@ property_value: notation ORPHA:1303 xsd:string
 [Term]
 id: Orphanet:1309
 name: Medullary sponge kidney
-xref: ICD-10:Q61.5 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:Q61.5 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:Q61.5 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MedDRA:10027104 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D007691 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0022681 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -2424,8 +2424,8 @@ property_value: notation ORPHA:140976 xsd:string
 [Term]
 id: Orphanet:140997
 name: Orofaciodigital syndrome
-xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: UMLS:C0029294 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:139036 ! Branchial arch or oral-acral syndrome
 is_a: Orphanet:156215 ! Oromandibular-limb anomalies syndrome
@@ -2918,8 +2918,8 @@ property_value: notation ORPHA:156207 xsd:string
 [Term]
 id: Orphanet:156212
 name: Hypoglossia/aglossia
-xref: ICD-10:Q38.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:Q38.3 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:Q38.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 is_a: Orphanet:155832 ! Rare head and neck malformation
 is_a: Orphanet:183583 ! Genetic head and neck malformation
 is_a: Orphanet:377794 {http://purl.obolibrary.org/obo/ECO_0000218="Group of phenomes"} ! group of disorders
@@ -3553,8 +3553,8 @@ property_value: notation ORPHA:165994 xsd:string
 [Term]
 id: Orphanet:166
 name: Charcot-Marie-Tooth disease/Hereditary motor and sensory neuropathy
-xref: ICD-10:G60.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:G60.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:G60.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MedDRA:10034699 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D002607 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0007959 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -4515,8 +4515,8 @@ property_value: notation ORPHA:18 xsd:string
 [Term]
 id: Orphanet:180
 name: Choroideremia
-xref: ICD-10:H31.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:H31.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:H31.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MedDRA:10008791 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D015794 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:303100 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -5831,8 +5831,8 @@ property_value: notation ORPHA:1866 xsd:string
 [Term]
 id: Orphanet:187
 name: Citrullinemia
-xref: ICD-10:E72.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:E72.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:E72.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MeSH:D020159 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0175683 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:377794 {http://purl.obolibrary.org/obo/ECO_0000218="Group of phenomes"} ! group of disorders
@@ -6378,8 +6378,8 @@ property_value: notation ORPHA:2014 xsd:string
 [Term]
 id: Orphanet:2020
 name: Congenital fiber-type disproportion myopathy
-xref: ICD-10:G71.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:G71.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:G71.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: OMIM:255310 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:300580 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 xref: OMIM:617760 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
@@ -6681,8 +6681,8 @@ property_value: notation ORPHA:206970 xsd:string
 [Term]
 id: Orphanet:206973
 name: Congenital myotonia
-xref: ICD-10:G71.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:G71.1 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:G71.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: UMLS:C0027127 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:206970 ! Myotonic syndrome
 is_a: Orphanet:377794 {http://purl.obolibrary.org/obo/ECO_0000218="Group of phenomes"} ! group of disorders
@@ -10463,8 +10463,8 @@ property_value: notation ORPHA:261947 xsd:string
 [Term]
 id: Orphanet:262
 name: Duchenne and Becker muscular dystrophy
-xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: UMLS:C0917713 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C3542021 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:206644 ! Progressive muscular dystrophy
@@ -10579,8 +10579,8 @@ property_value: notation ORPHA:262950 xsd:string
 [Term]
 id: Orphanet:263
 name: Limb-girdle muscular dystrophy
-xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MeSH:D049288 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0686353 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:206644 ! Progressive muscular dystrophy
@@ -11037,8 +11037,8 @@ property_value: notation ORPHA:2678 xsd:string
 [Term]
 id: Orphanet:268
 name: Autosomal recessive limb-girdle muscular dystrophy type 2B
-xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: OMIM:253601 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C1850889 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:377788 {http://purl.obolibrary.org/obo/ECO_0000218="Disease"} ! disease
@@ -11090,8 +11090,8 @@ property_value: notation ORPHA:268357 xsd:string
 [Term]
 id: Orphanet:2686
 name: Cyclic neutropenia
-xref: ICD-10:D70 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D70 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:D70 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MedDRA:10053176 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:C536227 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:162800 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -11260,8 +11260,8 @@ property_value: notation ORPHA:2697 xsd:string
 [Term]
 id: Orphanet:27
 name: Vitamin B12-unresponsive methylmalonic acidemia
-xref: ICD-10:E71.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:E71.1 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:E71.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: OMIM:251000 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C1855114 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:377788 {http://purl.obolibrary.org/obo/ECO_0000218="Disease"} ! disease
@@ -12101,8 +12101,8 @@ property_value: notation ORPHA:279911 xsd:string
 [Term]
 id: Orphanet:28
 name: Vitamin B12-responsive methylmalonic acidemia
-xref: ICD-10:E71.1 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:E71.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:E71.1 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: OMIM:251100 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 xref: OMIM:251110 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 xref: OMIM:277410 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
@@ -13012,8 +13012,8 @@ property_value: notation ORPHA:2909 xsd:string
 [Term]
 id: Orphanet:2911
 name: Poland syndrome
-xref: ICD-10:Q79.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:Q79.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:Q79.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MedDRA:10036007 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D011045 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:173800 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -16551,8 +16551,8 @@ property_value: notation ORPHA:342 xsd:string
 [Term]
 id: Orphanet:3447
 name: Weaver syndrome
-xref: ICD-10:Q87.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:Q87.3 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:Q87.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MeSH:C536687 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:277590 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0265210 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -16893,8 +16893,8 @@ property_value: notation ORPHA:35078 xsd:string
 [Term]
 id: Orphanet:352
 name: Galactosemia
-xref: ICD-10:E74.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:E74.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:E74.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MedDRA:10017604 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D005693 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:230200 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
@@ -18371,8 +18371,8 @@ property_value: notation ORPHA:393 xsd:string
 [Term]
 id: Orphanet:394
 name: Classic homocystinuria
-xref: ICD-10:E72.1 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:E72.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:E72.1 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MedDRA:10071093 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:236200 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0751202 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -18947,8 +18947,8 @@ property_value: notation ORPHA:403 xsd:string
 [Term]
 id: Orphanet:404
 name: Familial hyperaldosteronism type II
-xref: ICD-10:E26.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:E26.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:E26.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: OMIM:605635 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C1854107 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:377788 {http://purl.obolibrary.org/obo/ECO_0000218="Disease"} ! disease
@@ -20626,8 +20626,8 @@ property_value: notation ORPHA:436182 xsd:string
 [Term]
 id: Orphanet:437
 name: Hypophosphatemic rickets
-xref: ICD-10:E83.3 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:E83.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:E83.3 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MedDRA:10060873 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C1704375 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C2363065 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -21575,8 +21575,8 @@ property_value: notation ORPHA:478 xsd:string
 [Term]
 id: Orphanet:480
 name: Kearns-Sayre syndrome
-xref: ICD-10:H49.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:H49.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:H49.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MedDRA:10048804 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D007625 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:530000 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -23928,8 +23928,8 @@ property_value: notation ORPHA:59315 xsd:string
 [Term]
 id: Orphanet:595
 name: Centronuclear myopathy
-xref: ICD-10:G71.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:G71.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:G71.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: UMLS:C0175709 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:377794 {http://purl.obolibrary.org/obo/ECO_0000218="Group of phenomes"} ! group of disorders
 is_a: Orphanet:97245 ! Congenital myopathy
@@ -23965,8 +23965,8 @@ property_value: notation ORPHA:597 xsd:string
 [Term]
 id: Orphanet:599
 name: Distal myopathy
-xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: UMLS:C0751336 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:206634 ! Genetic skeletal muscle disease
 is_a: Orphanet:377794 {http://purl.obolibrary.org/obo/ECO_0000218="Group of phenomes"} ! group of disorders
@@ -24565,8 +24565,8 @@ property_value: notation ORPHA:641 xsd:string
 [Term]
 id: Orphanet:646
 name: Niemann-Pick disease type C
-xref: ICD-10:E75.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:E75.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:E75.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MeSH:D052556 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:257220 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:607625 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
@@ -24739,8 +24739,8 @@ property_value: notation ORPHA:65 xsd:string
 [Term]
 id: Orphanet:650
 name: LCAT deficiency
-xref: ICD-10:E78.6 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:E78.6 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:E78.6 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: OMIM:136120 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 xref: OMIM:245900 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 xref: UMLS:C0023195 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -25651,8 +25651,8 @@ property_value: notation ORPHA:69063 xsd:string
 [Term]
 id: Orphanet:69076
 name: Familial renal glucosuria
-xref: ICD-10:E74.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:E74.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:E74.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: OMIM:233100 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0017980 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C3245525 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -26085,8 +26085,8 @@ property_value: notation ORPHA:717 xsd:string
 [Term]
 id: Orphanet:718
 name: Isolated Pierre Robin syndrome
-xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: OMIM:261800 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0031900 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:377789 {http://purl.obolibrary.org/obo/ECO_0000218="Malformation syndrome"} ! malformation syndrome
@@ -26140,8 +26140,8 @@ property_value: notation ORPHA:71864 xsd:string
 [Term]
 id: Orphanet:72
 name: Angelman syndrome
-xref: ICD-10:Q93.5 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:Q93.5 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:Q93.5 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: MedDRA:10049004 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D017204 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:105830 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -26813,8 +26813,8 @@ property_value: notation ORPHA:77292 xsd:string
 [Term]
 id: Orphanet:77293
 name: Niemann-Pick disease type B
-xref: ICD-10:E75.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:E75.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:E75.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MeSH:D052537 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:607616 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C0268243 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -27714,8 +27714,8 @@ property_value: notation ORPHA:79356 xsd:string
 [Term]
 id: Orphanet:79357
 name: Hereditary palmoplantar keratoderma
-xref: ICD-10:Q82.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:Q82.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:Q82.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: UMLS:C0406757 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:183426 ! Genetic epidermal disorder
 is_a: Orphanet:377794 {http://purl.obolibrary.org/obo/ECO_0000218="Group of phenomes"} ! group of disorders
@@ -29151,8 +29151,8 @@ property_value: notation ORPHA:857 xsd:string
 [Term]
 id: Orphanet:860
 name: Congenitally uncorrected transposition of the great arteries
-xref: ICD-10:Q20.3 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:Q20.3 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:Q20.3 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: OMIM:608808 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 xref: OMIM:613854 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 is_a: Orphanet:377791 {http://purl.obolibrary.org/obo/ECO_0000218="Morphological anomaly"} ! morphological anomaly
@@ -30292,8 +30292,8 @@ property_value: notation ORPHA:90692 xsd:string
 [Term]
 id: Orphanet:90695
 name: Panhypopituitarism
-xref: ICD-10:E23.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:E23.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:E23.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MedDRA:10033662 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:262600 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
 xref: OMIM:312000 {http://purl.obolibrary.org/obo/ECO_0000218="BTNT (broader term maps to a narrower term)"}
@@ -31681,8 +31681,8 @@ property_value: notation ORPHA:94148 xsd:string
 [Term]
 id: Orphanet:946
 name: Acrocephalosyndactyly
-xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:Q87.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MedDRA:10000590 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D000168 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: UMLS:C1510455 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
@@ -31730,8 +31730,8 @@ property_value: notation ORPHA:95 xsd:string
 [Term]
 id: Orphanet:95157
 name: Acute hepatic porphyria
-xref: ICD-10:E80.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: ICD-10:E80.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
+xref: ICD-10:E80.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 xref: UMLS:C0268328 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 is_a: Orphanet:207018 ! Rare hereditary metabolic disease with peripheral neuropathy
 is_a: Orphanet:377794 {http://purl.obolibrary.org/obo/ECO_0000218="Group of phenomes"} ! group of disorders
@@ -33227,12 +33227,12 @@ id: Orphanet:98415
 name: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 xref: ICD-10:D53.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D53.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
-xref: ICD-10:D53.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D53.1 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:D53.1 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D53.2 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D53.2 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
-xref: ICD-10:D53.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D53.8 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:D53.8 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D53.9 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:D53.9 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
 is_a: Orphanet:248296 ! Constitutional deficiency anemia
@@ -34170,8 +34170,8 @@ property_value: notation ORPHA:98895 xsd:string
 [Term]
 id: Orphanet:98896
 name: Duchenne muscular dystrophy
-xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="Inclusion term (The term is included under a ICD10 category and has not its own code)"}
+xref: ICD-10:G71.0 {http://purl.obolibrary.org/obo/ECO_0000218="NTBT (narrower term maps to a broader term)"}
 xref: MedDRA:10013801 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: MeSH:D020388 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}
 xref: OMIM:310200 {http://purl.obolibrary.org/obo/ECO_0000218="E (exact mapping (the terms and the concepts are equivalent))"}

@@ -43,7 +43,7 @@ mirror/ncit.owl:
 
 
 imports/ncit_import.owl: mirror/ncit.owl imports/ncit_terms_combined.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/omiabis_terms_combined.txt --force true --method BOT \
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/ncit_terms_combined.txt --force true --method BOT \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/ncit_import.owl
 
