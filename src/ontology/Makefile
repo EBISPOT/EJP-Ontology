@@ -23,7 +23,7 @@ REPORTDIR=                  reports
 TMPDIR=                     tmp
 SPARQLDIR =                 ../sparql
 REPORT_FAIL_ON =            ERROR
-OBO_FORMAT_OPTIONS =
+OBO_FORMAT_OPTIONS =        
 SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 ODK_VERSION =               v1.2.19
@@ -43,7 +43,7 @@ RELEASE_ARTEFACTS = $(sort  full base base full)
 .PHONY: .FORCE
 all: odkversion all_imports all_main all_subsets sparql_test all_reports all_assets
 test: odkversion sparql_test all_reports
-	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed all --output test.owl && rm test.owl && echo "Success"
+	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed all --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
 
 odkversion:
 	echo "ODK Makefile version: $(ODK_VERSION) (this is the version of the ODK with which this Makefile was generated, not the version of the ODK you are running)" &&\
@@ -57,7 +57,7 @@ $TMPDIR:
 ## By default this is the cross-product of {ont, ont-base} x FORMATS
 
 MAIN_PRODUCTS = $(sort $(foreach r,$(RELEASE_ARTEFACTS), $(ONT)-$(r)) $(ONT))
-MAIN_GZIPPED =
+MAIN_GZIPPED = 
 MAIN_FILES = $(foreach n,$(MAIN_PRODUCTS), $(foreach f,$(FORMATS), $(n).$(f))) $(MAIN_GZIPPED)
 
 all_main: $(MAIN_FILES)
@@ -67,7 +67,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  iao ncit obi obib ejp-rd efo hp foaf ordo duo edam
+IMPORTS =  iao ncit obi obib ejp-rd efo omiabis hp foaf ordo duo edam
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
@@ -99,7 +99,7 @@ all_subsets: $(SUBSET_FILES)
 ##
 
 
-PATTERNS =
+PATTERNS = 
 
 PATTERN_ROOTS = $(patsubst %, $(PATTERNDIR)/%, $(PATTERNS))
 PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
@@ -181,11 +181,18 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/$(TODAY)/$@.owl
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 
-OTHER_SRC = 
+OTHER_SRC =  
 
 
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
 	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/ejp-rd_terms.sparql $@
+
+
+
+
+
+
+
 
 
 
@@ -241,17 +248,6 @@ imports/%_import.json: imports/%_import.owl
 	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f json -o $@.tmp.json && mv $@.tmp.json $@; fi
 
 
-
-# ----------------------------------------
-# Components
-# ----------------------------------------
-# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
-
-components/%: .FORCE
-	@if [ $(IMP) = true ]; then $(ROBOT) merge -I $(URIBASE)/$* \
-	annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ -o $@; fi
-.PRECIOUS: components/%
-
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
@@ -306,7 +302,7 @@ mirror/obib.owl: mirror/obib.trigger
 mirror/ejp-rd.trigger: $(SRC)
 
 mirror/ejp-rd.owl: mirror/ejp-rd.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://github.com/EBISPOT/EJP-Ontology/releases/download/23-10-2019/EJP_Ontology.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://github.com/EBISPOT/EJP-Ontology/releases/download/11-11-2019/EJP_Ontology.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -317,6 +313,16 @@ mirror/efo.trigger: $(SRC)
 
 mirror/efo.owl: mirror/efo.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/efo/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: omiabis
+## Copy of omiabis is re-downloaded whenever source changes
+mirror/omiabis.trigger: $(SRC)
+
+mirror/omiabis.owl: mirror/omiabis.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/omiabis/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -339,7 +345,6 @@ mirror/foaf.owl: mirror/foaf.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://xmlns.com/foaf/spec/20140114.rdf -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
-
 
 
 ## ONTOLOGY: ordo
@@ -370,9 +375,6 @@ mirror/edam.owl: mirror/edam.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/edam/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
-
-
-
 
 
 
