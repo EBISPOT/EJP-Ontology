@@ -43,5 +43,5 @@ components:
     - filename: ordo.owl
     - filename: duo.owl
     - filename: edam.owl
-    
+
 robot_java_args: '-Xmx10G'

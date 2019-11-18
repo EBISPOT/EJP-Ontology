@@ -60,13 +60,12 @@ components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(EJP-RD_KEE
 .PRECIOUS: components/%.owl
 
 
+mirror/omiabis.owl: mirror/omiabis.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) merge -I https://www.ebi.ac.uk/ols/ontologies/omiabis/download \
+	remove --term RO:0000052 --axioms annotation \
+ 	convert  -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-
-
-imports/omiabis_import.owl: mirror/omiabis.owl imports/omiabis_terms_combined.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/omiabis_terms_combined.txt --force true --method BOT \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: imports/omiabis_import.owl
+.PRECIOUS: mirror/omiabis.owl
 
 
 
