@@ -8555,13 +8555,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C17187"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C20821",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCIT_C19254"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C150737",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C28398"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C20821",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C19254"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C36291",
       "pred" : "is_a",

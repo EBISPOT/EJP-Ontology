@@ -11,27 +11,27 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/ejp-rd.owl>
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/iao_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ncit.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/ncit_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obi.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/obi_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obib.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/obib_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-rd.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/efo.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/efo_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/omiabis.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/omiabis_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/hp.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/hp_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ordo.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/ordo_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/duo_import.owl>)
 
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/edam.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/imports/edam_import.owl>)
 
 
 

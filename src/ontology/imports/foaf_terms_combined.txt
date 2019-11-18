@@ -4,7 +4,6 @@ FOAF:0000001
 FOAF:0000002
 http://edamontology.org/data_3103
 http://edamontology.org/topic_3382
-http://purl.obolibrary.org/obo/EJP-RD_00000000
 http://purl.obolibrary.org/obo/HP_0003745
 http://purl.obolibrary.org/obo/NCIT_C100128
 http://purl.obolibrary.org/obo/NCIT_C101221
@@ -131,6 +130,7 @@ http://purl.org/ejp-rd/vocabulary/Sweden
 http://purl.org/ejp-rd/vocabulary/Switzerland
 http://purl.org/ejp-rd/vocabulary/Ukraine
 http://purl.org/ejp-rd/vocabulary/United_Kingdom
+http://purl.org/ejp-rd/vocabulary/entity
 http://purl.org/ejp-rd/vocabulary/organisation
 http://purl.org/ejp-rd/vocabulary/patient
 http://purl.org/ejp-rd/vocabulary/patientregistrydataset

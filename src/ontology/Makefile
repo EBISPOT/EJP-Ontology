@@ -22,7 +22,7 @@ PATTERNDIR=                 ../patterns
 REPORTDIR=                  reports
 TMPDIR=                     tmp
 SPARQLDIR =                 ../sparql
-REPORT_FAIL_ON =            ERROR
+REPORT_FAIL_ON =            None
 OBO_FORMAT_OPTIONS =        
 SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms
@@ -67,7 +67,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  iao ncit obi obib ejp-rd efo omiabis hp foaf ordo duo edam
+IMPORTS =  iao ncit obi obib efo omiabis hp foaf ordo duo edam
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
@@ -181,7 +181,7 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/$(TODAY)/$@.owl
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 
-OTHER_SRC =  
+OTHER_SRC =   components/ejp-core.owl
 
 
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
@@ -247,6 +247,21 @@ imports/%_import.obo: imports/%_import.owl
 imports/%_import.json: imports/%_import.owl
 	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f json -o $@.tmp.json && mv $@.tmp.json $@; fi
 
+# ----------------------------------------
+# Components
+# ----------------------------------------
+# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
+
+components/%: .FORCE
+	touch $@
+.PRECIOUS: components/%
+
+
+
+
+
+
+
 
 # ----------------------------------------
 # Mirroring upstream ontologies
@@ -293,16 +308,6 @@ mirror/obib.trigger: $(SRC)
 
 mirror/obib.owl: mirror/obib.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/obib.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-
-.PRECIOUS: mirror/%.owl
-
-
-## ONTOLOGY: ejp-rd
-## Copy of ejp-rd is re-downloaded whenever source changes
-mirror/ejp-rd.trigger: $(SRC)
-
-mirror/ejp-rd.owl: mirror/ejp-rd.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://github.com/EBISPOT/EJP-Ontology/releases/download/11-11-2019/EJP_Ontology.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
