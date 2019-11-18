@@ -61,8 +61,18 @@ components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(EJP-RD_KEE
 
 
 
+imports/omiabis_import.owl: mirror/omiabis.owl imports/omiabis_terms_combined.txt
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/omiabis_terms_combined.txt --force true --method BOT \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: imports/omiabis_import.owl
+
+
+
 components/subclasses.owl: ../template/subclass_terms.csv
 	$(ROBOT) -vvv template --template $<  --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --prefix "OMIT: http://purl.obolibrary.org/obo/OMIT_"  --prefix "NCIT: http://purl.obolibrary.org/obo/NCIT_" --prefix "Orphanet: http://www.orpha.net/ORDO/Orphanet_" --prefix "snap: http://www.ifomis.org/bfo/1.1/snap#" annotate --ontology-iri $(ONTBASE)/$@ -o $@
+
+
+components/ejp-core.owl:
 
 
 $(ONT)-full.owl: $(SRC) components/subclasses.owl  ../curation/blacklist.txt

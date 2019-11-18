@@ -41,6 +41,28 @@
   
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl" uri="components/ejp-core.owl"/>
   
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl" uri="components/iao.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/ncit.owl" uri="components/ncit.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/obi.owl" uri="components/obi.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/obib.owl" uri="components/obib.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/efo.owl" uri="components/efo.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/omiabis.owl" uri="components/omiabis.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/hp.owl" uri="components/hp.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/foaf.owl" uri="components/foaf.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/ordo.owl" uri="components/ordo.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl" uri="components/duo.owl"/>
+  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ejp-rd/components/edam.owl" uri="components/edam.owl"/>
+  
 
   <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>
