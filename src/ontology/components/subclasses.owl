@@ -21,10 +21,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C156420 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C156420">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000246"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16612">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17828">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20181">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20189">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
     </owl:Class>
     
 
@@ -37,15 +77,63 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C43431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C43431">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C93737 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93737"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93737">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/#entity -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000001 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
     
 
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0000246 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000246"/>
+    
+
+
+    <!-- http://www.orpha.net/ORDO/Orphanet_C001 -->
+
+    <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_C001">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.orpha.net/ORDO/Orphanet_C023 -->
+
+    <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_C023">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- topic:0003 -->
+
+    <owl:Class rdf:about="topic:0003">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/#entity"/>
+    </owl:Class>
 </rdf:RDF>
 
 
