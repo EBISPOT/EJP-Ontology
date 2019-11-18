@@ -34,16 +34,6 @@ prepare_components:
 components/%_seed_extract.sparql: seed.txt
 	sh  ../scripts/generate_sparql_subclass_query.sh  seed.txt $@
 
-mirror/omiabis.owl:
-	$(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/omiabis/download -o $@.tmp.owl && mv $@.tmp.owl $@
-.PRECIOUS: mirror/omiabis.owl
-
-
-imports/omiabis_import.owl: mirror/omiabis.owl imports/omiabis_terms_combined.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/omiabis_terms_combined.txt --force true --method BOT \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: imports/omiabis_import.owl
-
 
 components/%_simple_seed.txt: imports/%_import.owl components/%_seed_extract.sparql seed.txt
 	$(ROBOT) query --input $< --select components/$*_seed_extract.sparql $@.tmp && \
