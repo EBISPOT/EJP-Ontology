@@ -60,7 +60,7 @@ mirror/omiabis.owl: mirror/omiabis.trigger
 
 
 components/subclasses.owl: ../template/subclass_terms.csv
-	$(ROBOT) -vvv template --template $<  --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --prefix "OMIT: http://purl.obolibrary.org/obo/OMIT_"  --prefix "NCIT: http://purl.obolibrary.org/obo/NCIT_" --prefix "Orphanet: http://www.orpha.net/ORDO/Orphanet_" --prefix "snap: http://www.ifomis.org/bfo/1.1/snap#" annotate --ontology-iri $(ONTBASE)/$@ -o $@
+	$(ROBOT) -vvv template --template $<  --prefix "EJP-RD: http://purl.org/ejp-rd/vocabulary/#" --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --prefix "OMIT: http://purl.obolibrary.org/obo/OMIT_"  --prefix "NCIT: http://purl.obolibrary.org/obo/NCIT_" --prefix "Orphanet: http://www.orpha.net/ORDO/Orphanet_" --prefix "snap: http://www.ifomis.org/bfo/1.1/snap#" annotate --ontology-iri $(ONTBASE)/$@ -o $@
 
 
 components/ejp-core.owl:
