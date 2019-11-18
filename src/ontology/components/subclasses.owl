@@ -37,6 +37,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
@@ -64,6 +70,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17828 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/entity"/>
     </owl:Class>
     
@@ -96,6 +103,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C43431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C43431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/entity"/>
     </owl:Class>
     
