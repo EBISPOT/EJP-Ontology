@@ -1,3 +1,3 @@
 Level	Rule Name	Subject	Property	Value
 WARN	missing_definition	http://purl.org/ejp-rd/vocabulary/entity	IAO:0000115		
-INFO	missing_superclass	EJP-RD:00000000	rdfs:subClassOf		
+INFO	missing_superclass	http://purl.org/ejp-rd/vocabulary/entity	rdfs:subClassOf		

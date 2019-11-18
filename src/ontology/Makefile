@@ -181,7 +181,7 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/$(TODAY)/$@.owl
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 
-OTHER_SRC =   components/ejp-core.owl
+OTHER_SRC =   components/ejp-core.owl components/iao.owl components/ncit.owl components/obi.owl components/obib.owl components/efo.owl components/omiabis.owl components/hp.owl components/foaf.owl components/ordo.owl components/duo.owl components/edam.owl
 
 
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
@@ -255,6 +255,28 @@ imports/%_import.json: imports/%_import.owl
 components/%: .FORCE
 	touch $@
 .PRECIOUS: components/%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

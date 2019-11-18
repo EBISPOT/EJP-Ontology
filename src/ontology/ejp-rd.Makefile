@@ -34,21 +34,6 @@ prepare_components:
 components/%_seed_extract.sparql: seed.txt
 	sh  ../scripts/generate_sparql_subclass_query.sh  seed.txt $@
 
-
-
-
-mirror/ncit.owl:
-	$(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/ncit/download -o $@.tmp.owl && mv $@.tmp.owl $@
-.PRECIOUS: mirror/ncit.owl
-
-
-imports/ncit_import.owl: mirror/ncit.owl imports/ncit_terms_combined.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/ncit_terms_combined.txt --force true --method BOT \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: imports/ncit_import.owl
-
-
-
 mirror/omiabis.owl:
 	$(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/omiabis/download -o $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: mirror/omiabis.owl
@@ -58,8 +43,6 @@ imports/omiabis_import.owl: mirror/omiabis.owl imports/omiabis_terms_combined.tx
 	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/omiabis_terms_combined.txt --force true --method BOT \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/omiabis_import.owl
-
-
 
 
 components/%_simple_seed.txt: imports/%_import.owl components/%_seed_extract.sparql seed.txt
@@ -75,19 +58,6 @@ components/%.owl: imports/%_import.owl components/%_simple_seed.txt $(EJP-RD_KEE
 		filter --term-file components/$*_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: components/%.owl
-
-
-
-components/ncit.owl: imports/ncit_import.owl components/ncit_simple_seed.txt $(EJP-RD_KEEPRELATIONS)
-	$(ROBOT) merge --input $<  \
-		reason --reasoner ELK  \
-		remove --axioms disjoint --trim false --preserve-structure false \
-		remove --term-file $(EJP-RD_KEEPRELATIONS) --select complement --select object-properties --trim true \
-		relax \
-		filter --term-file components/ncit_simple_seed.txt --select "annotations ontology anonymous self" --trim true --signature true \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-.PRECIOUS: components/ncit.owl
-
 
 
 

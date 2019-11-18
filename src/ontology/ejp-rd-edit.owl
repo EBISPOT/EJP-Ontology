@@ -39,7 +39,7 @@ Annotation(dce:title "European Joint Programme (EJP) for Rare Disease,")
 Annotation(dcterms:license "Unspecified")
 Annotation(dce:description "None")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/EJP-RD_00000000>))
+Declaration(Class(<http://purl.org/ejp-rd/vocabulary/entity>))
 
 
 ############################

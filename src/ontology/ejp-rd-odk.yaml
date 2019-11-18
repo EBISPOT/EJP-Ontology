@@ -32,4 +32,15 @@ subset_group:
 components:
   products:
     - filename: ejp-core.owl
+    - filename: iao.owl
+    - filename: ncit.owl
+    - filename: obi.owl
+    - filename: obib.owl
+    - filename: efo.owl
+    - filename: omiabis.owl
+    - filename: hp.owl
+    - filename: foaf.owl
+    - filename: ordo.owl
+    - filename: duo.owl
+    - filename: edam.owl
 robot_java_args: '-Xmx10G'
