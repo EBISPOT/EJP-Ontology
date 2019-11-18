@@ -12,7 +12,7 @@ HP:0000001,EJP-RD:entity
 NCIT:C17828,EJP-RD:entity
 Orphanet:C001,EJP-RD:entity
 NCIT:C20181,EJP-RD:entity
-data_0006,EJP-RD:entity
-NCIT_C7057,EJP-RD:entity
+DATA:0006,EJP-RD:entity
+NCIT:C7057,EJP-RD:entity
 EFO:0000001,EJP-RD:entity
-data_0006,EJP-RD:entity
+TOPIC:0003,EJP-RD:entity
