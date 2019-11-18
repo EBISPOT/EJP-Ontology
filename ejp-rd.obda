@@ -1,0 +1,24 @@
+[PrefixDeclaration]
+:		http://purl.obolibrary.org/obo/ejp-rd.owl#
+dc:		http://purl.org/dc/elements/1.1/
+efo:		http://www.ebi.ac.uk/efo/
+obo:		http://purl.obolibrary.org/obo/
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+dcat:		http://www.w3.org/ns/dcat#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+skos:		http://www.w3.org/2004/02/skos/core#
+mondo:		http://purl.obolibrary.org/obo/mondo#
+terms:		http://purl.org/dc/terms/
+schema:		http://schema.org/
+ejp-core:	http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl#
+oboInOwl:	http://www.geneontology.org/formats/oboInOwl#
+patterns:	http://www.co-ode.org/patterns#
+vocabulary:	http://purl.org/ejp-rd/vocabulary/
+edamontology:	http://edamontology.org/
+
+[MappingDeclaration] @collection [[
+]]
+

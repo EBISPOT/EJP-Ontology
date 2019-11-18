@@ -1,53 +1,47 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/ejp-rd.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ejp-rd.owl>
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ncit.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obi.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obib.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/efo.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/omiabis.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/hp.owl>)
-
-Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ordo.owl>)
-
 Import(<http://purl.obolibrary.org/obo/ejp-rd/components/duo.owl>)
-
 Import(<http://purl.obolibrary.org/obo/ejp-rd/components/edam.owl>)
-
-
-
-Annotation(dce:title "European Joint Programme (EJP) for Rare Disease,")
-Annotation(dcterms:license "Unspecified")
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/efo.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/hp.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/iao.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ncit.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obi.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/obib.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/omiabis.owl>)
+Import(<http://purl.obolibrary.org/obo/ejp-rd/components/ordo.owl>)
+Annotation(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl#format-version> "1.0"^^xsd:decimal)
+Annotation(dce:creator "Olamidipupo AJigboye"^^xsd:string)
 Annotation(dce:description "None")
+Annotation(dce:rights "Copyright [2019] EMBL - European Bioinformatics Institute 
+Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the 
+License."^^xsd:string)
+Annotation(dce:title "European Joint Programme (EJP) for Rare Disease,")
+Annotation(dcterms:license "www.apache.org/licenses/LICENSE-2.0"^^xsd:string)
 
 Declaration(Class(<http://purl.org/ejp-rd/vocabulary/entity>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl#format-version>))
+Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:title))
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.org/ejp-rd/vocabulary/entity>
+# Class: <http://purl.org/ejp-rd/vocabulary/entity> (EJP-RD)
 
 AnnotationAssertion(rdfs:label <http://purl.org/ejp-rd/vocabulary/entity> "EJP-RD"@en)
+
 
 )
