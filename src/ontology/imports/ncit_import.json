@@ -8555,13 +8555,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C17187"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C150737",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCIT_C28398"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C20821",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C19254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C150737",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C28398"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C36291",
       "pred" : "is_a",
@@ -8735,13 +8735,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25709"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C96583",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCIT_C111286"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C96573",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71387"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C96583",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C111286"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C71388",
       "pred" : "is_a",
@@ -8868,7 +8868,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-15/imports/ncit_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/imports/ncit_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

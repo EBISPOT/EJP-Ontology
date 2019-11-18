@@ -16,7 +16,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "Unspecified"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-04/ejp-rd-full.json"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/ejp-rd-full.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

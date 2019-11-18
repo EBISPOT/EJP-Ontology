@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ejp-rd.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-04/ejp-rd.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/ejp-rd.owl"/>
         <dc:description>None</dc:description>
         <dc:title>European Joint Programme (EJP) for Rare Disease,</dc:title>
         <terms:license>Unspecified</terms:license>

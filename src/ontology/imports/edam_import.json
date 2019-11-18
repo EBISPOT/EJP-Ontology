@@ -1044,7 +1044,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-15/imports/edam_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/imports/edam_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
