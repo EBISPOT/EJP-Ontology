@@ -41,9 +41,21 @@ Declaration(Class(:European_Rare_Kidney_Disease_Registry))
 Declaration(Class(:European_Rare_Vascular_Anomalies_Registry))
 Declaration(Class(:European_Registry_for_Rare_Endocrine_Conditions))
 Declaration(Class(:European_registry_for_congenital_hyperinsulinsm))
+Declaration(Class(:French_Pulmonary_Hypertension_Registry))
+Declaration(Class(:International_Network_on_Neurotransmitter_related_Disorders_Registry))
+Declaration(Class(:JRC_Central_Authority))
+Declaration(Class(:NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease))
+Declaration(Class(:National_Congenital_Anomaly_and_Rare_Disease_Registration_Service))
+Declaration(Class(:PCD_Registry))
+Declaration(Class(:Paediatric_Transplantation_European_Registry))
+Declaration(Class(:Pharmachild))
 Declaration(Class(:Radboud_Biobank))
+Declaration(Class(:Rare_Anaemia_Disorders_European_Epidemiological_Platform))
 Declaration(Class(:Rare_Kidney_Disease_Biobank))
+Declaration(Class(:Registry_of_Multiple_Osteochondromas))
+Declaration(Class(:Registry_of_Ollier_Disease_and_Maffucci_Syndrome))
 Declaration(Class(:Spñanish_National_Rare_Diseases_Biobank))
+Declaration(Class(<http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos>))
 Declaration(Class(<http://purl.org/ejp-rd/vocabulary/entity>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl#format-version>))
 Declaration(AnnotationProperty(dce:description))
@@ -137,11 +149,82 @@ AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :Europe
 AnnotationAssertion(rdfs:label :European_registry_for_congenital_hyperinsulinsm "European registry for congenital hyperinsulinsm")
 SubClassOf(:European_registry_for_congenital_hyperinsulinsm <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
 
+# Class: :French_Pulmonary_Hypertension_Registry (French Pulmonary Hypertension Registry)
+
+AnnotationAssertion(dce:creator :French_Pulmonary_Hypertension_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :French_Pulmonary_Hypertension_Registry "Prospective registry of consecutive patients with different forms of pulmonary hypertension followed in the centers belonging to the French pulmonary hypertension network")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :French_Pulmonary_Hypertension_Registry "FPHR")
+AnnotationAssertion(rdfs:label :French_Pulmonary_Hypertension_Registry "French Pulmonary Hypertension Registry")
+SubClassOf(:French_Pulmonary_Hypertension_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :International_Network_on_Neurotransmitter_related_Disorders_Registry (International Network on Neurotransmitter related Disorders Registry)
+
+AnnotationAssertion(dce:creator :International_Network_on_Neurotransmitter_related_Disorders_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :International_Network_on_Neurotransmitter_related_Disorders_Registry "This register enables detailed analysis of the natural courses of the disease, the diagnostic approaches and the current therapy strategies as well as the quality of life of the affected patients. Besides the extension of the knowledge of these diseases the evaluation of the patient register should contribute to a better treatment and long term diagnosis of the patients.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :International_Network_on_Neurotransmitter_related_Disorders_Registry "INTD")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :International_Network_on_Neurotransmitter_related_Disorders_Registry "iNTD")
+AnnotationAssertion(rdfs:label :International_Network_on_Neurotransmitter_related_Disorders_Registry "International Network on Neurotransmitter related Disorders Registry")
+SubClassOf(:International_Network_on_Neurotransmitter_related_Disorders_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :JRC_Central_Authority (JRC Central Authority)
+
+AnnotationAssertion(dce:creator :JRC_Central_Authority "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :JRC_Central_Authority "JRC")
+AnnotationAssertion(rdfs:label :JRC_Central_Authority "JRC Central Authority")
+SubClassOf(:JRC_Central_Authority <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease (Network For Early Onset Cystic Kidney Disease)
+
+AnnotationAssertion(dce:creator :NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease "NEOCYST is a multicenter, interdisciplinary network of clinicians and scientists exploring early onset cystic kidney disease. High phenotypical and genetic variability and overlapping clinical symptoms complicate early diagnosis and individual prognosis of expected disease course. Goals of NEOCYST are to increase the knowledge on epidemiology, phenotypical spectrum and underlying genetic and pathophysiological mechanisms. We aim to improve clinical management and counselling of patients.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease "NEOCYST")
+AnnotationAssertion(rdfs:label :NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease "Network For Early Onset Cystic Kidney Disease")
+SubClassOf(:NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :National_Congenital_Anomaly_and_Rare_Disease_Registration_Service (National Congenital Anomaly and Rare Disease Registration Service)
+
+AnnotationAssertion(dce:creator :National_Congenital_Anomaly_and_Rare_Disease_Registration_Service "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :National_Congenital_Anomaly_and_Rare_Disease_Registration_Service "The National Congenital Anomaly and Rare Disease Registration Service (NCARDRS) records those people with congenital abnormalities and rare diseases across the whole of England. NCARDRS is a service to support clinicians and patients, service delivery, commissioning and public health.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :National_Congenital_Anomaly_and_Rare_Disease_Registration_Service "NCARDRS")
+AnnotationAssertion(rdfs:label :National_Congenital_Anomaly_and_Rare_Disease_Registration_Service "National Congenital Anomaly and Rare Disease Registration Service")
+SubClassOf(:National_Congenital_Anomaly_and_Rare_Disease_Registration_Service <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :PCD_Registry (PCD Registry)
+
+AnnotationAssertion(dce:creator :PCD_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :PCD_Registry "Primary Ciliary Dyskinesia (PCD) is a rare disorder of mucociliary clearance caused by defective hair like organelles (cilia). The purpose of the PCD Registry is to measure, survey and compare different aspects of PCD manifestation, course and treatment, to provide data for epidemiological research and to identify special patient groups suitable for multi-centre trials.")
+AnnotationAssertion(rdfs:label :PCD_Registry "PCD Registry")
+SubClassOf(:PCD_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :Paediatric_Transplantation_European_Registry (Paediatric Transplantation European Registry)
+
+AnnotationAssertion(dce:creator :Paediatric_Transplantation_European_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :Paediatric_Transplantation_European_Registry "Paediatric Transplantation European Registry")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :Paediatric_Transplantation_European_Registry "PETER")
+AnnotationAssertion(rdfs:label :Paediatric_Transplantation_European_Registry "Paediatric Transplantation European Registry")
+SubClassOf(:Paediatric_Transplantation_European_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :Pharmachild (Pharmachild)
+
+AnnotationAssertion(dce:creator :Pharmachild "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :Pharmachild "Pharmacovigilance in Juvenile Idiopathic Arthritis patients (pharmachild) treated with biologic agents and/or methotrexate. A pediatric rheumatology international trials organisation (printo)/pediatric rheumatology European society (PRES) registry")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :Pharmachild "Pharmachild")
+AnnotationAssertion(rdfs:label :Pharmachild "Pharmachild")
+SubClassOf(:Pharmachild <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
 # Class: :Radboud_Biobank (Radboud Biobank)
 
 AnnotationAssertion(dce:creator :Radboud_Biobank "Olamidipupo Ajigboye"^^xsd:string)
 AnnotationAssertion(rdfs:label :Radboud_Biobank "Radboud Biobank")
 SubClassOf(:Radboud_Biobank <http://purl.obolibrary.org/obo/OMIABIS_0000000>)
+
+# Class: :Rare_Anaemia_Disorders_European_Epidemiological_Platform (Rare Anaemia Disorders European Epidemiological Platform)
+
+AnnotationAssertion(dce:creator :Rare_Anaemia_Disorders_European_Epidemiological_Platform "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :Rare_Anaemia_Disorders_European_Epidemiological_Platform "RADeep is a joint venture conceived in the core of ERN-EuroBloodNet, the European reference network for rare haematological disorders, as an umbrella for both new and already existing European patients’ registries in rare anaemias (RAs). RADeep’s Principle is to maximize public benefit from data on RAs opened-up through the platform with the only restriction needed to guarantee patient’s rights and confidentially in agreement with EU regulations for cross-border sharing of clinical data.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :Rare_Anaemia_Disorders_European_Epidemiological_Platform "RADeep")
+AnnotationAssertion(rdfs:label :Rare_Anaemia_Disorders_European_Epidemiological_Platform "Rare Anaemia Disorders European Epidemiological Platform")
+SubClassOf(:Rare_Anaemia_Disorders_European_Epidemiological_Platform <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
 
 # Class: :Rare_Kidney_Disease_Biobank (Rare Kidney Disease Biobank)
 
@@ -149,11 +232,38 @@ AnnotationAssertion(dce:creator :Rare_Kidney_Disease_Biobank "Olamidipupo Ajigbo
 AnnotationAssertion(rdfs:label :Rare_Kidney_Disease_Biobank "Rare Kidney Disease Biobank")
 SubClassOf(:Rare_Kidney_Disease_Biobank <http://purl.obolibrary.org/obo/OMIABIS_0000000>)
 
+# Class: :Registry_of_Multiple_Osteochondromas (Registry of Multiple Osteochondromas)
+
+AnnotationAssertion(dce:creator :Registry_of_Multiple_Osteochondromas "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :Registry_of_Multiple_Osteochondromas "The REM aims to register clinical, genetic and genealogical data of patients affected by Multiple Osteochondromas (MO). Data are collected following GDPR requirements and according ORDO, HPO and HGVS ontologies to facilitate interoperability. The collected information will contribute to reduce time for diagnosis, to personalize the treatments and to increase knowledge on MO.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :Registry_of_Multiple_Osteochondromas "REM")
+AnnotationAssertion(rdfs:label :Registry_of_Multiple_Osteochondromas "Registro delle Esostosi Multiple"@es)
+AnnotationAssertion(rdfs:label :Registry_of_Multiple_Osteochondromas "Registry of Multiple Osteochondromas"@en)
+SubClassOf(:Registry_of_Multiple_Osteochondromas <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :Registry_of_Ollier_Disease_and_Maffucci_Syndrome (Registro della Malattia di Ollier e della Sindrome di Maffucci)
+
+AnnotationAssertion(dce:creator :Registry_of_Ollier_Disease_and_Maffucci_Syndrome "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dcterms:description :Registry_of_Ollier_Disease_and_Maffucci_Syndrome "The ROM aims to register clinical, genetic and genealogical data of patients affected by Ollier Disease and Maffucci Syndrome. Data are collected following GDPR requirements and according ORDO, HPO and HGVS ontologies to facilitate interoperability. The collected information will contribute to reduce time for diagnosis, to personalize the treatments and to increase knowledge on Ollier Disease and Maffucci Syndrome.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :Registry_of_Ollier_Disease_and_Maffucci_Syndrome "ROM")
+AnnotationAssertion(rdfs:label :Registry_of_Ollier_Disease_and_Maffucci_Syndrome "Registro della Malattia di Ollier e della Sindrome di Maffucci"@es)
+AnnotationAssertion(rdfs:label :Registry_of_Ollier_Disease_and_Maffucci_Syndrome "Registry of Ollier Disease and Maffucci Syndrome"@en)
+SubClassOf(:Registry_of_Ollier_Disease_and_Maffucci_Syndrome <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
 # Class: :Spñanish_National_Rare_Diseases_Biobank (Spñanish National Rare Diseases Biobank)
 
 AnnotationAssertion(dce:creator :Spñanish_National_Rare_Diseases_Biobank "Olamidipupo Ajigboye"^^xsd:string)
 AnnotationAssertion(rdfs:label :Spñanish_National_Rare_Diseases_Biobank "Spñanish National Rare Diseases Biobank")
 SubClassOf(:Spñanish_National_Rare_Diseases_Biobank <http://purl.obolibrary.org/obo/OMIABIS_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos> (Registro della Sindrome di Ehlers-Danlos)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos> "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos> "The RED aims to register clinical, genetic and genealogical data of patients affected by Ehlers-Danlos Syndrome (EDS). Data are collected following GDPR requirements and according ORDO, HPO and HGVS ontologies to facilitate interoperability. The collected information will contribute to reduce time for diagnosis, to personalize the treatments and to increase knowledge on EDS.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> <http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos> "RED")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos> "Registro della Sindrome di Ehlers-Danlos"@es)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos> "Registry of Ehlers-Danlos Syndrome"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos> <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
 
 # Class: <http://purl.org/ejp-rd/vocabulary/entity> (EJP-RD)
 
