@@ -1,4 +1,4 @@
-![schema](ejp.jpg)
+![schema](ejp.jpg) https://github.com/EBISPOT/EJP-Ontology/blob/master/docs/ejp.jpg
 # EJP-RD Ontology
 
 The EJP-RD Ontology (EJPO) provides a systematic description of many registries and their data elements used in cataloguing rare-diseases.
