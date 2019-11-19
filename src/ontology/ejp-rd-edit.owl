@@ -4,6 +4,7 @@ Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(obda:=<https://w3id.org/obda/vocabulary#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
@@ -29,6 +30,20 @@ License."^^xsd:string)
 Annotation(dce:title "European Joint Programme (EJP) for Rare Disease,")
 Annotation(dcterms:license "www.apache.org/licenses/LICENSE-2.0"^^xsd:string)
 
+Declaration(Class(:BIOGEN_Biobank))
+Declaration(Class(:Banque_Nationale_de_Données_Maladies_Rares))
+Declaration(Class(:ESID))
+Declaration(Class(:EUROCAT_Central_Registry))
+Declaration(Class(:EpiCARE))
+Declaration(Class(:EuroBloodNet_Registry))
+Declaration(Class(:Eurocat_Northern_Netherlands))
+Declaration(Class(:European_Rare_Kidney_Disease_Registry))
+Declaration(Class(:European_Rare_Vascular_Anomalies_Registry))
+Declaration(Class(:European_Registry_for_Rare_Endocrine_Conditions))
+Declaration(Class(:European_registry_for_congenital_hyperinsulinsm))
+Declaration(Class(:Radboud_Biobank))
+Declaration(Class(:Rare_Kidney_Disease_Biobank))
+Declaration(Class(:Spñanish_National_Rare_Diseases_Biobank))
 Declaration(Class(<http://purl.org/ejp-rd/vocabulary/entity>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ejp-rd/components/ejp-core.owl#format-version>))
 Declaration(AnnotationProperty(dce:description))
@@ -38,6 +53,107 @@ Declaration(AnnotationProperty(dce:title))
 ############################
 #   Classes
 ############################
+
+# Class: :BIOGEN_Biobank (BIOGEN Biobank)
+
+AnnotationAssertion(dce:creator :BIOGEN_Biobank "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(rdfs:label :BIOGEN_Biobank "BIOGEN Biobank")
+SubClassOf(:BIOGEN_Biobank <http://purl.obolibrary.org/obo/OMIABIS_0000000>)
+
+# Class: :Banque_Nationale_de_Données_Maladies_Rares (Banque Nationale de Données Maladies Rares)
+
+AnnotationAssertion(dce:creator :Banque_Nationale_de_Données_Maladies_Rares "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :Banque_Nationale_de_Données_Maladies_Rares "The French National Registry for Rare Diseases is a national tool for epidemiology and public health purposes in the field of rare diseases (RD). The data collection is mandatory for all the Rare Disease expert centers at the national level. A minimum data set (MDS) of about 60 items is collected for all the rare disease expert centers patients. This MDS strongly inspired the Common Data Elements (CDE) promoted by the EUCERD, and later by the JRC, which will greatly facilitate interoperability.")
+AnnotationAssertion(<http://www.ebi.ac.uk/efo/alternative_term> :Banque_Nationale_de_Données_Maladies_Rares "BNDMR")
+AnnotationAssertion(rdfs:label :Banque_Nationale_de_Données_Maladies_Rares "Banque Nationale de Données Maladies Rares")
+SubClassOf(:Banque_Nationale_de_Données_Maladies_Rares <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :ESID (ESID)
+
+AnnotationAssertion(dce:creator :ESID "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :ESID "Registry developed for ERN-EuroBloodNet aiming to monitor members' activity in terms of number of patients and engage clinical and basic research by the identification of trials cohorts.")
+AnnotationAssertion(rdfs:label :ESID "ESID")
+SubClassOf(:ESID <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :EUROCAT_Central_Registry (EUROCAT Central Registry)
+
+AnnotationAssertion(dce:creator :EUROCAT_Central_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :EUROCAT_Central_Registry "The Central Registry of EUROCAT collects 96 variables from the member registries. At local level the registries can collect additional variables")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :EUROCAT_Central_Registry "EUROCAT CR")
+AnnotationAssertion(rdfs:label :EUROCAT_Central_Registry "EUROCAT Central Registry")
+SubClassOf(:EUROCAT_Central_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :EpiCARE (EpiCARE)
+
+AnnotationAssertion(dce:creator :EpiCARE "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :EpiCARE "Redcap Registry is aimed to locate patients with Rare and complex epilepsies across 28 EpiCARE Centres")
+AnnotationAssertion(rdfs:label :EpiCARE "EpiCARE")
+SubClassOf(:EpiCARE <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :EuroBloodNet_Registry (EuroBloodNet Registry)
+
+AnnotationAssertion(dce:creator :EuroBloodNet_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :EuroBloodNet_Registry "Registry developed for ERN-EuroBloodNet aiming to monitor members' activity in terms of number of patients and engage clinical and basic research by the identification of trials cohorts.")
+AnnotationAssertion(rdfs:label :EuroBloodNet_Registry "EuroBloodNet Registry")
+SubClassOf(:EuroBloodNet_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :Eurocat_Northern_Netherlands (Eurocat Northern Netherlands)
+
+AnnotationAssertion(dce:creator :Eurocat_Northern_Netherlands "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :Eurocat_Northern_Netherlands "Eurocat Northern Netherlands is a population-based congenital anomaly registrry covering the northern provinces of the Netherlands ((approximately 10% of all births in the Netherlands). Cases are identified by active case ascertainment, using multiple sources and are registered in the database after parental consent. Besides monitoring of prevalence of congenital anomalies, research focuses on risk factors for congenital anomalies, morbidity and mortality and prenatal screening/diagnosis.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :Eurocat_Northern_Netherlands "Eurocat NNL")
+AnnotationAssertion(rdfs:label :Eurocat_Northern_Netherlands "Eurocat Northern Netherlands")
+SubClassOf(:Eurocat_Northern_Netherlands <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :European_Rare_Kidney_Disease_Registry (European Rare Kidney Disease Registry)
+
+AnnotationAssertion(dce:creator :European_Rare_Kidney_Disease_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :European_Rare_Kidney_Disease_Registry "In ERK-Reg members and partners of the European Rare Kidney Disease Registry (ERKNet) collect information from patients with rare kidney diseases. Data collection serves two main purposes: (i) to identify patient cohorts with defined rare kidney disorders for clinical research, and (ii) to monitor a set of disease group specific key performance and outcome indicators. The registry provides automated center statistics and benchmarking facilities.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :European_Rare_Kidney_Disease_Registry "ERK-Reg")
+AnnotationAssertion(rdfs:label :European_Rare_Kidney_Disease_Registry "European Rare Kidney Disease Registry")
+SubClassOf(:European_Rare_Kidney_Disease_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :European_Rare_Vascular_Anomalies_Registry (European Rare Vascular Anomalies Registry)
+
+AnnotationAssertion(dce:creator :European_Rare_Vascular_Anomalies_Registry "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :European_Rare_Vascular_Anomalies_Registry "The VASCA registry is the registry for Rare Vascular Anomalies, in the scope of VASCERN. It is conceptualized as a working group chaired by Pr. Laurence BOON and Pr. Miikka VIKKULA, Centre for Vascular Anomalies (FR / EN), Cliniques Universitaires Saint-Luc, Brussels, Belgium. And it is co-chaired by Pr. Leo J. SCHULTZE KOOL, Radboudumc Expert Center for Hemangioma and Vascular Anomalies (HECOVAN), Nijmegen, Netherlands.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :European_Rare_Vascular_Anomalies_Registry "VASCA")
+AnnotationAssertion(rdfs:label :European_Rare_Vascular_Anomalies_Registry "European Rare Vascular Anomalies Registry")
+SubClassOf(:European_Rare_Vascular_Anomalies_Registry <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :European_Registry_for_Rare_Endocrine_Conditions (European Registry for Rare Endocrine Conditions)
+
+AnnotationAssertion(dce:creator :European_Registry_for_Rare_Endocrine_Conditions "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :European_Registry_for_Rare_Endocrine_Conditions "To register core data of rare endocrine conditions covered by Endo-ERN")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :European_Registry_for_Rare_Endocrine_Conditions "EuRRECa")
+AnnotationAssertion(rdfs:label :European_Registry_for_Rare_Endocrine_Conditions "European Registry for Rare Endocrine Conditions")
+SubClassOf(:European_Registry_for_Rare_Endocrine_Conditions <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :European_registry_for_congenital_hyperinsulinsm (European registry for congenital hyperinsulinsm)
+
+AnnotationAssertion(dce:creator :European_registry_for_congenital_hyperinsulinsm "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(dce:description :European_registry_for_congenital_hyperinsulinsm "Congenital hyperinsulinism (CHI) is a devastating medical condition characterised by marked clinical, histological and genetic heterogeneity. Treatment depends on results of genetic and localization diagnosis for limited surgery but in diffuse histology on drugs and frequent feeding. Several drugs (incl. repurposed) had been tested with limited success. The outcome in diffuse type is still unsatisfactory, with the risk of diabetes mellitus and hypoglycaemic brain damage.")
+AnnotationAssertion(<http://purl.org/ejp-rd/vocabulary/alternative_term> :European_registry_for_congenital_hyperinsulinsm "EuroCHI")
+AnnotationAssertion(rdfs:label :European_registry_for_congenital_hyperinsulinsm "European registry for congenital hyperinsulinsm")
+SubClassOf(:European_registry_for_congenital_hyperinsulinsm <http://purl.org/ejp-rd/vocabulary/EJPCatalogOfRegistries>)
+
+# Class: :Radboud_Biobank (Radboud Biobank)
+
+AnnotationAssertion(dce:creator :Radboud_Biobank "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(rdfs:label :Radboud_Biobank "Radboud Biobank")
+SubClassOf(:Radboud_Biobank <http://purl.obolibrary.org/obo/OMIABIS_0000000>)
+
+# Class: :Rare_Kidney_Disease_Biobank (Rare Kidney Disease Biobank)
+
+AnnotationAssertion(dce:creator :Rare_Kidney_Disease_Biobank "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(rdfs:label :Rare_Kidney_Disease_Biobank "Rare Kidney Disease Biobank")
+SubClassOf(:Rare_Kidney_Disease_Biobank <http://purl.obolibrary.org/obo/OMIABIS_0000000>)
+
+# Class: :Spñanish_National_Rare_Diseases_Biobank (Spñanish National Rare Diseases Biobank)
+
+AnnotationAssertion(dce:creator :Spñanish_National_Rare_Diseases_Biobank "Olamidipupo Ajigboye"^^xsd:string)
+AnnotationAssertion(rdfs:label :Spñanish_National_Rare_Diseases_Biobank "Spñanish National Rare Diseases Biobank")
+SubClassOf(:Spñanish_National_Rare_Diseases_Biobank <http://purl.obolibrary.org/obo/OMIABIS_0000000>)
 
 # Class: <http://purl.org/ejp-rd/vocabulary/entity> (EJP-RD)
 

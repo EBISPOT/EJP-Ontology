@@ -1,3 +1,17 @@
 Level	Rule Name	Subject	Property	Value
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#BIOGEN_Biobank	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#Banque_Nationale_de_Données_Maladies_Rares	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#ESID	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#EUROCAT_Central_Registry	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#EpiCARE	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#EuroBloodNet_Registry	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#Eurocat_Northern_Netherlands	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#European_Rare_Kidney_Disease_Registry	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#European_Rare_Vascular_Anomalies_Registry	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#European_Registry_for_Rare_Endocrine_Conditions	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#European_registry_for_congenital_hyperinsulinsm	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#Radboud_Biobank	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#Rare_Kidney_Disease_Biobank	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ejp-rd.owl#Spñanish_National_Rare_Diseases_Biobank	IAO:0000115		
 WARN	missing_definition	http://purl.org/ejp-rd/vocabulary/entity	IAO:0000115		
 INFO	missing_superclass	http://purl.org/ejp-rd/vocabulary/entity	rdfs:subClassOf		
