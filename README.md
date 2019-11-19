@@ -3,7 +3,8 @@
 
 # European Joint Programme (EJP) for Rare Disease,
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology is designed to support data search, retrieval and information identification in the EJP-RD catalogs which covers the registries and biobanks for rare diseases.
+
 
 More information can be found at https://github.com/EBISPOT/EJP-Ontology/tree/master/docs
 
@@ -15,11 +16,10 @@ The latest version of the ontology can always be found at:
 
 https://github.com/EBISPOT/EJP-Ontology/releases/tag/11-11-2019
 
-(note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/ejp-rd-edit.owl](src/ontology/ejp-rd-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/ejp-rd-edit.owl](src/ontology/ejp-rd-edit.owl) or see the notes for how to add new terms to the ontology-https://github.com/EBISPOT/EJP-Ontology/blob/master/docs/Adding_new_terms.md
 
 ## Contact
 
