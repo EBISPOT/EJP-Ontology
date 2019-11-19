@@ -14,8 +14,7 @@ More information can be found at https://github.com/EBISPOT/EJP-Ontology/tree/ma
 ### Stable release versions
 
 The latest version of the ontology can always be found at:
-
-https://github.com/EBISPOT/EJP-Ontology/releases/tag/11-11-2019
+https://github.com/EBISPOT/EJP-Ontology/releases/tag/19-11-2019
 
 
 ### Editors' version
