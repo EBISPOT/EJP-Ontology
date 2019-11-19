@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/EBISPOT/EJP-Ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/EJP-Ontology)
 [![DOI](https://zenodo.org/badge/13996/EBISPOT/EJP-Ontology.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/EJP-Ontology)
 
-![schema](ejp.jpg)
+![schema]( https://github.com/EBISPOT/EJP-Ontology/blob/master/docs/ejp.jpg)
 # European Joint Programme (EJP) for Rare Disease,
 
 This ontology is designed to support data search, retrieval and information identification in the EJP-RD catalogs which covers the registries and biobanks for rare diseases.
