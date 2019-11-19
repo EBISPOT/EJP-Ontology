@@ -1,1 +1,1 @@
-![Workflow](workflow.png)
+![Workflow](Workflow.png)
