@@ -1,10 +1,6 @@
 # Adding new terms to EJP-RD
 ```
 ```
-### Adding Terms to the Import Files
-
-# Creating a New Ontology Term
-
 1. Navigate to the EJP-Ontology/src/ontology folder and open the ejp-rd-edit.owl file in protege 
 
 2. To create a new term, the 'Asserted view' must be active (not the 'Inferred view').
