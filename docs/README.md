@@ -16,8 +16,8 @@ It combines parts of several biological ontologies, such as NCIT, OMIT, OMIABIS,
 - [The GNU makefile work flow](GNUmakefile.md) - `The Makefile work flow`
 
 - [Documentations on: ](documentations.md) -  `How to work with EJP-RD Ontology`
-  - [1. How to add terms to the EJP-Ontology ontology](Adding_new_terms.md) - `Adding new terms to EJP-RD Ontology`
-  - [2. How to add a new ontology to the EJP-Ontology ontology](Adding_new_ontology.md) - `Adding new ontology to EJP-Ontology`
+  - [1. How to add terms to the EJP-Ontology ](Adding_new_terms.md) - `Adding new terms to EJP-RD Ontology`
+  - [2. How to add a new ontology to the EJP-Ontology ](Adding_new_ontology.md) - `Adding new ontology to EJP-Ontology`
   - [3. General background: How did we create the EJP-Ontology?](background_info.md) - `How to create EJP-Ontology ontology`
   - [4. Decisions made](decisions.md) - `Decisions`
 
