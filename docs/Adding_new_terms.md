@@ -3,34 +3,49 @@
 ```
 ### Adding Terms to the Import Files
 
-Terms are imported to EJP-RD from other ontologies, but not all terms from external ontologies are imported. Occasionally, you will find that a valid identifier exists in an external ontology, but the identifier is not available in Protege because that term is not yet imported. To import a term from an external ontology:
+# Creating a New Ontology Term
 
-1. Gitclone the repository on your local machine, and navigate to the clone repository of EJP-Ontology i.e from the command line run - git clone https://github.com/EBISPOT/EJP-Ontology.git	
+1. Navigate to the EJP-Ontology/src/ontology folder and open the ejp-rd-edit.owl file in protege 
 
-2. Navigate to the ontology folder in the EJP-Ontology folder 
+2. To create a new term, the 'Asserted view' must be active (not the 'Inferred view').
 
-3. Open the ejp-rd-odk.yaml file with any text editor e.g. Atom or Sublime
+2. In the Class hierarchy window, click on the 'Add subclass' button at the upper left of the window.
 
-4. Add the new ontology's prefix after line 28 of the import_group section i.e. at end of line 28 hit enter to go line 29 e.g. if you want to add a new ontology called uberon : add the following and hit enter  : 
-	-id: uberon 
-5. In line 30 enter the url for the ontology download e.g. for the uberon ontology - 
-	mirror_from: https://www.ebi.ac.uk/ols/ontologies/uberon/download
+3. A pop-up window will appear asking you to enter the Name of the new term. When you enter the term name, you will see your ID automatically populate the IRI box. Once you have entered the term, click 'OK' to save the new term. You will see it appear in the class hierarchy.
 
-6. In the components section go to the end of the line which in this case will be line 47 and hit enter to go to line 48, and type the following : 
-	-filename: uberon.owl  (put the name of your desired ontology there instead)
+4. Navigate to the annotation window by clicking on the + icon in front of annotations in the annotation tab section.
+
+5. In the annotation window add:
+
+    1. rdfs:label
+       1. Begin typing the label for the term e.g.:
+               - ```biological_process```
+       2. For Type, select: ```xsd:string```
+
+    2. Definition
+       1. Click on the  ```+``` next to the Definition box
+       2. Add the textual definition in the pop-up box.
+       3. For Type, select: ```Xsd:string```
+       4. Click OK.
+
+     3. Add Definition References
+        1. Click on the circle with the ‘Ref’ in it next to add Definition References and in the resulting pop-up click on the ```+``` to add a new ref, making sure they are properly formatted with a database abbreviation followed by a colon, followed by the text string or ID. Examples: ```GOC:bhm, PMID:27450630```.
+         2. Select Type: ```xsd:string```
+         3. Click OK.
+         4. Add each definition reference separately by clicking on the ```+``` sign.
+
+      4. Add synonyms and dbxrefs following the same procedure if they are required for the term.
+6. If you have created a logical definition for your term, you can delete the asserted ```is_a``` parent in the ‘subclass of’ section. Once you synchronize the reasoner, you will see the automated classification of your new term. If the inferred classification doesn’t make sense, then you will need to modify the logical definition.
+
 	
-7. Save the file and exist. 
+7. In some cases such as ```part_of``` relations based on external partonomies, it might be necessary to assert the ```part_of``` relationships.
 
-8. Go to the terminal and navigate to the ontology-development-kit folder (note: always update your odk first to be sure its up-to-date by running the command  docker pull obolibrary/odkfull) 
+8. Save the file and ___return to your terminal window___. Then, type: ```git status```. This will confirm which file has been modified.
 
-9. Run the command  sh upgrade_ejp-rd.sh 
+9. To see how the branch was modified, type: ```git diff```. In this case, ejp-rd-edit.owl was modified. 
 
-10. Change Directory to the EJP-Ontology/src/ontology folder and open the makefile to confirm the addition of the new ontology to the makefile import statement and mirror trigger section 
+10. Then from the terminal run the command sh run.sh make IMP=false prepare_release -B 
 
-11. The terms from the new ontology must be added to the third column of ejp-rd_seed_tab.tsv in the curation folder (for easy operation , open the file with a spreadsheet application like MS-Excel and add the new terms from the ontology to the terms in the third column at the end of the column safe file and exist). 
+11. Open the ejp-rd.owl in the EJP-ontology folder (note: not the one in the ontology folder) and confirm the change is effected 
 
-12. Go back to the terminal while still in the EJP-Ontology/src/ontology and run the command sh run.sh make MIR=true all_components -B  , this will create all the components
-
-13. Then run the command  
-	
-
+   
