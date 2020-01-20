@@ -24,4 +24,4 @@ It combines parts of several biological ontologies, such as NCIT, OMIT, OMIABIS,
 
 ## Contributing
 
-This is an open community project. You can contribute to the ontology via our [GitHub repository](https://github.com/EBISPOT/EJP-Ontology_ontology) or contact Ola : dipo@ebi.ac.uk
+This is an open community project. You can contribute to the ontology via our [GitHub repository](https://github.com/EBISPOT/EJP-Ontology) or contact Ola : dipo@ebi.ac.uk
