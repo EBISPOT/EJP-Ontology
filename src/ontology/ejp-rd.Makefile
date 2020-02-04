@@ -66,6 +66,37 @@ components/subclasses.owl: ../template/subclass_terms.csv
 components/ejp-core.owl:
 
 
+# Update all modules.
+# NOTE: GNU Make will compare timestamps to see which updates are required.
+MODULE_NAMES := registries\
+	biobanks\
+	disease\
+	person
+MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/ontology/modules/$(x).owl)
+
+.PHONY: modules
+modules: $(MODULE_FILES)
+
+
+### Templates
+#
+# The `src/ontology/templates/` directory contains spreadsheets
+# used to generate OWL files with ROBOT.
+# The first step is to erase any contents of the module OWL file.
+# See https://github.com/ontodev/robot/blob/master/docs/template.md
+src/ontology/modules/%.owl: src/ontology/templates/%.tsv
+	echo '' > $@
+	$(ROBOT) merge \
+	  --input src/ontology/ejp-rd-edit.owl \
+		template \
+		--template $< \
+		annotate \
+		--ontology-iri "$(MODULES)/$(notdir $@)" \
+		--output $@
+
+
+
+
 $(ONT)-full.owl: $(SRC) components/subclasses.owl  ../curation/blacklist.txt
 	$(ROBOT) merge --input $(SRC) -i components/subclasses.owl \
 		remove --axioms equivalent --trim false \
