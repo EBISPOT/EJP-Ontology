@@ -1,0 +1,282 @@
+curie_id,label,mapped_curie,mapped_label,mapping_source_prefix,mapping_target_prefix,distance
+Orphanet:100069,Semantic dementia,HP:0030219,Semantic dementia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:100088,Thyroid carcinoma,HP:0002890,Thyroid carcinoma,"EFO,MONDO,Orphanet,HP,UMLS",HP,2
+Orphanet:101952,Rare diabetes mellitus,HP:0000819,Diabetes mellitus,"Orphanet,HP,UMLS",HP,2
+Orphanet:101952,Rare diabetes mellitus,HP:0005978,Type II diabetes mellitus,"Orphanet,HP,UMLS",HP,2
+Orphanet:101959,Chronic primary adrenal insufficiency,HP:0008207,Primary adrenal insufficiency,"Orphanet,HP,UMLS",HP,2
+Orphanet:104,Leber hereditary optic neuropathy,HP:0001112,Leber optic atrophy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:105,Atresia of urethra,HP:0000068,Urethral atresia,EFO,HP,1
+Orphanet:1063,Tufted angioma,HP:0012329,Tufted angioma,EFO,HP,1
+Orphanet:108997,Rare anemia,HP:0001903,Anemia,"Orphanet,HP,UMLS",HP,2
+Orphanet:112,Bartter syndrome,HP:0001949,Hypokalemic alkalosis,"EFO,HP,UMLS",HP,2
+Orphanet:1125,"Ocular motor apraxia, Cogan type",HP:0000657,Oculomotor apraxia,"EFO,HP,Orphanet",HP,2
+Orphanet:1136,Arnold-Chiari malformation type II,HP:0002308,Arnold-Chiari malformation,"Orphanet,ONTONEO,HP,UMLS",HP,2
+Orphanet:1209,Tricuspid atresia,HP:0010446,Tricuspid stenosis,"Orphanet,HP",HP,2
+Orphanet:1209,Tricuspid atresia,HP:0011662,Tricuspid atresia,"Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:1214,Progressive hemifacial atrophy,HP:0011331,Hemifacial atrophy,"Orphanet,HP,UMLS",HP,2
+Orphanet:124,Blackfan-Diamond anemia,HP:0004810,Congenital hypoplastic anemia,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:1243,Best vitelliform macular dystrophy,HP:0007677,Vitelliform-like macular lesions,"Orphanet,HP",HP,2
+Orphanet:1302,Cryptogenic organizing pneumonia,HP:0011945,Bronchiolitis obliterans organizing pneumonia,"Orphanet,HP,UMLS",HP,2
+Orphanet:1303,Bronchiolitis obliterans with obstructive pulmonary disease,HP:0011946,Bronchiolitis obliterans,"EFO,Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:1334,Chronic mucocutaneous candidosis,HP:0002728,Chronic mucocutaneous candidiasis,EFO,HP,1
+Orphanet:14,Abetalipoproteinemia,HP:0008181,Abetalipoproteinemia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:146,Differentiated thyroid carcinoma,HP:0002895,Papillary thyroid carcinoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:1478,Interauricular communication,HP:0011567,Sinus venosus atrial septal defect,"EFO,HP,Orphanet",HP,2
+Orphanet:1478,Interauricular communication,HP:0001684,Secundum atrial septal defect,"EFO,HP,Orphanet",HP,2
+Orphanet:1478,Interauricular communication,HP:0001655,Patent foramen ovale,"EFO,HP,Orphanet",HP,2
+Orphanet:1478,Interauricular communication,HP:0011643,Coronary sinus atrial septal defect,"EFO,HP,Orphanet",HP,2
+Orphanet:1478,Interauricular communication,HP:0001631,Atria septal defect,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:1501,Adrenocortical carcinoma,HP:0006744,Adrenocortical carcinoma,"EFO,Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:1556,Cutis marmorata telangiectatica congenita,HP:0025107,Cutis marmorata telangiectatica congenita,MONDO,HP,2
+Orphanet:157835,Paroxysmal hemicrania,HP:0012199,Cluster headache,"Orphanet,EFO,HP",HP,2
+Orphanet:163927,Pustulosis palmaris et plantaris,HP:0100847,Palmoplantar pustulosis,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:166119,Isolated osteopoikilosis,HP:0010739,Osteopoikilosis,"Orphanet,HP,UMLS",HP,2
+Orphanet:1675,Dihydropyrimidine dehydrogenase deficiency,HP:0003654,Reduced dihydropyrimidine dehydrogenase activity,"EFO,HP,Orphanet",HP,2
+Orphanet:169139,Transient hypogammaglobulinemia of infancy,HP:0005432,Transient hypogammaglobulinemia of infancy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:178,Chordoma,HP:0010762,Chordoma,EFO,HP,1
+Orphanet:178029,Central diabetes insipidus,HP:0000863,Central diabetes insipidus,"EFO,MONDO,Orphanet,HP,UMLS",HP,2
+Orphanet:18,Distal renal tubular acidosis,HP:0008341,Distal renal tubular acidosis,EFO,HP,1
+Orphanet:181371,Rare diabetes mellitus type 1,HP:0100651,Type I diabetes mellitus,"Orphanet,HP,UMLS",HP,2
+Orphanet:181376,Rare diabetes mellitus type 2,HP:0005978,Type II diabetes mellitus,"Orphanet,HP,UMLS",HP,2
+Orphanet:181405,Rare hypoparathyroidism,HP:0000829,Hypoparathyroidism,"Orphanet,HP,UMLS",HP,2
+Orphanet:181408,Rare hyperparathyroidism,HP:0000843,Hyperparathyroidism,"Orphanet,HP,UMLS",HP,2
+Orphanet:181415,Rare primary hyperaldosteronism,HP:0011736,Primary hyperaldosteronism,"Orphanet,HP,UMLS",HP,2
+Orphanet:182070,Rare neurodegenerative disease,HP:0002180,Neurodegeneration,"Orphanet,HP",HP,2
+Orphanet:182090,Pulmonary arterial hypertension,HP:0002092,Pulmonary hypertension,"Orphanet,HP",HP,2
+Orphanet:183660,Severe combined immunodeficiency,HP:0004430,Severe combined immunodeficiency,EFO,HP,1
+Orphanet:183675,Recurrent infections associated with rare immunoglobulin isotypes deficiency,HP:0004315,IgG deficiency,"Orphanet,HP,UMLS",HP,2
+Orphanet:1848,Bilateral renal agenesis,HP:0010958,Bilateral renal agenesis,"EFO,HP,Orphanet,UMLS",HP,2
+Orphanet:1851,Multicystic dysplastic kidney,HP:0000003,Multicystic kidney dysplasia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:186,Primary biliary cholangitis,HP:0002613,Biliary cirrhosis,"Orphanet,HP",HP,2
+Orphanet:188,Systemic capillary leak syndrome,HP:0030005,Capillary leak,"Orphanet,HP",HP,2
+Orphanet:189,Hidrotic ectodermal dysplasia,HP:0007529,Hidrotic ectodermal dysplasia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:190,Coats disease,HP:0007898,Exudative retinopathy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:1930,Herpetic encephalitis,HP:0012302,Herpes simplex encephalitis,"EFO,HP,Orphanet,UMLS",HP,2
+Orphanet:1942,Myoclonic-astastic epilepsy,HP:0011170,Myoclonic atonic seizures,"Orphanet,HP,UMLS",HP,2
+Orphanet:1980,Bilateral striopallidodentate calcinosis,HP:0002135,Basal ganglia calcification,EFO,HP,1
+Orphanet:199296,Congenital isolated ACTH deficiency,HP:0011748,Adrenocorticotropic hormone deficiency,"EFO,MONDO",HP,2
+Orphanet:206966,Mitochondrial myopathy,HP:0003737,Mitochondrial myopathy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:207,Crouzon disease,HP:0004439,Craniofacial dysostosis,"EFO,HP",HP,2
+Orphanet:2073,Narcolepsy type 1,HP:0030050,Narcolepsy,"Orphanet,HP,UMLS",HP,2
+Orphanet:209,Cutis laxa,HP:0000973,Cutis laxa,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:210122,Congenital alveolar capillary dysplasia,HP:0011726,Persistent fetal circulation,"EFO,HP,UMLS",HP,2
+Orphanet:211237,Rare vascular tumor,HP:0100742,Vascular neoplasm,"Orphanet,HP,UMLS",HP,2
+Orphanet:211252,Rare venous malformation,HP:0012721,Venous malformation,"Orphanet,HP,UMLS",HP,2
+Orphanet:211266,Rare arteriovenous malformation,HP:0100026,Arteriovenous malformation,"Orphanet,HP,UMLS",HP,2
+Orphanet:212,Cystathioninuria,HP:0003153,Cystathioninuria,EFO,HP,1
+Orphanet:2128,Hemihypertrophy,HP:0001528,Hemihypertrophy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:2138,"46,XX ovotesticular disorder of sex development",HP:0010459,True hermaphroditism,"EFO,HP,Orphanet,UMLS",HP,2
+Orphanet:2138,"46,XX ovotesticular disorder of sex development",HP:0012861,Ovotestis,"EFO,HP,Orphanet,UMLS",HP,2
+Orphanet:214,Cystinuria,HP:0003131,Cystinuria,EFO,HP,1
+Orphanet:2157,Histidinemia,HP:0010906,Hyperhistidinemia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:2157,Histidinemia,HP:0002927,Histidinuria,"Orphanet,HP,UMLS",HP,2
+Orphanet:2162,Holoprosencephaly,HP:0002139,Arrhinencephaly,"EFO,HP,Orphanet",HP,2
+Orphanet:2162,Holoprosencephaly,HP:0006870,Lobar holoprosencephaly,"EFO,HP,Orphanet",HP,2
+Orphanet:2162,Holoprosencephaly,HP:0002507,Semilobar holoprosencephaly,"EFO,HP,Orphanet",HP,2
+Orphanet:2162,Holoprosencephaly,HP:0006988,Alobar holoprosencephaly,"EFO,HP,Orphanet",HP,2
+Orphanet:2162,Holoprosencephaly,HP:0001360,Holoprosencephaly,"EFO,HP,Orphanet,UMLS",HP,2
+Orphanet:217,Isolated Dandy-Walker malformation,HP:0001305,Dandy-Walker malformation,"Orphanet,HP,UMLS",HP,2
+Orphanet:217071,Renal cell carcinoma,HP:0005584,Renal cell carcinoma,"EFO,Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:217071,Renal cell carcinoma,HP:0006770,Clear cell renal cell carcinoma,"Orphanet,HP",HP,2
+Orphanet:217071,Renal cell carcinoma,HP:0006766,Papillary renal cell carcinoma,"Orphanet,HP",HP,2
+Orphanet:2203,Hyperlysinemia,HP:0002161,Hyperlysinemia,EFO,HP,1
+Orphanet:223,Nephrogenic diabetes insipidus,HP:0009806,Nephrogenic diabetes insipidus,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:2239,Familial isolated hypoparathyroidism due to agenesis of parathyroid gland,HP:0008211,Parathyroid agenesis,"EFO,HP",HP,2
+Orphanet:233,Duane retraction syndrome,HP:0009921,Duane anomaly,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:2345,Isolated Klippel-Feil syndrome,HP:0004602,Cervical C2/C3 vertebral fusion,"Orphanet,HP,UMLS",HP,2
+Orphanet:2356,Arachnoid cyst,HP:0100702,Arachnoid cyst,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:2380,Legg-Calvé-Perthes disease,HP:0005743,Avascular necrosis of the capital femoral epiphysis,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:238468,Hypohidrotic ectodermal dysplasia,HP:0007476,Anhidrotic ectodermal dysplasia,"Orphanet,HP,UMLS",HP,2
+Orphanet:238468,Hypohidrotic ectodermal dysplasia,HP:0007607,Hypohidrotic ectodermal dysplasia,EFO,HP,1
+Orphanet:2415,Rare lymphatic malformation,HP:0100764,Lymphangioma,"Orphanet,HP,UMLS",HP,2
+Orphanet:242,"46,XY complete gonadal dysgenesis",HP:0008668,"Gonadal dysgenesis, male","EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:244,Primary ciliary dyskinesia,HP:0012265,Ciliary dyskinesia,"EFO,HP,UMLS",HP,2
+Orphanet:2442,X-linked lymphoproliferative disease,HP:0005523,Lymphoproliferative disorder,"Orphanet,HP,EFO",HP,2
+Orphanet:247651,Infantile hypophosphatasia,HP:0003239,Phosphoethanolaminuria,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:251,Multiple epiphyseal dysplasia,HP:0002654,Multiple epiphyseal dysplasia,EFO,HP,1
+Orphanet:252175,Vestibular schwannoma,HP:0009588,Vestibular Schwannoma,"Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:256,Early-onset generalized limb-onset dystonia,HP:0001304,Torsion dystonia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:263413,Angiosarcoma,HP:0200058,Angiosarcoma,"EFO,Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:264675,Congenital pulmonary alveolar proteinosis,HP:0006517,Alveolar proteinosis,"BAO,EFO",HP,2
+Orphanet:2686,Cyclic neutropenia,HP:0012234,Agranulocytosis,"EFO,Orphanet",HP,2
+Orphanet:2688,Adult idiopathic neutropenia,HP:0012234,Agranulocytosis,"Orphanet,EFO",HP,2
+Orphanet:275766,Idiopathic pulmonary arterial hypertension,HP:0002092,Pulmonary hypertension,"EFO,HP,Orphanet",HP,2
+Orphanet:276142,Rare tumor of salivary glands,HP:0100684,Salivary gland neoplasm,"Orphanet,HP,UMLS",HP,2
+Orphanet:2781,Osteopetrosis,HP:0011002,Osteopetrosis,EFO,HP,1
+Orphanet:29073,Multiple myeloma,HP:0006775,Multiple myeloma,"Orphanet,HP,UMLS",HP,2
+Orphanet:296,Enchondromatosis,HP:0005701,Multiple enchondromatosis,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:2965,Prolactinoma,HP:0012342,Macroprolactinoma,"Orphanet,HP",HP,2
+Orphanet:2965,Prolactinoma,HP:0012341,Microprolactinoma,"Orphanet,HP",HP,2
+Orphanet:2965,Prolactinoma,HP:0006767,Pituitary prolactin cell adenoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:2970,Prune belly syndrome,HP:0004392,Prune belly,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:2982,"46,XX disorder of sex development",HP:0010458,Female pseudohermaphroditism,"Orphanet,HP,UMLS",HP,2
+Orphanet:3002,Immune thrombocytopenic purpura,HP:0001973,Autoimmune thrombocytopenia,"Orphanet,HP",HP,2
+Orphanet:3027,Caudal regression sequence,HP:0010305,Absence of the sacrum,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:3033,Renal tubular dysgenesis,HP:0008660,Renotubular dysgenesis,"Orphanet,HP,UMLS",HP,2
+Orphanet:30391,Biliary atresia,HP:0005242,Extrahepatic biliary duct atresia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:30391,Biliary atresia,HP:0005912,Biliary atresia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:312,Epidermolytic ichthyosis,HP:0007475,Congenital bullous ichthyosiform erythroderma,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:313,Lamellar ichthyosis,HP:0007479,Congenital nonbullous ichthyosiform erythroderma,"EFO,HP,Orphanet",HP,2
+Orphanet:3157,Septo-optic dysplasia,HP:0100842,Septo-optic dysplasia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:316226,Spastic ataxia,HP:0002497,Spastic ataxia,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:3165,Eosinophilic fasciitis,HP:0045029,Eosinophilic fasciitis,"Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:31740,Hypersensitivity pneumonitis,HP:0006516,Hypersensitivity pneumonitis,"Orphanet,HP,UMLS",HP,2
+Orphanet:3181,Sprengel deformity,HP:0000912,Sprengel anomaly,"Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:31837,Pulmonary venoocclusive disease,HP:0006518,Pulmonary venous occlusion,"EFO,HP,Orphanet",HP,2
+Orphanet:321,Multiple osteochondromas,HP:0002762,Multiple exostoses,"EFO,HP,Orphanet,UMLS",HP,2
+Orphanet:3221,Generalized resistance to thyroid hormone,HP:0002930,Thyroid hormone receptor defect,"Orphanet,HP,UMLS",HP,2
+Orphanet:324,Fabry disease,HP:0001071,Angiokeratoma corporis diffusum,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:324964,Chronic nonbacterial osteomyelitis/Chronic recurrent multifocal osteomyelitis,HP:0005901,Chronic recurrent multifocal osteomyelitis,"Orphanet,UMLS,MONDO",HP,2
+Orphanet:326,Congenital factor V deficiency,HP:0003225,Reduced factor V activity,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:3280,Syringomyelia,HP:0003396,Syringomyelia,"Orphanet,HP,UMLS",HP,2
+Orphanet:3280,Syringomyelia,HP:0100565,Hydromyelia,"Orphanet,HP,UMLS",HP,2
+Orphanet:329,Congenital factor XI deficiency,HP:0001929,Reduced factor XI activity,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:3303,Tetralogy of Fallot,HP:0001636,Tetralogy of Fallot,"Orphanet,HP,EFO,UMLS",HP,2
+Orphanet:33069,Dravet syndrome,HP:0011170,Myoclonic atonic seizures,"EFO,HP",HP,2
+Orphanet:33069,Dravet syndrome,HP:0002123,Generalized myoclonic seizures,"EFO,HP",HP,2
+Orphanet:331176,Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency,HP:0012234,Agranulocytosis,"Orphanet,EFO",HP,2
+Orphanet:33276,Kaposi sarcoma,HP:0100726,Kaposi's sarcoma,"EFO,Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:3451,West syndrome,HP:0011097,Epileptic spasms,"EFO,HP,Orphanet",HP,2
+Orphanet:34528,Autosomal dominant primary hypomagnesemia with hypocalciuria,HP:0005567,Renal magnesium wasting,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:3467,Hereditary xanthinuria,HP:0010934,Xanthinuria,EFO,HP,1
+Orphanet:35,Propionic acidemia,HP:0003353,Propionyl-CoA carboxylase deficiency,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:35,Propionic acidemia,HP:0003571,Propionicacidemia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:35093,Isolated scaphocephaly,HP:0030799,Scaphocephaly,"Orphanet,HP,UMLS",HP,2
+Orphanet:352,Galactosemia,HP:0004919,Galactose intolerance,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:352,Galactosemia,HP:0012024,Hypergalactosemia,"EFO,HP,Orphanet",HP,2
+Orphanet:354,GM1 gangliosidosis,HP:0008166,Decreased beta-galactosidase activity,"EFO,HP,Orphanet",HP,2
+Orphanet:36913,Autoimmune hypoparathyroidism,HP:0011771,Autoimmune hypoparathyroidism,"EFO,MONDO,Orphanet,HP,UMLS",HP,2
+Orphanet:374,Goldenhar syndrome,HP:0011332,Hemifacial hypoplasia,"EFO,HP,Orphanet",HP,2
+Orphanet:388,Hirschsprung disease,HP:0011286,Total colonic aganglionosis,"EFO,HP,Orphanet",HP,2
+Orphanet:388,Hirschsprung disease,HP:0002251,Aganglionic megacolon,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:407,Glycine encephalopathy,HP:0008288,Nonketotic hyperglycinemia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:414,Gyrate atrophy of choroid and retina,HP:0012026,Hyperornithinemia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:416,Primary hyperoxaluria,HP:0003159,Hyperoxaluria,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:418,Congenital adrenal hyperplasia,HP:0008258,Congenital adrenal hyperplasia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:420699,Autosomal recessive severe congenital neutropenia due to CXCR2 deficiency,HP:0012234,Agranulocytosis,"Orphanet,EFO",HP,2
+Orphanet:420702,Autosomal recessive severe congenital neutropenia due to CSF3R deficiency,HP:0012234,Agranulocytosis,"Orphanet,EFO",HP,2
+Orphanet:423384,Autosomal recessive severe congenital neutropenia due to JAGN1 deficiency,HP:0012234,Agranulocytosis,"Orphanet,EFO",HP,2
+Orphanet:425,Apolipoprotein A-I deficiency,HP:0003233,Hypoalphalipoproteinemia,"EFO,HP,Orphanet",HP,2
+Orphanet:42738,Severe congenital neutropenia,HP:0012234,Agranulocytosis,"EFO,Orphanet",HP,2
+Orphanet:42738,Severe congenital neutropenia,HP:0005549,Congenital neutropenia,"EFO,UMLS,Orphanet",HP,2
+Orphanet:42738,Severe congenital neutropenia,HP:0005541,Congenital agranulocytosis,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:432,Normosmic congenital hypogonadotropic hypogonadism,HP:0000044,Hypogonadotrophic hypogonadism,"MONDO,EFO",HP,2
+Orphanet:437,Hypophosphatemic rickets,HP:0004912,Hypophosphatemic rickets,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:440,Familial hypospadias,HP:0000047,Hypospadias,"MONDO,EFO",HP,2
+Orphanet:442,Congenital hypothyroidism,HP:0000851,Congenital hypothyroidism,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:447,Paroxysmal nocturnal hemoglobinuria,HP:0004818,Paroxysmal nocturnal hemoglobinuria,EFO,HP,1
+Orphanet:44890,Gastrointestinal stromal tumor,HP:0100723,Gastrointestinal stroma tumor,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:469,Hereditary fructose intolerance,HP:0005973,Fructose intolerance,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:47159,Proximal renal tubular acidosis,HP:0002049,Proximal renal tubular acidosis,"Orphanet,HP,UMLS",HP,2
+Orphanet:48471,Lissencephaly,HP:0007227,Macrogyria,"EFO,HP,Orphanet",HP,2
+Orphanet:48471,Lissencephaly,HP:0001302,Pachygyria,"EFO,HP,Orphanet",HP,2
+Orphanet:48471,Lissencephaly,HP:0001339,Lissencephaly,EFO,HP,1
+Orphanet:486,Autosomal dominant severe congenital neutropenia,HP:0012234,Agranulocytosis,"EFO,Orphanet",HP,2
+Orphanet:49041,IgG4-related retroperitoneal fibrosis,HP:0005200,Retroperitoneal fibrosis,"Orphanet,HP,UMLS",HP,2
+Orphanet:49382,Achromatopsia,HP:0007803,Monochromacy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:5,Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency,HP:0100950,Long chain 3 hydroxyacyl coA dehydrogenase deficiency,"Orphanet,HP,UMLS",HP,2
+Orphanet:511,Maple syrup urine disease,HP:0010911,Hyperleucinemia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:523,Hereditary leiomyomatosis and renal cell cancer,HP:0007437,Multiple cutaneous leiomyomas,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:52759,Vasculitis,HP:0002633,Vasculitis,"Orphanet,HP,UMLS",HP,2
+Orphanet:528,Berardinelli-Seip congenital lipodystrophy,HP:0009064,Generalized lipodystrophy,"Orphanet,HP,UMLS",HP,2
+Orphanet:528,Berardinelli-Seip congenital lipodystrophy,HP:0009059,Congenital generalized lipodystrophy,"Orphanet,HP,UMLS",HP,2
+Orphanet:531,Miller-Dieker syndrome,HP:0006818,Type I lissencephaly,"EFO,HP,Orphanet",HP,2
+Orphanet:538,Lymphangioleiomyomatosis,HP:0012798,Pulmonary lymphangiomyomatosis,"EFO,HP,Orphanet",HP,2
+Orphanet:54260,Left ventricular noncompaction,HP:0030682,Left ventricular noncompaction,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:54260,Left ventricular noncompaction,HP:0011664,Left ventricular noncompaction cardiomyopathy,"EFO,HP,UMLS",HP,2
+Orphanet:567,22q11.2 deletion syndrome,HP:0011333,Asymmetric crying face,"Orphanet,HP,UMLS",HP,2
+Orphanet:579,Mucopolysaccharidosis type 1,HP:0000943,Dysostosis multiplex,"EFO,HP,Orphanet",HP,2
+Orphanet:626,Large congenital melanocytic nevus,HP:0005600,Congenital giant melanocytic nevus,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:635,Neuroblastoma,HP:0003006,Neuroblastoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:637,Neurofibromatosis type 2,HP:0009588,Vestibular Schwannoma,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:637,Neurofibromatosis type 2,HP:0009589,Bilateral vestibular Schwannoma,"Orphanet,HP,EFO",HP,2
+Orphanet:64720,Leiomyosarcoma,HP:0100243,Leiomyosarcoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:655,Nephronophthisis,HP:0000090,Nephronophthisis,EFO,HP,1
+Orphanet:655,Nephronophthisis,HP:0008659,Multiple small medullary renal cysts,"EFO,HP,Orphanet",HP,2
+Orphanet:663,Maternally-inherited progressive external ophthalmoplegia,HP:0000590,Progressive external ophthalmoplegia,"Orphanet,HP,UMLS",HP,2
+Orphanet:663,Maternally-inherited progressive external ophthalmoplegia,HP:0000544,External ophthalmoplegia,"Orphanet,HP",HP,2
+Orphanet:66646,Cutaneous mastocytosis,HP:0200151,Cutaneous mastocytosis,"Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:672,Pallister-Hall syndrome,HP:0002444,Hypothalamic hamartoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:681,Hypokalemic periodic paralysis,HP:0007215,Periodic hyperkalemic paralysis,"Orphanet,HP,UMLS",HP,2
+Orphanet:68356,Leukodystrophy,HP:0002415,Leukodystrophy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:69,Amyloidosis,HP:0011034,Amyloidosis,"EFO,Orphanet,HP,UMLS,MONDO",HP,2
+Orphanet:70,Proximal spinal muscular atrophy,HP:0006959,Proximal spinal muscular atrophy,"EFO,HP,UMLS",HP,2
+Orphanet:701,Alopecia universalis,HP:0002289,Alopecia universalis,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:702,Pelizaeus-Merzbacher disease,HP:0003269,Sudanophilic leukodystrophy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:70567,Cholangiocarcinoma,HP:0030153,Cholangiocarcinoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:708,Peters anomaly,HP:0000659,Peters anomaly,EFO,HP,1
+Orphanet:716,Phenylketonuria,HP:0004923,Hyperphenylalaninemia,"Orphanet,HP,EFO",HP,2
+Orphanet:716,Phenylketonuria,HP:0005982,Reduced phenylalanine hydroxylase activity,"Orphanet,HP,EFO",HP,2
+Orphanet:718,Isolated Pierre Robin syndrome,HP:0000201,Pierre-Robin sequence,"Orphanet,HP,UMLS",HP,2
+Orphanet:726,Alpers syndrome,HP:0006918,Diffuse cerebral sclerosis,"Orphanet,HP,EFO",HP,2
+Orphanet:733,Familial adenomatous polyposis,HP:0005227,Adenomatous colonic polyposis,"Orphanet,HP,EFO",HP,2
+Orphanet:746,Mitochondrial trifunctional protein deficiency,HP:0100950,Long chain 3 hydroxyacyl coA dehydrogenase deficiency,"Orphanet,HP,UMLS",HP,2
+Orphanet:756,Pseudohypoaldosteronism type 1,HP:0008242,Pseudohypoaldosteronism,"Orphanet,HP,EFO",HP,2
+Orphanet:77,Aniridia,HP:0000526,Aniridia,"EFO,HP,UMLS",HP,2
+Orphanet:782,Axenfeld-Rieger syndrome,HP:0001492,Axenfeld anomaly,"Orphanet,HP,EFO",HP,2
+Orphanet:782,Axenfeld-Rieger syndrome,HP:0000558,Rieger anomaly,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:791,Retinitis pigmentosa,HP:0000580,Pigmentary retinopathy,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:791,Retinitis pigmentosa,HP:0000510,Rod-cone dystrophy,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:791,Retinitis pigmentosa,HP:0000547,Tapetoretinal degeneration,"Orphanet,UMLS,EFO",HP,2
+Orphanet:791,Retinitis pigmentosa,HP:0000548,Cone/cone-rod dystrophy,"Orphanet,HP,EFO",HP,2
+Orphanet:79128,Lymphoid interstitial pneumonia,HP:0006527,Lymphoid interstitial pneumonia,"Orphanet,HP,UMLS",HP,2
+Orphanet:79314,L-2-hydroxyglutaric aciduria,HP:0040144,L-2-hydroxyglutaric aciduria,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:79314,L-2-hydroxyglutaric aciduria,HP:0040147,L-2-hydroxyglutaric acidemia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:79315,D-2-hydroxyglutaric aciduria,HP:0012321,D-2-hydroxyglutaric aciduria,"EFO,HP,UMLS",HP,2
+Orphanet:79394,Congenital non-bullous ichthyosiform erythroderma,HP:0007479,Congenital nonbullous ichthyosiform erythroderma,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:79394,Congenital non-bullous ichthyosiform erythroderma,HP:0007431,Congenital ichthyosiform erythroderma,EFO,HP,1
+Orphanet:799,Schizencephaly,HP:0010636,Schizencephaly,"Orphanet,HP,UMLS",HP,2
+Orphanet:800,Schwartz-Jampel syndrome,HP:0002654,Multiple epiphyseal dysplasia,"EFO,HP",HP,2
+Orphanet:800,Schwartz-Jampel syndrome,HP:0002652,Skeletal dysplasia,"EFO,HP",HP,2
+Orphanet:800,Schwartz-Jampel syndrome,HP:0002655,Spondyloepiphyseal dysplasia,"EFO,HP",HP,2
+Orphanet:803,Amyotrophic lateral sclerosis,HP:0007354,Amyotrophic lateral sclerosis,"Orphanet,HP,UMLS",HP,2
+Orphanet:805,Tuberous sclerosis,HP:0009720,Adenoma sebaceum,"Orphanet,HP,EFO",HP,2
+Orphanet:823,Isolated spina bifida,HP:0002414,Spina bifida,"Orphanet,HP,UMLS,EFO",HP,2
+Orphanet:824,Primary myelofibrosis,HP:0011974,Myelofibrosis,"Orphanet,HP,UMLS",HP,2
+Orphanet:83461,Congenital primary aphakia,HP:0007707,Congenital primary aphakia,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:839,"Congenital nephrotic syndrome, Finnish type",HP:0008677,Congenital nephrotic syndrome,"EFO,HP,Orphanet",HP,2
+Orphanet:849,Glanzmann thrombasthenia,HP:0001975,Decreased platelet glycoprotein IIb-IIIa,"EFO,HP,Orphanet",HP,2
+Orphanet:849,Glanzmann thrombasthenia,HP:0001872,Abnormality of thrombocytes,"EFO,HP,Orphanet",HP,2
+Orphanet:85138,Addison disease,HP:0008207,Primary adrenal insufficiency,"Orphanet,HP,UMLS",HP,2
+Orphanet:861,Treacher-Collins syndrome,HP:0005321,Mandibulofacial dysostosis,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:86788,X-linked severe congenital neutropenia,HP:0012234,Agranulocytosis,"Orphanet,EFO",HP,2
+Orphanet:873,Desmoid tumor,HP:0100245,Desmoid tumors,"Orphanet,HP,UMLS",HP,2
+Orphanet:891,Familial exudative vitreoretinopathy,HP:0030490,Exudative vitreoretinopathy,"EFO,HP,UMLS",HP,2
+Orphanet:89937,Autosomal dominant hypophosphatemic rickets,HP:0004912,Hypophosphatemic rickets,"Orphanet,HP,UMLS",HP,2
+Orphanet:90025,Syndactyly,HP:0001159,Syndactyly,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:90281,Discoid lupus erythematosus,HP:0007417,Discoid lupus erythematosus,"Orphanet,HP,UMLS",HP,2
+Orphanet:90289,Localized scleroderma,HP:0100324,Scleroderma,"Orphanet,HP",HP,2
+Orphanet:90289,Localized scleroderma,HP:0012344,Morphea,"Orphanet,HP",HP,2
+Orphanet:90695,Panhypopituitarism,HP:0000871,Panhypopituitarism,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:91349,Non-functioning pituitary adenoma,HP:0011761,Pituitary null cell adenoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:93,Aspartylglucosaminuria,HP:0012068,Aspartylglucosaminuria,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:930,Idiopathic achalasia,HP:0002571,Achalasia,"Orphanet,HP,UMLS",HP,2
+Orphanet:93101,Renal hypoplasia,HP:0000089,Renal hypoplasia,EFO,HP,1
+Orphanet:93277,Monostotic fibrous dysplasia,HP:0010736,Monostotic fibrous dysplasia,EFO,HP,1
+Orphanet:93928,Epispadias,HP:0000039,Epispadias,EFO,HP,1
+Orphanet:93929,Cloacal exstrophy,HP:0010475,Cloacal exstrophy,EFO,HP,1
+Orphanet:93930,Bladder exstrophy,HP:0002836,Bladder exstrophy,EFO,HP,1
+Orphanet:93968,Meningocele,HP:0002435,Meningocele,"MONDO,EFO",HP,2
+Orphanet:95,Friedreich ataxia,HP:0005323,Hemifacial hypertrophy,"EFO,HP,Orphanet",HP,2
+Orphanet:95496,Pituitary stalk interruption syndrome,HP:0011755,Ectopic posterior pituitary,"EFO,HP",HP,2
+Orphanet:95707,Isolated micropenis,HP:0008736,Hypoplasia of penis,"Orphanet,HP,UMLS",HP,2
+Orphanet:95707,Isolated micropenis,HP:0000054,Micropenis,"Orphanet,HP,UMLS",HP,2
+Orphanet:963,Acromegaly,HP:0000845,Growth hormone excess,"Orphanet,HP",HP,2
+Orphanet:96346,Anorectal malformation,HP:0012732,Anorectal anomaly,"Orphanet,HP,UMLS",HP,2
+Orphanet:97242,Congenital muscular dystrophy,HP:0003741,Congenital muscular dystrophy,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:97242,Congenital muscular dystrophy,HP:0003560,Muscular dystrophy,"Orphanet,HP,UMLS",HP,2
+Orphanet:97332,Kienbock disease,HP:0010889,Morbus Kienboeck,"Orphanet,HP,UMLS",HP,2
+Orphanet:97548,Ivemark syndrome,HP:0011537,Left atrial isomerism,"EFO,HP,Orphanet",HP,2
+Orphanet:97548,Ivemark syndrome,HP:0011536,Right atrial isomerism,EFO,HP,1
+Orphanet:97548,Ivemark syndrome,HP:0011538,Atrial situs inversus,"EFO,HP",HP,2
+Orphanet:97593,Pseudohypoparathyroidism,HP:0000852,Pseudohypoparathyroidism,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:98085,"46,XY disorder of sex development",HP:0000037,Male pseudohermaphroditism,"Orphanet,HP",HP,2
+Orphanet:983,Testicular regression syndrome,HP:0012870,Vanishing testis,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:983,Testicular regression syndrome,HP:0030869,Anorchism,"EFO,HP,UMLS,Orphanet",HP,2
+Orphanet:98731,Congenital arteriovenous fistula,HP:0004947,Arteriovenous fistula,"Orphanet,HP,UMLS",HP,2
+Orphanet:98852,Desquamative interstitial pneumonia,HP:0005942,Desquamative interstitial pneumonitis,"Orphanet,HP,UMLS",HP,2
+Orphanet:98944,Coloboma of iris,HP:0000612,Iris coloboma,EFO,HP,1
+Orphanet:99083,Pulmonary artery hypoplasia,HP:0004971,Pulmonary artery hypoplasia,MONDO,HP,2
+Orphanet:99408,Pituitary adenoma,HP:0002893,Pituitary adenoma,"Orphanet,HP,UMLS",HP,2
+Orphanet:99749,Kostmann syndrome,HP:0012234,Agranulocytosis,"EFO,Orphanet",HP,2
+Orphanet:99802,Hemimegalencephaly,HP:0007206,Hemimegalencephaly,"EFO,HP,UMLS,Orphanet",HP,2
