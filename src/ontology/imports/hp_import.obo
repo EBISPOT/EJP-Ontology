@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ejp-rd/releases/2019-11-18/imports/hp_import.owl
+data-version: ejp-rd/releases/2020-02-11/imports/hp_import.owl
 subsetdef: abnormal_slim ""
 subsetdef: attribute_slim ""
 subsetdef: cell_quality ""
@@ -1748,17 +1748,6 @@ created_by: peter
 creation_date: 2008-02-27T02:20:00Z
 
 [Term]
-id: HP:0000005
-name: Mode of inheritance
-namespace: human_phenotype
-alt_id: HP:0001453
-alt_id: HP:0001461
-def: "The pattern in which a particular genetic trait or disorder is passed from one generation to the next." [HPO:probinson]
-synonym: "Inheritance" EXACT []
-xref: UMLS:C1708511
-is_a: HP:0000001 ! All
-
-[Term]
 id: HP:0000118
 name: Phenotypic abnormality
 namespace: human_phenotype
@@ -1790,19 +1779,6 @@ synonym: "Laboratory abnormality" EXACT layperson []
 synonym: "Metabolism abnormality" EXACT layperson []
 xref: UMLS:C4021768
 is_a: HP:0000118 ! Phenotypic abnormality
-
-[Term]
-id: HP:0003745
-name: Sporadic
-namespace: human_phenotype
-alt_id: HP:0001420
-alt_id: HP:0003747
-alt_id: HP:0003769
-def: "Cases of the disease in question occur without a previous family history, i.e., as isolated cases without being transmitted from a parent and without other siblings being affected." [HPO:probinson]
-synonym: "Isolated cases" EXACT []
-synonym: "No previous family history" EXACT layperson [https://orcid.org/0000-0001-5208-3432, https://orcid.org/0000-0002-6548-5200]
-xref: UMLS:C1853237
-is_a: HP:0000005 ! Mode of inheritance
 
 [Term]
 id: IAO:0000027

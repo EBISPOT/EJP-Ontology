@@ -84,12 +84,12 @@ modules: $(MODULE_FILES)
 # used to generate OWL files with ROBOT.
 # The first step is to erase any contents of the module OWL file.
 # See https://github.com/ontodev/robot/blob/master/docs/template.md
-src/ontology/modules/%.owl: src/ontology/templates/%.tsv
+src/ontology/modules/rd-category.owl: src/ontology/templates/rd-category.tsv
 	echo '' > $@
 	$(ROBOT) merge \
 	  --input src/ontology/ejp-rd-edit.owl \
 		template \
-		--template $< \
+		--template src/ontology/templates/rd-category.tsv \
 		annotate \
 		--ontology-iri "$(MODULES)/$(notdir $@)" \
 		--output $@

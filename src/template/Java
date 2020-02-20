@@ -1,0 +1,61 @@
+The dependency injection can be carried out using three different methods :
+  1. Constructir injection
+  2. Setter injection
+  3. Method injection
+
+
+  1. Constructors injections :
+  Loose coupling
+  2. Setters injections
+  3. Method injection
+
+
+There are three types of excpetions
+Checked
+Unchecked
+Error
+
+What is an Object
+Wrapper type in Java , what do they do?
+Comparable interface
+CompareTo Method
+To inherit from another class
+public class Instructir extends User {}
+
+Generic classes
+
+
+Hierachy of Exception
+
+How to handle exceptions
+
+Constructor
+  Main Class
+  methods
+  Interfaces
+  A class can not have multiple parents but interface can have multiple parents deals with what not how
+
+Statics Method, Private Methods
+
+difference between Interfaces and Abstract Classes
+Interfaces (Contracts)
+Swap implementations and extends your applications and test classes in isolation a.k.a unit Testing
+
+  Learn the terminologies in Java Programs
+
+  e.g. Class, Methods, Dependency, Segregate, Unit Testing
+
+  Interfaces allows us to build extendable classes
+
+
+  Fields : declaring fields in our interfaces
+  Segregate different capabilities to different Interfaces
+
+
+Exceptions Objects and how they work
+Types of Exceptions
+
+
+Collections framework:
+Like collections of users Iterable , collections, list, Queue, and set are interfaces ; Arraylist method , that implents the generic list class
+List interfaces

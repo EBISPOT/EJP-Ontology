@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: ejp-rd/releases/2019-11-18/imports/omiabis_import.owl
+data-version: ejp-rd/releases/2020-02-11/imports/omiabis_import.owl
 ontology: ejp-rd/imports/omiabis_import
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000027>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000005>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000007>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000100>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000178>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000225>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000112>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000659>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000806>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000838>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000971>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0001472>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0100051>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0302893>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0302914>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000010>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000012>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000060>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000061>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001025>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001028>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001054>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001079>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001080>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000023>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000033>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000038>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000058>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000059>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000125>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000169>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000417>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000846>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0001688>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OMIABIS_0000008>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OMIABIS_0000009>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OMIABIS_0000048>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000002>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000103>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000120>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000121>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000122>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000123>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000124>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000125>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000226>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000227>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000228>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000229>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000423>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000428>))\n############################\n#   Object Properties\n############################\n\n# Object Property: <http://purl.obolibrary.org/obo/BFO_0000125> (has specific dependent at some time)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000125> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000020>))\n\n# Object Property: <http://purl.obolibrary.org/obo/BFO_0000169> (specifically depends on at some time)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000169> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))\n\n# Object Property: <http://purl.obolibrary.org/obo/OBI_0001688> (has organization member)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0001688> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/OBI_0000245>))\n\n# Object Property: <http://purl.obolibrary.org/obo/OMIABIS_0000008> (owns)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/OMIABIS_0000008> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/IAO_0000030>))\n\n# Object Property: <http://purl.obolibrary.org/obo/OMIABIS_0000009> (administrates)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/OMIABIS_0000009> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/IAO_0000030>))\n\n# Object Property: <http://purl.obolibrary.org/obo/OMIABIS_0000048> (is owned by)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/OMIABIS_0000048> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/OMRSE_00000023> <http://purl.obolibrary.org/obo/OMRSE_00000033>))\n\n# Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (inheres in at all times)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))\n\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)\n\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)\n\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)\n\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000007> (action specification)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IAO_0000007> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectComplementOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000005> <http://purl.obolibrary.org/obo/IAO_0000104>))))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/IAO_0000178>))))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000078> (curation status specification)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000178> (material information bearer)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000059> <http://purl.obolibrary.org/obo/IAO_0000030>))))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000225> (obsolescence reason specification)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>))\n\n# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))\n\n# Class: <http://purl.obolibrary.org/obo/OBI_0000112> (specimen role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))\n\n# Class: <http://purl.obolibrary.org/obo/OBI_0000838> (material maintenance)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000838> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000806>))\n\n# Class: <http://purl.obolibrary.org/obo/OBI_0001472> (specimen with known storage state)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0001472> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000971> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0302893>))))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000000> (biobank)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000027> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/OBI_0302893>))))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0302914> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000027> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0100051>))))))))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OMIABIS_0000048> <http://purl.obolibrary.org/obo/OMIABIS_0000010>)))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000010> (biobank organization)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0000010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000245> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://purl.obolibrary.org/obo/OMIABIS_0000000>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OMIABIS_0000009> <http://purl.obolibrary.org/obo/OMIABIS_0000000>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/OMRSE_00000038>)))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000012> (contact role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0000012> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000846> <http://purl.obolibrary.org/obo/OBI_0000245>))))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000060> (survey data)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0000060> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OMIABIS_0001035>))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000061> (sampling specimens for biobank)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0000061> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/OMIABIS_0000000>) ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/OBI_0302893>)))))))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001028> (sample handling summary)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OMIABIS_0001080>))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001035> (survey execution)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001035> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000059> <http://purl.obolibrary.org/obo/OMIABIS_0001025>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OMIABIS_0000060>)))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001054> (normal specimen)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OGMS_0000045>))))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001079> (specimen donor)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001079> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/OBI_0000659>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001080> (sample handling)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001080> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/OBI_0302893>))))))\n\n\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/RO_0000052>) <http://purl.obolibrary.org/obo/RO_0000057>)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000005>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000007>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000178>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000225>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000060>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001025>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001035>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000058>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000059>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000125>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000169>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000002>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000103>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000120>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000121>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000122>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000123>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000124>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000125>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000226>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000227>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000228>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000229>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000423>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000428>))\n############################\n#   Object Properties\n############################\n\n# Object Property: <http://purl.obolibrary.org/obo/BFO_0000125> (has specific dependent at some time)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000125> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000020>))\n\n# Object Property: <http://purl.obolibrary.org/obo/BFO_0000169> (specifically depends on at some time)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000169> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))\n\n# Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (<http://purl.obolibrary.org/obo/RO_0000052>)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))\n\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)\n\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)\n\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)\n\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000007> (action specification)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IAO_0000007> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectComplementOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000005> <http://purl.obolibrary.org/obo/IAO_0000104>))))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/IAO_0000178>))))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000078> (curation status specification)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000178> (material information bearer)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000059> <http://purl.obolibrary.org/obo/IAO_0000030>))))\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000225> (obsolescence reason specification)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>))\n\n# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000060> (survey data)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0000060> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OMIABIS_0001035>))\n\n# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001035> (survey execution)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001035> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000059> <http://purl.obolibrary.org/obo/OMIABIS_0001025>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OMIABIS_0000060>)))\n\n\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/RO_0000052>) <http://purl.obolibrary.org/obo/RO_0000057>)\n)
 
 [Term]
 id: BFO:0000001
@@ -171,51 +171,6 @@ property_value: IAO:0000602 "(iff (SpecificallyDependentContinuant a) (and (Cont
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Term]
-id: BFO:0000023
-name: role
-is_a: BFO:0000017 ! realizable entity
-property_value: BFO:0000179 "role" xsd:string
-property_value: BFO:0000180 "Role" xsd:string
-property_value: IAO:0000112 "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married." xsd:string
-property_value: IAO:0000112 "the priest role" xsd:string
-property_value: IAO:0000112 "the role of a boundary to demarcate two neighboring administrative territories" xsd:string
-property_value: IAO:0000112 "the role of a building in serving as a military target" xsd:string
-property_value: IAO:0000112 "the role of a stone in marking a property boundary" xsd:string
-property_value: IAO:0000112 "the role of subject in a clinical trial" xsd:string
-property_value: IAO:0000112 "the student role" xsd:string
-property_value: IAO:0000116 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives." xsd:string
-property_value: IAO:0000600 "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
-property_value: IAO:0000602 "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/061-001"}
-property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
-
-[Term]
-id: BFO:0000027
-name: object aggregate
-is_a: BFO:0000040 ! material entity
-property_value: BFO:0000179 "object-aggregate" xsd:string
-property_value: BFO:0000180 "ObjectAggregate" xsd:string
-property_value: IAO:0000112 "a collection of cells in a blood biobank." xsd:string
-property_value: IAO:0000112 "a swarm of bees is an aggregate of members who are linked together through natural bonds" xsd:string
-property_value: IAO:0000112 "a symphony orchestra" xsd:string
-property_value: IAO:0000112 "an organization is an aggregate whose member parts have roles of specific types (for example in a jazz band, a chess club, a football team)" xsd:string
-property_value: IAO:0000112 "defined by fiat: the aggregate of members of an organization" xsd:string
-property_value: IAO:0000112 "defined through physical attachment: the aggregate of atoms in a lump of granite" xsd:string
-property_value: IAO:0000112 "defined through physical containment: the aggregate of molecules of carbon dioxide in a sealed container" xsd:string
-property_value: IAO:0000112 "defined via attributive delimitations such as: the patients in this hospital" xsd:string
-property_value: IAO:0000112 "the aggregate of bearings in a constant velocity axle joint" xsd:string
-property_value: IAO:0000112 "the aggregate of blood cells in your body" xsd:string
-property_value: IAO:0000112 "the nitrogen atoms in the atmosphere" xsd:string
-property_value: IAO:0000112 "the restaurants in Palo Alto" xsd:string
-property_value: IAO:0000112 "your collection of Meissen ceramic plates." xsd:string
-property_value: IAO:0000116 "An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000301"}
-property_value: IAO:0000116 "An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000011"}
-property_value: IAO:0000116 "BFO 2 Reference: object aggregates may gain and lose parts while remaining numerically identical (one and the same individual) over time. This holds both for aggregates whose membership is determined naturally (the aggregate of cells in your body) and aggregates determined by fiat (a baseball team, a congressional committee)." xsd:string
-property_value: IAO:0000119 "ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, 'A Theory of Granular Partitions', in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158." xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000300"}
-property_value: IAO:0000600 "b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/025-004"}
-property_value: IAO:0000602 "(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/025-004"}
-property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
-
-[Term]
 id: BFO:0000031
 name: generically dependent continuant
 def: "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/074-001"}
@@ -367,39 +322,6 @@ property_value: IAO:0000119 GROUP:OBI:<http://purl.obolibrary.org/obo/obi> xsd:s
 property_value: IAO:0000119 "OBI_0000266" xsd:string
 
 [Term]
-id: IAO:0000088
-name: report
-def: "An information content entity assembled by an author for the purpose of providing information for an audience, and that is meant to provide an accurate account of something that happened." []
-is_a: IAO:0000030 ! information content entity
-property_value: IAO:0000111 "report" xsd:string
-property_value: IAO:0000112 "journal article, patent application, grant progress report, case report (not patient record)" xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "2009-03-16: comment from Darren Natale: I am slightly uneasy with the sentence \"Topic of the report is on \nsomething that has completed.\"  Should it be restricted to those things \nthat are completed?  For example, a progress report is (usually) about \nsomething that definitely has *not* been completed, or may include \n(only) projections.  I think the definition would not suffer if the \nwhole sentence is deleted." xsd:string
-property_value: IAO:0000116 "2009-03-16: this was report of results with definition: A report is a narrative object that is a formal statement of the results of an investigation, or of any matter on which definite information is required, made by some person or body instructed or required to do so." xsd:string
-property_value: IAO:0000116 "2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI." xsd:string
-property_value: IAO:0000116 "2009-08-10 Alan Ruttenberg: Larry Hunter suggests that this be obsoleted and replaced by 'document'. Alan restored as there are OBI dependencies and this merits further discussion" xsd:string
-property_value: IAO:0000116 "disagreement about where reports go. alan: only some gene lists are reports. Is a report all the content of some document? The example of usage suggests that a report may be part of  some article. Term needs clarification" xsd:string
-property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string
-property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string
-property_value: IAO:0000117 "PERSON:Chris Stoeckert" xsd:string
-property_value: IAO:0000119 "GROUP: OBI" xsd:string
-property_value: IAO:0000119 "OBI_0000099" xsd:string
-
-[Term]
-id: IAO:0000100
-name: data set
-def: "A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets." []
-is_a: IAO:0000027 ! data item
-property_value: IAO:0000111 "data set" xsd:string
-property_value: IAO:0000112 "Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves)." xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "2009/10/23 Alan Ruttenberg. The intention is that this term represent collections of like data. So this isn't for, e.g. the whole contents of a cel file, which includes parameters, metadata etc. This is more like java arrays of a certain rather specific type" xsd:string
-property_value: IAO:0000117 "person:Allyson Lister" xsd:string
-property_value: IAO:0000117 "person:Chris Stoeckert" xsd:string
-property_value: IAO:0000119 group:OBI xsd:string
-property_value: IAO:0000119 "OBI_0000042" xsd:string
-
-[Term]
 id: IAO:0000102
 name: data about an ontology part
 def: "data about an ontology part is a data item about a part of an ontology, for example a term" []
@@ -446,133 +368,6 @@ property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string
 property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string
 
 [Term]
-id: IAO:0000310
-name: document
-def: "A collection of information content entities intended to be understood together as a whole" []
-is_a: IAO:0000030 ! information content entity
-property_value: IAO:0000111 "document" xsd:string
-property_value: IAO:0000112 "A journal article, patent application, laboratory notebook, or a book" xsd:string
-property_value: IAO:0000114 IAO:0000120
-property_value: IAO:0000117 "PERSON: Lawrence Hunter" xsd:string
-
-[Term]
-id: IAO:0000572
-name: documenting
-def: "a planned process in which input information is used to create or add to a report" []
-is_a: OBI:0000011 ! planned process
-relationship: OBI:0000293 IAO:0000030 ! has_specified_input information content entity
-relationship: OBI:0000299 IAO:0000088 ! has_specified_output report
-property_value: IAO:0000111 "documenting" xsd:string
-property_value: IAO:0000112 "Recording the current temperature in a laboratory notebook. Writing a journal article. Updating a patient record in a database. Copying the readout from an instrument into a spreadsheet." xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "6/11/9: Edited at OBI workshop. We need to be able identify a child form of information artifact which corresponds to something enduring (not brain like). This used to be restricted to physical document or digital entity as the output, but that excludes e.g. an audio cassette tape" xsd:string
-property_value: IAO:0000117 "Bjoern Peters" xsd:string
-property_value: IAO:0000119 "wikipedia http://en.wikipedia.org/wiki/Documenting" xsd:string
-
-[Term]
-id: NCBITaxon:10239
-name: Viruses
-is_a: OBI:0100026 ! organism
-property_value: IAO:0000111 "Viruses" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:117571
-name: Euteleostomi
-is_a: NCBITaxon:7742 ! Vertebrata <Metazoa>
-property_value: IAO:0000111 "Euteleostomi" xsd:string
-property_value: IAO:0000118 "bony vertebrates" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:2
-name: Bacteria
-is_a: OBI:0100026 ! organism
-property_value: IAO:0000111 "Bacteria" xsd:string
-property_value: IAO:0000118 "eubacteria" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:2157
-name: Archaea
-is_a: OBI:0100026 ! organism
-property_value: IAO:0000111 "Archaea" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:2759
-name: Eukaryota
-is_a: OBI:0100026 ! organism
-property_value: IAO:0000111 "Eukaryota" xsd:string
-property_value: IAO:0000118 "eucaryotes" xsd:string
-property_value: IAO:0000118 "eukaryotes" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:314146
-name: Euarchontoglires
-is_a: NCBITaxon:40674 ! Mammalia
-property_value: IAO:0000111 "Euarchontoglires" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:32523
-name: Tetrapoda
-is_a: NCBITaxon:117571 ! Euteleostomi
-property_value: IAO:0000111 "Tetrapoda" xsd:string
-property_value: IAO:0000118 "tetrapods" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:32524
-name: Amniota
-is_a: NCBITaxon:32523 ! Tetrapoda
-property_value: IAO:0000111 "Amniota" xsd:string
-property_value: IAO:0000118 "amniotes" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:33154
-name: Opisthokonta
-is_a: NCBITaxon:2759 ! Eukaryota
-property_value: IAO:0000111 "Opisthokonta" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:33213
-name: Bilateria
-is_a: NCBITaxon:33154 ! Opisthokonta
-property_value: IAO:0000111 "Bilateria" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:40674
-name: Mammalia
-is_a: NCBITaxon:32524 ! Amniota
-property_value: IAO:0000111 "Mammalia" xsd:string
-property_value: IAO:0000118 "mammals" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:7742
-name: Vertebrata <Metazoa>
-is_a: NCBITaxon:33213 ! Bilateria
-property_value: IAO:0000111 "Vertebrata <Metazoa>" xsd:string
-property_value: IAO:0000118 "Vertebrata" xsd:string
-property_value: IAO:0000118 "vertebrates" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
-id: NCBITaxon:9606
-name: Homo sapiens
-is_a: NCBITaxon:314146 ! Euarchontoglires
-property_value: IAO:0000111 "Homo sapiens" xsd:string
-property_value: IAO:0000118 "human" xsd:string
-property_value: IAO:0000118 "human being" xsd:string
-property_value: IAO:0000118 "man" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-
-[Term]
 id: OBI:0000011
 name: planned process
 def: "A processual entity that realizes a plan which is the concretization of a plan specification." []
@@ -589,236 +384,12 @@ property_value: IAO:0000232 "This class merges the previously separated objectiv
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 
 [Term]
-id: OBI:0000112
-name: specimen role
-def: "a role borne by a material entity that is gained during a specimen collection process and that can be realized by use of the specimen in an investigation" []
-is_a: BFO:0000023 ! role
-property_value: IAO:0000111 "specimen role" xsd:string
-property_value: IAO:0000112 "liver section; a portion of a culture of cells; a nemotode or other animal once no longer a subject (generally killed); portion of blood from a patient." xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "22Jun09.  The definition includes whole organisms, and can include a human.  The link between specimen role and study subject role has been removed.  A specimen taken as part of a case study is not considered to be a population representative, while a specimen taken as representing a population, e.g. person taken from a cohort, blood specimen taken from an animal) would be considered a population representative and would also bear material sample role." xsd:string
-property_value: IAO:0000116 "blood taken from animal: animal continues in study, whereas blood has role specimen.\nsomething taken from study subject, leaves the study and becomes the specimen." xsd:string
-property_value: IAO:0000116 "Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation." xsd:string
-property_value: IAO:0000116 "parasite example\n- when parasite in people we study people, people are subjects and parasites are specimen\n- when parasite extracted, they become subject in the following study\nspecimen can later be subject." xsd:string
-property_value: IAO:0000117 "GROUP:  Role Branch" xsd:string
-property_value: IAO:0000119 "OBI" xsd:string
-
-[Term]
-id: OBI:0000245
-name: organization
-def: "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members." []
-is_a: BFO:0000040 ! material entity
-property_value: IAO:0000111 "organization" xsd:string
-property_value: IAO:0000112 "PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods." xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:\n\n1) there are organization_member_roles (president, treasurer, branch\neditor), with individual persons as bearers\n\n2) there are organization_roles (employer, owner, vendor, patent holder)\n\n3) an organization has a charter / rules / bylaws, which specify what roles\nthere are, how they should be realized, and how to modify the\ncharter/rules/bylaws themselves.\n\nIt is debatable what the organization itself is (some kind of dependent\ncontinuant or an aggregate of people). This also determines who/what the\nbearer of organization_roles' are. My personal favorite is still to define\norganization as a kind of 'legal entity', but thinking it through leads to\nall kinds of questions that are clearly outside the scope of OBI.\n\nInterestingly enough, it does not seem to matter much where we place\norganization itself, as long as we can subclass it (University, Corporation,\nGovernment Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,\nW3C, University of Oklahoma), and have it play roles.\n\nThis leads to my proposal: We define organization through the statements 1 -\n3 above, but without an 'is a' statement for now. We can leave it in its\ncurrent place in the is_a hierarchy (material entity) or move it up to\n'continuant'. We leave further clarifications to BFO, and close this issue\nfor now." xsd:string
-property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string
-property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string
-property_value: IAO:0000117 "PERSON: Philippe Rocca-Serra" xsd:string
-property_value: IAO:0000117 "PERSON: Susanna Sansone" xsd:string
-property_value: IAO:0000119 "GROUP: OBI" xsd:string
-
-[Term]
-id: OBI:0000659
-name: specimen collection
-def: "A planned process with the objective of collecting a specimen." []
-is_a: OBI:0000011 ! planned process
-intersection_of: OBI:0000011 ! planned process
-intersection_of: OBI:0000417 OBI:0000684 ! achieves_planned_objective specimen collection objective
-relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
-relationship: OBI:0000299 OBI:0100051 ! has_specified_output specimen
-property_value: IAO:0000111 "specimen collection" xsd:string
-property_value: IAO:0000112 "drawing blood from a patient for analysis, collecting a piece of a plant for depositing in a herbarium, buying meat from a butcher in order to measure its protein content in an investigation" xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation." xsd:string
-property_value: IAO:0000116 "Philly2013: A specimen collection can have as part a material entity acquisition, such as ordering from a bank. The distinction is that specimen collection necessarily involves the creation of a specimen role. However ordering cell lines cells from ATCC for use in an investigation is NOT a specimen collection, because the cell lines already have a specimen role." xsd:string
-property_value: IAO:0000116 "Philly2013: The specimen_role for the specimen is created during the specimen collection process." xsd:string
-property_value: IAO:0000117 "Bjoern Peters" xsd:string
-property_value: IAO:0000232 "5/31/2012: This process is not necessarily an acquisition, as specimens may be collected from materials already in posession" xsd:string
-property_value: IAO:0000232 "6/9/09: used at workshop" xsd:string
-
-[Term]
-id: OBI:0000684
-name: specimen collection objective
-def: "A objective specification to obtain a material entity for potential use as an input during an investigation." []
-is_a: IAO:0000005 ! objective specification
-property_value: IAO:0000111 "specimen collection objective" xsd:string
-property_value: IAO:0000112 "The objective to collect bits of excrement in the rainforest. The objective to obtain a blood sample from a patient." xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000117 "Bjoern Peters" xsd:string
-property_value: IAO:0000119 "Bjoern Peters" xsd:string
-
-[Term]
-id: OBI:0000806
-name: material maintenance objective
-def: "An objective specification maintains some or all of the qualities of a material over time." []
-is_a: IAO:0000005 ! objective specification
-property_value: IAO:0000111 "material maintenance objective" xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string
-property_value: IAO:0000119 "PERSON: Bjoern Peters" xsd:string
-
-[Term]
-id: OBI:0000838
-name: material maintenance
-def: "a process with that achieves the objective to maintain some or all of the characteristics of an input material over time" []
-is_a: OBI:0000011 ! planned process
-property_value: IAO:0000111 "material maintenance" xsd:string
-property_value: IAO:0000114 IAO:0000123
-
-[Term]
-id: OBI:0000971
-name: fresh specimen
-def: "a specimen that is output of a specimen creation process used for an investigation without storage." []
-is_a: OBI:0001472 ! specimen with known storage state
-property_value: IAO:0000111 "fresh specimen" xsd:string
-property_value: IAO:0000112 "a liver freshly removed from a rat" xsd:string
-property_value: IAO:0000114 IAO:0000123
-property_value: IAO:0000117 "PERSON: Chris Stoeckert" xsd:string
-property_value: IAO:0000117 "PERSON: Jie Zheng" xsd:string
-property_value: IAO:0000119 "MO_730 fresh_sample" xsd:string
-
-[Term]
-id: OBI:0001472
-name: specimen with known storage state
-def: "A specimen for which it is known whether it has been subjected to storage of a specified type." []
-is_a: OBI:0100051 ! specimen
-property_value: IAO:0000111 "specimen with known storage state" xsd:string
-property_value: IAO:0000114 IAO:0000123
-property_value: IAO:0000117 "PERSON: Chris Stoeckert, Jie Zheng" xsd:string
-property_value: IAO:0000119 "MO_95 BiosourceType" xsd:string
-
-[Term]
-id: OBI:0100026
-name: organism
-def: "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs." []
-is_a: BFO:0000040 ! material entity
-union_of: NCBITaxon:10239 ! Viruses
-union_of: NCBITaxon:2 ! Bacteria
-union_of: NCBITaxon:2157 ! Archaea
-union_of: NCBITaxon:2759 ! Eukaryota
-property_value: IAO:0000111 "organism" xsd:string
-property_value: IAO:0000112 "animal" xsd:string
-property_value: IAO:0000112 "fungus" xsd:string
-property_value: IAO:0000112 "plant" xsd:string
-property_value: IAO:0000112 "virus" xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and 'other organisms')" xsd:string
-property_value: IAO:0000116 "13-02-2009:\nOBI doesn't take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.\nThis issue is outside the scope of OBI." xsd:string
-property_value: IAO:0000117 "GROUP: OBI Biomaterial Branch" xsd:string
-property_value: IAO:0000119 "WEB: http://en.wikipedia.org/wiki/Organism" xsd:string
-
-[Term]
-id: OBI:0100051
-name: specimen
-def: "A material entity that has the specimen role." []
-is_a: BFO:0000040 ! material entity
-intersection_of: BFO:0000040 ! material entity
-intersection_of: RO:0000087 OBI:0000112 ! has role specimen role
-property_value: IAO:0000111 "specimen" xsd:string
-property_value: IAO:0000112 "Biobanking of blood taken and stored in a freezer for potential future investigations stores specimen." xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation." xsd:string
-property_value: IAO:0000117 "PERSON: James Malone" xsd:string
-property_value: IAO:0000117 "PERSON: Philippe Rocca-Serra" xsd:string
-property_value: IAO:0000119 "GROUP: OBI Biomaterial Branch" xsd:string
-
-[Term]
-id: OBI:0302893
-name: storage
-def: "A maintenance process by which material entities that are not actively metabolizing are placed in well identified location and possibly under controlled environment in ad-hoc devices/structures in order to preserve and protect them from decay/alteration and maintain availability" []
-is_a: OBI:0000838 ! material maintenance
-relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
-relationship: OBI:0000417 OBI:0000806 ! achieves_planned_objective material maintenance objective
-property_value: IAO:0000111 "storage" xsd:string
-property_value: IAO:0000112 "PMID: 18550121.Total Prostate Specific Antigen Stability Confirmed After Long-Term Storage of Serum at -80C. J Urol. 2008 Jun 10." xsd:string
-property_value: IAO:0000114 IAO:0000120
-property_value: IAO:0000117 "Philippe Rocca-Serra" xsd:string
-property_value: IAO:0000119 "OBI-Branch" xsd:string
-
-[Term]
-id: OBI:0302914
-name: digital curation
-def: "Digital curation is the process of establishing and developing long term repositories of digital assets for current and future reference by researchers, scientists, and historians, and scholars generally." []
-is_a: IAO:0000572 ! documenting
-property_value: IAO:0000111 "digital curation" xsd:string
-property_value: IAO:0000112 "PMID: 16901087. Supporting the curation of biological databases with reusable text mining.Genome Inform. 2005;16(2):32-44." xsd:string
-property_value: IAO:0000114 IAO:0000120
-property_value: IAO:0000117 "Philippe Rocca-Serra" xsd:string
-property_value: IAO:0000119 "wikipedia" xsd:string
-
-[Term]
-id: OGMS:0000045
-name: disorder
-def: "A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease." []
-is_a: BFO:0000040 ! material entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
-
-[Term]
-id: OMIABIS:0000000
-name: biobank
-def: "A biobank is a collections of samples of biological substances\n(e.g. tissue, blood, DNA) which are linked to data about the samples and their donors. They have a dual nature as collections of samples and data." []
-is_a: BFO:0000027 ! object aggregate
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-property_value: IAO:0000119 "definition derived from the definition of 'human biobank', based on http://www.ethikrat.org/files/der_opinion_human-biobanks.pdf" xsd:string
-
-[Term]
-id: OMIABIS:0000010
-name: biobank organization
-def: "An organization bearing legal personality that ownes or adminstrates a biobank." []
-is_a: OBI:0000245 ! organization
-relationship: OBI:0001688 OMIABIS:0000013 ! has organization member biobank contact person
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-property_value: IAO:0000118 "biobank juristic person" xsd:string
-
-[Term]
-id: OMIABIS:0000011
-name: contacting
-def: "A planned process that involves a human being and is intended to initiate a communication with another human being." []
-def: "Contacting is the process of one human being starting a communication process with another human being. Contacting can be done using all modes of communication used by humans." []
-is_a: OBI:0000011 ! planned process
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-
-[Term]
-id: OMIABIS:0000012
-name: contact role
-def: "A role borne by a human being that is part of an group of individuals and acts as contact person for the group. This role gets realized by the bearer being a participant in a contacting process." []
-is_a: OMRSE:00000024 ! role in human social processes
-relationship: BFO:0000054 OMIABIS:0000011 ! realized in contacting
-relationship: BFO:0000054 OMIABIS:0000011 ! realized in contacting
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-
-[Term]
-id: OMIABIS:0000013
-name: biobank contact person
-def: "A human being that is member of a biobank organization and bears the organization contact role." []
-is_a: NCBITaxon:9606 ! Homo sapiens
-intersection_of: NCBITaxon:9606 ! Homo sapiens
-intersection_of: OBI:0000846 OMIABIS:0000010 ! is member of organization biobank organization
-intersection_of: RO:0000053 OMIABIS:0000093 ! bearer of biobank contact role
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-
-[Term]
 id: OMIABIS:0000060
 name: survey data
 def: "A data set that contains the outcome of a survey." []
 is_a: IAO:0000027 ! data item
 property_value: IAO:0000117 "Alice Nzinga" xsd:string
 property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-
-[Term]
-id: OMIABIS:0000061
-name: sampling specimens for biobank
-def: "The process of collecting or selecting an aggregate of specimens into a biobank." []
-is_a: OBI:0000011 ! planned process
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-
-[Term]
-id: OMIABIS:0000093
-name: biobank contact role
-def: "A contact role borne by a member of a biobank organization and realized by serving as the contact for one of its biobanks." []
-def: "A contact role borne by a member of a sample collection or study organization and realized by serving as the contact for the collection or the study." []
-is_a: OMIABIS:0000012 ! contact role
 
 [Term]
 id: OMIABIS:0001025
@@ -829,76 +400,10 @@ property_value: IAO:0000117 "Alice Nzinga" xsd:string
 property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
 
 [Term]
-id: OMIABIS:0001028
-name: sample handling summary
-def: "A document that outlines the procedures employed to preserve and protect the material collected during specimen collection as an indication of sample quality." []
-comment: It could be argued as to why this class was not created as an 'objective specification'. However, the emphasis here is to 'a briefing of how the specimen in the sample collection have been handled as an indication of specimen quality.'
-comment: It could be freeze chain, freze time, SPREC compliant, etc.
-is_a: IAO:0000310 ! document
-property_value: IAO:0000117 "Alice Nzinga" xsd:string
-
-[Term]
 id: OMIABIS:0001035
 name: survey execution
 def: "A planned process that realizes the concretization of a survey to generate an output(survey data.)" []
 is_a: OBI:0000011 ! planned process
-
-[Term]
-id: OMIABIS:0001054
-name: normal specimen
-def: "A specimen that is normal." []
-is_a: OBI:0100051 ! specimen
-
-[Term]
-id: OMIABIS:0001079
-name: specimen donor
-comment: A Homo sapiens who contributes specimen.
-is_a: NCBITaxon:9606 ! Homo sapiens
-property_value: IAO:0000117 "Alice Nzinga" xsd:string
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-property_value: IAO:0000118 "sample donor" xsd:string
-
-[Term]
-id: OMIABIS:0001080
-name: sample handling
-def: "A planned process of preparing and submitting specimens to storage." []
-is_a: OBI:0000011 ! planned process
-property_value: IAO:0000118 "specimen handling" xsd:string
-property_value: IAO:0000119 http://www.exchangenetwork.net/standards/SampleHandling_01_06_2006_Final.pdf\n xsd:string
-
-[Term]
-id: OMRSE:00000023
-name: collection of humans
-is_a: PCO:0000000 ! collection of organisms
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
-
-[Term]
-id: OMRSE:00000024
-name: role in human social processes
-def: "A role inhering in an entity realized by social interactions in human society." []
-is_a: BFO:0000023 ! role
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
-
-[Term]
-id: OMRSE:00000033
-name: aggregate of organizations
-def: "An object aggregate that is not itself an organization and whose members are only organizations that have some feature in common" []
-is_a: BFO:0000027 ! object aggregate
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
-
-[Term]
-id: OMRSE:00000038
-name: legal person role
-def: "A role borne by a human individual or by a collection of humans regarded as possessing rights and duties enforeable at law." []
-is_a: OMRSE:00000024 ! role in human social processes
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
-
-[Term]
-id: PCO:0000000
-name: collection of organisms
-def: "A material entity that consists of two or more organisms, viruses, or viroids." []
-is_a: BFO:0000027 ! object aggregate
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/pco.owl
 
 [Typedef]
 id: BFO:0000050
@@ -1117,21 +622,6 @@ property_value: IAO:0000119 "Smith, Ceusters, Ruttenberg, 2000 years of philosop
 domain: IAO:0000030 ! information content entity
 
 [Typedef]
-id: OBI:0000293
-name: has_specified_input
-def: "A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of." []
-property_value: IAO:0000111 "has_specified_input" xsd:string
-property_value: IAO:0000112 "see is_input_of example_of_usage" xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000116 "8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how 'has participant' works." xsd:string
-property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string
-property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string
-property_value: IAO:0000117 "PERSON: Larry Hunter" xsd:string
-property_value: IAO:0000117 "PERSON: Melanie Coutot" xsd:string
-domain: OBI:0000011 ! planned process
-is_a: RO:0000057 ! has participant
-
-[Typedef]
 id: OBI:0000299
 name: has_specified_output
 def: "A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of." []
@@ -1157,99 +647,7 @@ range: OBI:0000011 ! planned process
 is_a: RO:0000056 ! participates in
 
 [Typedef]
-id: OBI:0000417
-name: achieves_planned_objective
-def: "This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process." []
-property_value: IAO:0000111 "achieves_planned_objective" xsd:string
-property_value: IAO:0000112 "A cell sorting process achieves the objective specification 'material separation objective'" xsd:string
-property_value: IAO:0000114 IAO:0000120
-property_value: IAO:0000117 "BP, AR, PPPB branch" xsd:string
-property_value: IAO:0000119 "PPPB branch derived" xsd:string
-property_value: IAO:0000232 "modified according to email thread from 1/23/09 in accordince with DT and PPPB branch" xsd:string
-domain: OBI:0000011 ! planned process
-range: IAO:0000005 ! objective specification
-inverse_of: OBI:0000833 ! objective_achieved_by
-
-[Typedef]
-id: OBI:0000833
-name: objective_achieved_by
-def: "This relation obtains between a a objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process." []
-property_value: IAO:0000111 "objective_achieved_by" xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000117 "OBI" xsd:string
-property_value: IAO:0000119 "OBI" xsd:string
-domain: IAO:0000005 ! objective specification
-range: OBI:0000011 ! planned process
-
-[Typedef]
-id: OBI:0000846
-name: is member of organization
-def: "Relating a legal person or organization to an organization in the case where the legal person or organization has a role as member of the organization." []
-property_value: IAO:0000111 "is member of organization" xsd:string
-property_value: IAO:0000114 IAO:0000120
-property_value: IAO:0000116 "2009/10/01 Alan Ruttenberg. Barry prefers generic is-member-of. Question of what the range should be. For now organization. Is organization a population? Would the same relation be used to record members of a population" xsd:string
-property_value: IAO:0000116 "JZ: Discussed on May 7, 2012 OBI dev call. Bjoern points out that we need to allow for organizations to be members of organizations. And agreed by the other OBI developers. So, human and organization were specified in 'Domains'. The textual definition was updated based on it." xsd:string
-property_value: IAO:0000117 "Person:Alan Ruttenberg" xsd:string
-property_value: IAO:0000117 "Person:Helen Parkinson" xsd:string
-property_value: IAO:0000119 "Person:Alan Ruttenberg" xsd:string
-property_value: IAO:0000119 "Person:Helen Parkinson" xsd:string
-property_value: IAO:0000232 "2009/09/28 Alan Ruttenberg. Fucoidan-use-case" xsd:string
-range: OBI:0000245 ! organization
-inverse_of: OBI:0001688 ! has organization member
-
-[Typedef]
-id: OBI:0001688
-name: has organization member
-def: "Relating an organization to a legal person or organization." []
-property_value: IAO:0000111 "has organization member" xsd:string
-property_value: IAO:0000114 IAO:0000123
-property_value: IAO:0000116 "See tracker:\nhttps://sourceforge.net/tracker/index.php?func=detail&aid=3512902&group_id=177891&atid=886178" xsd:string
-property_value: IAO:0000117 "Person: Jie Zheng" xsd:string
-domain: OBI:0000245 ! organization
-
-[Typedef]
-id: OMIABIS:0000008
-name: owns
-property_value: http://purl.org/dc/elements/1.1/source "Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204." xsd:string
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-property_value: IAO:0000600 "This is a primitive relation. This relation is the foundation to the owners right to have the owned entity at his/her full disposal. " xsd:string
-inverse_of: OMIABIS:0000048 ! is owned by
-is_asymmetric: true
-
-[Typedef]
-id: OMIABIS:0000009
-name: administrates
-def: "a administrates b if c owns b and some rights and obligations grounded in the owning relation regarding b are transferred  from c to a." []
-comment: A definition of "tranfers" object property can be found in d-acts: http:purl.obolibrary.org/iao/d-acts.owl
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
-is_asymmetric: true
-
-[Typedef]
-id: OMIABIS:0000048
-name: is owned by
-def: "a is owned by b if b has complete power over a. All rights and obligations of ownership are grounded in this (primitive) relation. The claims and obligations of ownership can be partially transferred to a third party by the owner, b." []
-property_value: IAO:0000119 "Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204." xsd:string
-is_asymmetric: true
-
-[Typedef]
 id: RO:0000052
-name: inheres in
-name: inheres in at all times
-def: "b inheres_in c at t =Def. b is a dependent continuant & c is an independent continuant that is not a spatial region & b s-depends_on c at t. (axiom label in BFO2 Reference: [051-002])" []
-property_value: BFO:0000179 "inheres-in_at" xsd:string
-property_value: BFO:0000180 "inheresInAt" xsd:string
-property_value: IAO:0000111 "inheres in" xsd:string
-property_value: IAO:0000116 "Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance-level, relation. The BFO reading of the binary relation 'inheres in at all times@en' is: forall(t) exists_at(x,t) -> exists_at(y,t) and 'inheres in" xsd:string
-property_value: IAO:0000116 "BFO 2 Reference: Inherence is a subrelation of s-depends_on which holds between a dependent continuant and an independent continuant that is not a spatial region. Since dependent continuants cannot migrate from one independent continuant bearer to another, it follows that if b s-depends_on independent continuant c at some time, then b s-depends_on c at all times at which a exists. Inherence is in this sense redundantly time-indexed.For example, consider the particular instance of openness inhering in my mouth at t as I prepare to take a bite out of a donut, followed by a closedness at t+1 when I bite the donut and start chewing. The openness instance is then shortlived, and to say that it s-depends_on my mouth at all times at which this openness exists, means: at all times during this short life. Every time you make a fist, you make a new (instance of the universal) fist. (Every time your hand has the fist-shaped quality, there is created a new instance of the universal fist-shaped quality.)" xsd:string
-property_value: IAO:0000116 "BFO2 Reference: independent continuant that is not a spatial region" xsd:string
-property_value: IAO:0000116 "BFO2 Reference: specifically dependent continuant" xsd:string
-property_value: IAO:0000118 "inheres_in" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ro.owl
-property_value: IAO:0000602 "(iff (inheresInAt a b t) (and (DependentContinuant a) (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))) // axiom label in BFO2 CLIF: [051-002] " xsd:string
-property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
-property_value: RO:0001900 RO:0001901
 domain: BFO:0000020 ! specifically dependent continuant
 is_a: BFO:0000070 ! specifically depends on at all times
 inverse_of: RO:0000053 ! bearer of
@@ -1280,20 +678,4 @@ property_value: IAO:0000116 "Has_participant is a primitive instance-level relat
 property_value: IAO:0000118 "has_participant" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ro.owl
 holds_over_chain: BFO:0000051 RO:0000057
-
-[Typedef]
-id: RO:0000081
-name: role of
-property_value: IAO:0000118 "is role of" xsd:string
-property_value: IAO:0000118 "role_of" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ro.owl
-is_a: RO:0000052 ! inheres in at all times
-inverse_of: RO:0000087 ! has role
-
-[Typedef]
-id: RO:0000087
-name: has role
-property_value: IAO:0000118 "has_role" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ro.owl
-is_a: RO:0000053 ! bearer of
 

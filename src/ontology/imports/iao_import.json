@@ -179,10 +179,10 @@
           "val" : "2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records')."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
+          "val" : "PERSON: Melanie Courtot"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
+          "val" : "PERSON: Bjoern Peters"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "Original proposal from Bjoern, discussions at IAO calls"
@@ -735,16 +735,6 @@
       "type" : "INDIVIDUAL",
       "lbl" : "example to be eventually removed"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000123",
-      "meta" : {
-        "definition" : {
-          "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "metadata incomplete"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000420",
       "meta" : {
         "definition" : {
@@ -761,6 +751,16 @@
       },
       "type" : "INDIVIDUAL",
       "lbl" : "defined class"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000123",
+      "meta" : {
+        "definition" : {
+          "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "metadata incomplete"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000102",
       "meta" : {
@@ -1023,7 +1023,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-02-11/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

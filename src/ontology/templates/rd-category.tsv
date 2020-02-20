@@ -1,0 +1,37 @@
+Ontology ID	label	term editor	Entity Type	Superclass
+ID	A rdfs:label	A IAO:0000117 SPLIT=|	TYPE	SC %
+EFO:0005140	Autoimmune / Autoinflammatory diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EFO:0000771	Bacterial infections	Olamidipupo Ajigboye	owl:Class	diseases category
+HP:0000708	Behavioral and mental disorders	Olamidipupo Ajigboye	owl:Class	diseases category
+EFO:0005803	Blood Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0021112	Chromosome Disorders	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0001030	Congenital 	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0021781	genetic diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EFO:1001986	Connective tissue diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EFO:0000405	Digestive Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+MONDO:0000587	"Ear, Nose, and Throat Diseases"	Olamidipupo Ajigboye	owl:Class	diseases category
+EFO:0001379	Endocrine Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000040	Environmental Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0006352	Eye diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000041	Female Reproductive Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000042	Fungal infections	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0007502	Heart Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+Orphanet:140162	Hereditary Cancer Syndromes	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0008283	Immune System Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000043	Kidney and Urinary Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000044	Lung Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000045	Male Reproductive Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EFO:0000589	Metabolic disorders	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000046	Mouth Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0010180	Musculoskeletal Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EFO:0000198	Myelodysplastic Syndromes	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0010449	Nervous System Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+NCIT:C81178	Newborn Screening	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0010767	Nutritional diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0011268	Parasitic diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000047	Rare Cancers	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000048	RDCRN	Olamidipupo Ajigboye	owl:Class	diseases category
+EJPRD:0000049	Skin Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0015608	Viral infections	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0001003	diseases category	Olamidipupo Ajigboye	owl:Class	
+IAO:0000117	term editor		owl:AnnotationProperty	
