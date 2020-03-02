@@ -1,5 +1,5 @@
 Ontology ID	label	term editor	Entity Type	Superclass
-ID	A rdfs:label	A IAO:0000117 SPLIT=|	TYPE	SC %
+ID	A rdfs:label	A IAO:0000117 SPLIT=|	TYPE	SC % SPLIT=|
 EFO:0005140	Autoimmune / Autoinflammatory diseases	Olamidipupo Ajigboye	owl:Class	diseases category
 EFO:0000771	Bacterial infections	Olamidipupo Ajigboye	owl:Class	diseases category
 HP:0000708	Behavioral and mental disorders	Olamidipupo Ajigboye	owl:Class	diseases category
@@ -19,10 +19,10 @@ OMIT:0007502	Heart Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
 Orphanet:140162	Hereditary Cancer Syndromes	Olamidipupo Ajigboye	owl:Class	diseases category
 OMIT:0008283	Immune System Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
 EJPRD:0000043	Kidney and Urinary Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
-EJPRD:0000044	Lung Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
-EJPRD:0000045	Male Reproductive Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0009251	Lung Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0025205	Male Reproductive Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
 EFO:0000589	Metabolic disorders	Olamidipupo Ajigboye	owl:Class	diseases category
-EJPRD:0000046	Mouth Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
+OMIT:0010102	Mouth Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
 OMIT:0010180	Musculoskeletal Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
 EFO:0000198	Myelodysplastic Syndromes	Olamidipupo Ajigboye	owl:Class	diseases category
 OMIT:0010449	Nervous System Diseases	Olamidipupo Ajigboye	owl:Class	diseases category
