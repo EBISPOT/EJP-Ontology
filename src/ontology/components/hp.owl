@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ejp-rd/components/hp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-19/components/hp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-02/components/hp.owl"/>
     </owl:Ontology>
     
 
@@ -139,7 +139,7 @@
         <owl:annotatedTarget>No previous family history</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6548-5200</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp.owl#layperson"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
     </owl:Axiom>
 </rdf:RDF>
 

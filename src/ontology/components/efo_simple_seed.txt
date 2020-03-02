@@ -396,6 +396,8 @@ _:b453
 _:b454
 _:b455
 _:b456
+_:b457
+_:b458
 _:b46
 _:b47
 _:b48
@@ -459,6 +461,9 @@ http://edamontology.org/data_3103
 http://edamontology.org/data_3103
 http://edamontology.org/topic_3382
 http://edamontology.org/topic_3382
+http://purl.obolibrary.org/obo/BFO_0000016
+http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/BFO_0000020
 http://purl.obolibrary.org/obo/DOID_0050890
 http://purl.obolibrary.org/obo/HP_0000118
 http://purl.obolibrary.org/obo/HP_0001871
@@ -517,7 +522,6 @@ http://purl.obolibrary.org/obo/MONDO_0000819
 http://purl.obolibrary.org/obo/MONDO_0000831
 http://purl.obolibrary.org/obo/MONDO_0000833
 http://purl.obolibrary.org/obo/MONDO_0000839
-http://purl.obolibrary.org/obo/MONDO_0000841
 http://purl.obolibrary.org/obo/MONDO_0000844
 http://purl.obolibrary.org/obo/MONDO_0000865
 http://purl.obolibrary.org/obo/MONDO_0001045
@@ -558,7 +562,6 @@ http://purl.obolibrary.org/obo/MONDO_0001999
 http://purl.obolibrary.org/obo/MONDO_0002012
 http://purl.obolibrary.org/obo/MONDO_0002025
 http://purl.obolibrary.org/obo/MONDO_0002043
-http://purl.obolibrary.org/obo/MONDO_0002051
 http://purl.obolibrary.org/obo/MONDO_0002095
 http://purl.obolibrary.org/obo/MONDO_0002100
 http://purl.obolibrary.org/obo/MONDO_0002108
@@ -599,7 +602,6 @@ http://purl.obolibrary.org/obo/MONDO_0002459
 http://purl.obolibrary.org/obo/MONDO_0002462
 http://purl.obolibrary.org/obo/MONDO_0002468
 http://purl.obolibrary.org/obo/MONDO_0002507
-http://purl.obolibrary.org/obo/MONDO_0002515
 http://purl.obolibrary.org/obo/MONDO_0002516
 http://purl.obolibrary.org/obo/MONDO_0002547
 http://purl.obolibrary.org/obo/MONDO_0002567
@@ -751,10 +753,6 @@ http://purl.obolibrary.org/obo/MONDO_0017017
 http://purl.obolibrary.org/obo/MONDO_0017020
 http://purl.obolibrary.org/obo/MONDO_0017023
 http://purl.obolibrary.org/obo/MONDO_0017024
-http://purl.obolibrary.org/obo/MONDO_0017030
-http://purl.obolibrary.org/obo/MONDO_0017034
-http://purl.obolibrary.org/obo/MONDO_0017035
-http://purl.obolibrary.org/obo/MONDO_0017037
 http://purl.obolibrary.org/obo/MONDO_0017120
 http://purl.obolibrary.org/obo/MONDO_0017142
 http://purl.obolibrary.org/obo/MONDO_0017259
@@ -861,7 +859,6 @@ http://purl.obolibrary.org/obo/MONDO_0020067
 http://purl.obolibrary.org/obo/MONDO_0020091
 http://purl.obolibrary.org/obo/MONDO_0020130
 http://purl.obolibrary.org/obo/MONDO_0020136
-http://purl.obolibrary.org/obo/MONDO_0020143
 http://purl.obolibrary.org/obo/MONDO_0020147
 http://purl.obolibrary.org/obo/MONDO_0020150
 http://purl.obolibrary.org/obo/MONDO_0020169
@@ -972,6 +969,7 @@ http://purl.obolibrary.org/obo/MONDO_0024665
 http://purl.obolibrary.org/obo/MONDO_0024757
 http://purl.obolibrary.org/obo/MONDO_0025511
 http://purl.obolibrary.org/obo/MONDO_0028226
+http://purl.obolibrary.org/obo/MONDO_0029001
 http://purl.obolibrary.org/obo/MONDO_0036591
 http://purl.obolibrary.org/obo/MONDO_0037792
 http://purl.obolibrary.org/obo/MONDO_0037821
@@ -1019,6 +1017,7 @@ http://purl.obolibrary.org/obo/MONDO_0045017
 http://purl.obolibrary.org/obo/MONDO_0045020
 http://purl.obolibrary.org/obo/MONDO_0045022
 http://purl.obolibrary.org/obo/MONDO_0045024
+http://purl.obolibrary.org/obo/MONDO_0045028
 http://purl.obolibrary.org/obo/MONDO_0045046
 http://purl.obolibrary.org/obo/MONDO_0056803
 http://purl.obolibrary.org/obo/MONDO_0100016
@@ -1027,6 +1026,7 @@ http://purl.obolibrary.org/obo/MONDO_0100033
 http://purl.obolibrary.org/obo/MONDO_0100038
 http://purl.obolibrary.org/obo/MONDO_0100064
 http://purl.obolibrary.org/obo/MONDO_0100070
+http://purl.obolibrary.org/obo/MONDO_0100084
 http://purl.obolibrary.org/obo/NCIT_C100128
 http://purl.obolibrary.org/obo/NCIT_C100128
 http://purl.obolibrary.org/obo/NCIT_C101221
@@ -1521,6 +1521,11 @@ http://www.ebi.ac.uk/efo/EFO_0009690
 http://www.ebi.ac.uk/efo/EFO_0009714
 http://www.ebi.ac.uk/efo/EFO_0009903
 http://www.ebi.ac.uk/efo/EFO_0009910
+http://www.ebi.ac.uk/efo/EFO_0010238
+http://www.ebi.ac.uk/efo/EFO_0010282
+http://www.ebi.ac.uk/efo/EFO_0010283
+http://www.ebi.ac.uk/efo/EFO_0010284
+http://www.ebi.ac.uk/efo/EFO_0010285
 http://www.ebi.ac.uk/efo/EFO_1000014
 http://www.ebi.ac.uk/efo/EFO_1000017
 http://www.ebi.ac.uk/efo/EFO_1000051
@@ -1571,9 +1576,6 @@ http://www.ebi.ac.uk/efo/EFO_1002017
 http://www.ebi.ac.uk/efo/EFO_1002018
 http://www.ebi.ac.uk/efo/EFO_1002049
 http://www.ebi.ac.uk/efo/EFO_1002050
-http://www.ifomis.org/bfo/1.1/snap#Disposition
-http://www.ifomis.org/bfo/1.1/snap#Quality
-http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant
 http://www.orpha.net/ORDO/Orphanet_10
 http://www.orpha.net/ORDO/Orphanet_10
 http://www.orpha.net/ORDO/Orphanet_100
@@ -1658,6 +1660,7 @@ http://www.orpha.net/ORDO/Orphanet_103
 http://www.orpha.net/ORDO/Orphanet_1031
 http://www.orpha.net/ORDO/Orphanet_1031
 http://www.orpha.net/ORDO/Orphanet_1037
+http://www.orpha.net/ORDO/Orphanet_104006
 http://www.orpha.net/ORDO/Orphanet_104009
 http://www.orpha.net/ORDO/Orphanet_104010
 http://www.orpha.net/ORDO/Orphanet_104010

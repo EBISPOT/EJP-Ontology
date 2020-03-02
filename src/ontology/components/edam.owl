@@ -9,7 +9,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ejp-rd/components/edam.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-19/components/edam.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-02/components/edam.owl"/>
     </owl:Ontology>
     
 
@@ -298,7 +298,10 @@
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0003"/>
         <edamontology:created_in>1.4</edamontology:created_in>
         <oboInOwl:hasDefinition>The procedures used to conduct an experiment.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Experimental techniques</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lab method</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Lab techniques</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Laboratory method</oboInOwl:hasExactSynonym>
         <oboInOwl:hasHumanReadableId>Laboratory_techniques</oboInOwl:hasHumanReadableId>
         <oboInOwl:hasNarrowSynonym>Experiments</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Laboratory experiments</oboInOwl:hasNarrowSynonym>
@@ -321,6 +324,9 @@
         <oboInOwl:hasNarrowSynonym>Diffraction experiment</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Microscopy</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Microscopy imaging</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Optical super resolution microscopy</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Photonic force microscopy</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Photonic microscopy</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#events"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>

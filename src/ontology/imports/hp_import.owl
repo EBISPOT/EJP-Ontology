@@ -3394,7 +3394,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009966"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that modulates the frequency, rate or extent of signal transduction.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:sm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:sm</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009966"/>
@@ -3446,7 +3446,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009967"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that activates or increases the frequency, rate or extent of signal transduction.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:sm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:sm</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009967"/>
@@ -3497,7 +3497,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009968"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that stops, prevents, or reduces the frequency, rate or extent of signal transduction.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:sm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:sm</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009968"/>
@@ -3993,7 +3993,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0023051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that modulates the frequency, rate or extent of a signaling process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_signal</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:mtg_signal</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0023051"/>
@@ -4038,7 +4038,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0023052"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The entirety of a process in which information is transmitted within a biological system. This process begins with an active signal and ends when a cellular response has been triggered.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_signal</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:mtg_signal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:mtg_signaling_feb11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:signaling</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -4085,7 +4085,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0023056"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that activates, maintains or increases the frequency, rate or extent of a signaling process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_signal</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:mtg_signal</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0023056"/>
@@ -4136,7 +4136,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0023057"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that stops, prevents, or reduces the frequency, rate or extent of a signaling process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_signal</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:mtg_signal</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0023057"/>
@@ -4542,7 +4542,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0040008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that modulates the frequency, rate or extent of the growth of all or part of an organism so that it occurs at its proper speed, either globally or in a specific part of the organism&apos;s development.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ems</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:ems</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4710,7 +4710,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043085"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that activates or increases the activity of an enzyme.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:ebc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ebc</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tb</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:vw</oboInOwl:hasDbXref>
@@ -4766,7 +4766,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043086"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that stops or reduces the activity of an enzyme.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:ebc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ebc</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tb</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:vw</oboInOwl:hasDbXref>
@@ -5529,7 +5529,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that modulates the activity of an enzyme.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ai</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:ebc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ebc</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:vw</oboInOwl:hasDbXref>
     </owl:Axiom>
     
