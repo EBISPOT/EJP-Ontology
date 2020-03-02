@@ -791,11 +791,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "an aggregate of human beings."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
           "val" : "MaterialEntity"
@@ -2458,56 +2458,6 @@
       "type" : "CLASS",
       "lbl" : "Opisthokonta"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000052",
-      "meta" : {
-        "definition" : {
-          "val" : "b inheres_in c at t =Def. b is a dependent continuant & c is an independent continuant that is not a spatial region & b s-depends_on c at t. (axiom label in BFO2 Reference: [051-002])",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "inheres-in_at"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "inheresInAt"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(iff (inheresInAt a b t) (and (DependentContinuant a) (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))) // axiom label in BFO2 CLIF: [051-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO2 Reference: independent continuant that is not a spatial region"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance-level, relation. The BFO reading of the binary relation 'inheres in at all times@en' is: forall(t) exists_at(x,t) -> exists_at(y,t) and 'inheres in"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
-          "val" : "http://purl.obolibrary.org/obo/ro.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Inherence is a subrelation of s-depends_on which holds between a dependent continuant and an independent continuant that is not a spatial region. Since dependent continuants cannot migrate from one independent continuant bearer to another, it follows that if b s-depends_on independent continuant c at some time, then b s-depends_on c at all times at which a exists. Inherence is in this sense redundantly time-indexed.For example, consider the particular instance of openness inhering in my mouth at t as I prepare to take a bite out of a donut, followed by a closedness at t+1 when I bite the donut and start chewing. The openness instance is then shortlived, and to say that it s-depends_on my mouth at all times at which this openness exists, means: at all times during this short life. Every time you make a fist, you make a new (instance of the universal) fist. (Every time your hand has the fist-shaped quality, there is created a new instance of the universal fist-shaped quality.)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO2 Reference: specifically dependent continuant"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "inheres in"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "inheres_in"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "inheres in"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000245",
       "meta" : {
         "definition" : {
@@ -3266,6 +3216,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000070"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000846",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0001688"
@@ -3683,7 +3637,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/imports/omiabis_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-02/imports/omiabis_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

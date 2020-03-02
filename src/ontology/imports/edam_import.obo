@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ejp-rd/releases/2019-11-18/imports/edam_import.owl
+data-version: ejp-rd/releases/2020-03-02/imports/edam_import.owl
 subsetdef: data ""
 subsetdef: edam ""
 subsetdef: events ""
@@ -280,10 +280,11 @@ synonym: "Structure databases" NARROW []
 synonym: "Structures" NARROW []
 is_a: topic:3307 ! Computational biology
 property_value: created:in "beta12orEarlier" xsd:string
-property_value: hasDefinition "The curation, processing and analysis of the structure of biological molecules, typically proteins and nucleic acids and other macromolecules." xsd:string
+property_value: hasDefinition "The curation, processing, analysis and prediction of data about the structure of biological molecules, typically proteins and nucleic acids and other macromolecules." xsd:string
 property_value: hasHumanReadableId "Structure_analysis" xsd:string
 property_value: http://edamontology.org/isdebtag "true" xsd:string
 property_value: seeAlso http://purl.bioontology.org/ontology/MSH/D015394 xsd:string
+property_value: seeAlso Structural:bioinformatics
 
 [Term]
 id: topic:0154
@@ -340,9 +341,12 @@ name: Laboratory techniques
 subset: edam
 subset: events
 subset: topics
+synonym: "Experimental techniques" EXACT []
 synonym: "Experiments" NARROW []
+synonym: "Lab method" EXACT []
 synonym: "Lab techniques" EXACT []
 synonym: "Laboratory experiments" NARROW []
+synonym: "Laboratory method" EXACT []
 is_a: topic:0003 ! Topic
 property_value: created:in "1.4" xsd:string
 property_value: hasDefinition "The procedures used to conduct an experiment." xsd:string
@@ -358,6 +362,9 @@ subset: topics
 synonym: "Diffraction experiment" NARROW []
 synonym: "Microscopy" NARROW []
 synonym: "Microscopy imaging" NARROW []
+synonym: "Optical super resolution microscopy" NARROW []
+synonym: "Photonic force microscopy" NARROW []
+synonym: "Photonic microscopy" NARROW []
 is_a: topic:3361 ! Laboratory techniques
 property_value: created:in "1.4" xsd:string
 property_value: hasDefinition "The visual representation of an object." xsd:string

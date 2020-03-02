@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ejp-rd/releases/2019-11-18/imports/ncit_import.owl
+data-version: ejp-rd/releases/2020-03-02/imports/ncit_import.owl
 subsetdef: NCIT:C100096 ""
 subsetdef: NCIT:C100130 ""
 subsetdef: NCIT:C101846 ""
@@ -1173,8 +1173,8 @@ subset: NCIT:C100130
 subset: NCIT:C61410
 subset: NCIT:C66830
 synonym: "FATHER" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "Father" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Father" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Father" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C21481 ! First Degree Relative
 is_a: NCIT:C42709 ! Parent
 property_value: NCIT:NHC0 "C25174" xsd:string
@@ -1495,8 +1495,8 @@ synonym: "Desc" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AB", http://
 synonym: "DESCR" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC", http://purl.obolibrary.org/obo/NCIT_P385="SDTM-PHSPRPCD"}
 synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI", http://purl.obolibrary.org/obo/NCIT_P385="NHIS"}
-synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC", http://purl.obolibrary.org/obo/NCIT_P385="SDTM-PHSPRP"}
 synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC", http://purl.obolibrary.org/obo/NCIT_P385="SDTM-PHSPRP"}
 synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P384="CareLex", http://purl.obolibrary.org/obo/NCIT_P383="PT"}
 synonym: "Description" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="OMRS", http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -1621,8 +1621,8 @@ property_value: NCIT:P371 "Characteristic" xsd:string
 id: NCIT:C25458
 name: Confirmation
 def: "Having been established or verified." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Confirmation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Confirmation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Confirmation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Confirmatory" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Confirmed" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C27993 ! General Qualifier
@@ -2061,8 +2061,8 @@ name: Name
 def: "The words or language units by which a thing is known." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 subset: NCIT:C159501
 subset: NCIT:C159502
-synonym: "Name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "name" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 3.0.3"}
 is_a: NCIT:C20181 ! Conceptual Entity
 property_value: NCIT:NHC0 "C42614" xsd:string
@@ -2258,8 +2258,8 @@ subset: NCIT:C90009
 synonym: "Age Unit" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 synonym: "Age Unit" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Age Unit" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="SEND-STSPRM", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "AGEU" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="SDTM-VARIABLE", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 synonym: "AGEU" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="SEND-STSPRMCD", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
+synonym: "AGEU" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="SDTM-VARIABLE", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
 synonym: "Unit of Age" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C42568 ! Unit by Category
 property_value: NCIT:NHC0 "C50400" xsd:string
@@ -2751,8 +2751,8 @@ property_value: NCIT:P375 "Niece Second Degree Relative" xsd:string {http://purl
 id: NCIT:C71409
 name: Nephew
 def: "A son of your brother or sister." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Nephew" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Nephew" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Nephew" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C19811 ! Second Degree Relative
 property_value: NCIT:NHC0 "C71409" xsd:string
 property_value: NCIT:P106 "Human" xsd:string

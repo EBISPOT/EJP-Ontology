@@ -8868,7 +8868,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/imports/ncit_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-02/imports/ncit_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

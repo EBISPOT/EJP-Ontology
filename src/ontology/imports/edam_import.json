@@ -175,13 +175,16 @@
           "val" : "This includes related concepts such as structural properties, alignments and structural motifs."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDefinition",
-          "val" : "The curation, processing and analysis of the structure of biological molecules, typically proteins and nucleic acids and other macromolecules."
+          "val" : "The curation, processing, analysis and prediction of data about the structure of biological molecules, typically proteins and nucleic acids and other macromolecules."
         }, {
           "pred" : "http://edamontology.org/isdebtag",
           "val" : "true"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.bioontology.org/ontology/MSH/D015394"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Structural_bioinformatics"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasHumanReadableId",
           "val" : "Structure_analysis"
@@ -508,12 +511,24 @@
           "val" : "Lab techniques",
           "xrefs" : [ ]
         }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Laboratory method",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasNarrowSynonym",
           "val" : "Experiments",
           "xrefs" : [ ]
         }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Lab method",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasNarrowSynonym",
           "val" : "Laboratory experiments",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Experimental techniques",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -791,7 +806,19 @@
         "subsets" : [ "http://purl.obolibrary.org/obo/edam#edam", "http://purl.obolibrary.org/obo/edam#topics", "http://purl.obolibrary.org/obo/edam#events" ],
         "synonyms" : [ {
           "pred" : "hasNarrowSynonym",
+          "val" : "Photonic microscopy",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
           "val" : "Microscopy",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "Optical super resolution microscopy",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "Photonic force microscopy",
           "xrefs" : [ ]
         }, {
           "pred" : "hasNarrowSynonym",
@@ -1044,7 +1071,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2019-11-18/imports/edam_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-02/imports/edam_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

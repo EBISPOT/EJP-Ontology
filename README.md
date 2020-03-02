@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/EBISPOT/EJP-Ontology.svg?branch=master)](https://travis-ci.org/EBISPOT/EJP-Ontology)
 
 
+To run from docker : sh run.sh make 
+
 ![schema]( https://github.com/EBISPOT/EJP-Ontology/blob/master/docs/ejp.jpg)
 # European Joint Programme (EJP) for Rare Disease,
 
