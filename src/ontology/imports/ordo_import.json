@@ -7,7 +7,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-02-11/imports/ordo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-03/imports/ordo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

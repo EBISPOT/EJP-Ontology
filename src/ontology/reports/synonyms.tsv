@@ -1,2 +1,38 @@
 ?cls	?pred	?val	?synType
-<http://purl.obolibrary.org/obo/EJP-RD_00000000>	<http://www.w3.org/2000/01/rdf-schema#label>	"root node"@en	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#International_Network_on_Neurotransmitter_related_Disorders_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"International Network on Neurotransmitter related Disorders Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Spanish_Rare_Diseases_Research_Patient_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"Spanish Rare Diseases Research Patient Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Vasculitis_Ireland_Network_registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vasculitis Ireland Network registry"	
+<http://purl.org/ejp-rd/vocabulary/entity>	<http://www.w3.org/2000/01/rdf-schema#label>	"EJP-RD"@en	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Paediatric_Transplantation_European_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"Paediatric Transplantation European Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Rare_Kidney_Disease_Biobank>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rare Kidney Disease Biobank"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#UMD_Netherlands>	<http://www.w3.org/2000/01/rdf-schema#label>	"UMD Netherlands"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#EuroBloodNet_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"EuroBloodNet Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#SMArtCARE>	<http://www.w3.org/2000/01/rdf-schema#label>	"SMArtCARE"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ehlers-Danlos_Syndrome_–_Registro_della_Sindrome_di_Ehlers-Danlos>	<http://www.w3.org/2000/01/rdf-schema#label>	"Registry of Ehlers-Danlos Syndrome"@en	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Rare_Anaemia_Disorders_European_Epidemiological_Platform>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rare Anaemia Disorders European Epidemiological Platform"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#European_Rare_Vascular_Anomalies_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"European Rare Vascular Anomalies Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#The_PRES_European_Network_of_Registries_for_Autoinflammatory_Diseases_in_Childhood_(Eurofever)>	<http://www.w3.org/2000/01/rdf-schema#label>	"The PRES European Network of Registries for Autoinflammatory Diseases in Childhood (Eurofever)"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#BIOGEN_Biobank>	<http://www.w3.org/2000/01/rdf-schema#label>	"BIOGEN Biobank"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#EUROCAT_Central_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"EUROCAT Central Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#National_Congenital_Anomaly_and_Rare_Disease_Registration_Service>	<http://www.w3.org/2000/01/rdf-schema#label>	"National Congenital Anomaly and Rare Disease Registration Service"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Unified_European_Registry_for_Inherited_Metabolic_Disorders>	<http://www.w3.org/2000/01/rdf-schema#label>	"Unified European Registry for Inherited Metabolic Disorders"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#NEOCYST_Network_For_Early_Onset_Cystic_Kidney_Disease>	<http://www.w3.org/2000/01/rdf-schema#label>	"Network For Early Onset Cystic Kidney Disease"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Ukrainian_SMA_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ukrainian SMA Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#JRC_Central_Authority>	<http://www.w3.org/2000/01/rdf-schema#label>	"JRC Central Authority"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Spñanish_National_Rare_Diseases_Biobank>	<http://www.w3.org/2000/01/rdf-schema#label>	"Spñanish National Rare Diseases Biobank"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Ollier_Disease_and_Maffucci_Syndrome>	<http://www.w3.org/2000/01/rdf-schema#label>	"Registry of Ollier Disease and Maffucci Syndrome"@en	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#European_registry_for_congenital_hyperinsulinsm>	<http://www.w3.org/2000/01/rdf-schema#label>	"European registry for congenital hyperinsulinsm"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#R-LIVER>	<http://www.w3.org/2000/01/rdf-schema#label>	"R-LIVER"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Multiple_Osteochondromas>	<http://www.w3.org/2000/01/rdf-schema#label>	"Registry of Multiple Osteochondromas"@en	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Eurocat_Northern_Netherlands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eurocat Northern Netherlands"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#French_Pulmonary_Hypertension_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"French Pulmonary Hypertension Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Registry_of_Osteogenesis_Imperfecta>	<http://www.w3.org/2000/01/rdf-schema#label>	"Registry of Osteogenesis Imperfecta"@en	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Banque_Nationale_de_Données_Maladies_Rares>	<http://www.w3.org/2000/01/rdf-schema#label>	"Banque Nationale de Données Maladies Rares"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Pharmachild>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pharmachild"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Rett_Networked_Database>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rett Networked Database"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#European_Registry_for_Rare_Endocrine_Conditions>	<http://www.w3.org/2000/01/rdf-schema#label>	"European Registry for Rare Endocrine Conditions"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#European_Rare_Kidney_Disease_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"European Rare Kidney Disease Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Radboud_Biobank>	<http://www.w3.org/2000/01/rdf-schema#label>	"Radboud Biobank"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#PCD_Registry>	<http://www.w3.org/2000/01/rdf-schema#label>	"PCD Registry"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#ESID>	<http://www.w3.org/2000/01/rdf-schema#label>	"ESID"	
+<http://purl.obolibrary.org/obo/ejp-rd.owl#EpiCARE>	<http://www.w3.org/2000/01/rdf-schema#label>	"EpiCARE"	

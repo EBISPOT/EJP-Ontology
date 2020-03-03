@@ -293,10 +293,10 @@
       "id" : "http://purl.obolibrary.org/obo/BFO_0000055",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
           "val" : "realizes"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "realizes"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
@@ -757,10 +757,10 @@
           "val" : "IndependentContinuant"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "an orchestra."
@@ -2086,7 +2086,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-02-11/imports/omiabis_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-03/imports/omiabis_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

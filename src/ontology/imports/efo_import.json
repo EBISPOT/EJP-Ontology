@@ -811,13 +811,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/BFO_0000019",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000020"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0306",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0304"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000020"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000030",
       "pred" : "is_a",
@@ -844,7 +844,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-02-11/imports/efo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-03/imports/efo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

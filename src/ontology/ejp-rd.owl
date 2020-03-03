@@ -18,7 +18,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:vocabulary="http://purl.org/ejp-rd/vocabulary/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ejp-rd.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-02/ejp-rd.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-03/ejp-rd.owl"/>
         <ejp-core:format-version rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ejp-core:format-version>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olamidipupo AJigboye</dc:creator>
         <dc:description>None</dc:description>

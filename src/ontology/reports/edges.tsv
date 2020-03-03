@@ -1,0 +1,5 @@
+?x	?p	?y
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Rare_Kidney_Disease_Biobank>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/OMIABIS_0000000>
+<http://purl.obolibrary.org/obo/ejp-rd.owl#BIOGEN_Biobank>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/OMIABIS_0000000>
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Spñanish_National_Rare_Diseases_Biobank>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/OMIABIS_0000000>
+<http://purl.obolibrary.org/obo/ejp-rd.owl#Radboud_Biobank>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/OMIABIS_0000000>

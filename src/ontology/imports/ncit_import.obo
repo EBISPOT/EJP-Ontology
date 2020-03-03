@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ejp-rd/releases/2020-03-02/imports/ncit_import.owl
+data-version: ejp-rd/releases/2020-03-03/imports/ncit_import.owl
 subsetdef: NCIT:C100130 ""
 subsetdef: NCIT:C113350 ""
 subsetdef: NCIT:C159501 ""
