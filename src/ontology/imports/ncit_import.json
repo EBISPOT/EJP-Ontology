@@ -551,11 +551,11 @@
           "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
           "val" : "C21480"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
-          "val" : "Human"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
           "val" : "C0080103"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Human"
         } ]
       },
       "type" : "CLASS",
@@ -603,7 +603,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-02-11/imports/ncit_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ejp-rd/releases/2020-03-02/imports/ncit_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
